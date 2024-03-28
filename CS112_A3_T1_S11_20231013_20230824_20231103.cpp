@@ -284,9 +284,9 @@ void crop(Image image){
     cin >> newHeight ;
 
     Image image2(newWidth , newHeight);
-    if (x > image.width || y > image.height || newWidth > image.width || newHeight > image.height)
+    while (x > image.width || y > image.height || newWidth > image.width || newHeight > image.height || newWidth > (image.width - x) || newHeight > (image.height - y))
     {
-        cout << "original width = "<< image.width << "and original height = "<< image.height << endl ;
+        cout << "original width = "<< image.width << " and original height = "<< image.height << endl ;
         cout << "invalid inputs --> you must have exceeded the original lenght or original height"<< endl ;
         cout << endl << "enter starting point of x axis: ";
         cin >> x ;
