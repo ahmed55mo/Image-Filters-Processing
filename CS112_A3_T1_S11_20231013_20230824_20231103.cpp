@@ -581,6 +581,10 @@ int main() {
     int user_choice;
     cout <<"1- want a filter" << endl << "2- exit" << endl << "enter a valid choice: ";
     cin >> user_choice;
+    if (user_choice >= 2)
+    {
+        return 0;
+    }        
     do
     {
         string filename ;
