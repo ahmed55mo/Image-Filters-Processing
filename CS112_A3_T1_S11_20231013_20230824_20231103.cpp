@@ -21,6 +21,7 @@ void resize(Image image);
 void inverter(Image image);
 void naturalSunlight(Image image);
 void infraredmode(Image image);
+void violetMode(Image image);
 void menu(Image image);
 void saveimage(Image image);
 
@@ -32,6 +33,7 @@ void saveimage(Image image){
     cout << "and specify extension .jpg, .bmp, .png, .tga: ";
     cin >> filename;
     image.saveImage(filename);
+    system(filename.c_str());
 }
 
 void GrayscaleConversion(Image image){
