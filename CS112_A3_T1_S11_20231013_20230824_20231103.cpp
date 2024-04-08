@@ -1,7 +1,7 @@
 /*
 assingment 3 version 6.0
-authors:    ahmed mohamed ahmed --> 20231013     performed filters no. 2 , 5 , 8 , 11      section 11
-            ali alnazeir ahmed --> 20230824      performed filters no. 1 , 4 , 7 , 10      section 11
+authors:    ahmed mohamed ahmed --> 20231013     performed filters no. 2 , 5 , 8 , 11 , 13 , 17 (filter number 14 in this file)     section 11
+            ali alnazeir ahmed --> 20230824      performed filters no. 1 , 4 , 7 , 10 , did the gui      section 11
             abdullah alaa --> 20231103           performed filters no. 3 , 6 , 9 , 12      section 11
 this file is an image filter modification application 
 */
@@ -19,6 +19,8 @@ void DarkenAndLighten(Image image);
 void DetectImageEdges(Image image);
 void resize(Image image);
 void inverter(Image image);
+void naturalSunlight(Image image);
+void infraredmode(Image image);
 void menu(Image image);
 void saveimage(Image image);
 
@@ -457,13 +459,15 @@ void resize(Image image){
     cout << "enter the new height : ";
     cin >> newHeight ;
     Image image2(newWidth, newHeight);
-    for (int i = 0; i < image.width; i++)
+    double scaleWidth = image.width / newWidth ;
+    double scaleHeight = image.height / newHeight ;
+    for (int i = 0; i < newWidth; i++)
     {
-        for (int j = 0; j < image.height; j++)
+        for (int j = 0; j < newHeight; j++)
         {
-            image2(i , j , 0) = image(newWidth , newHeight , 0) ;
-            image2(i , j , 1) = image(newWidth , newHeight , 1) ;
-            image2(i , j , 2) = image(newWidth , newHeight , 2) ;
+            image2(i , j , 0) = round(image(i * scaleWidth , j * scaleHeight , 0));
+            image2(i , j , 1) = round(image(i * scaleWidth , j * scaleHeight , 1));
+            image2(i , j , 2) = round(image(i * scaleWidth , j * scaleHeight , 2));
         }
     }
     int user_choice ;
@@ -493,6 +497,83 @@ void resize(Image image){
     }
 }
 
+void naturalSunlight(Image image){
+    Image image2(image.width , image.height);
+    for (int i = 0; i < image.width; i++)
+    {
+        for (int j = 0; j < image.height; j++)
+        {
+            image2(i , j , 0) = image(i , j , 0);
+            image2(i , j , 1) = image(i , j , 1);
+            image2(i , j , 2) = image(i , j , 2) * 0.6; 
+        }
+    }
+    int user_choice ;
+    cout << "1 - save new image "<< endl << "2 - use another filter "<< endl << "please enter a choice ";
+    cin >> user_choice ;
+    if (user_choice == 1)
+    {
+        saveimage(image2);
+    }else if (user_choice == 2)
+    {
+        menu(image2);
+    }else
+    {
+        while (user_choice != 1 && user_choice != 2)
+        {
+            cout << endl << "invalid choice --> please enter a valid choice : ";
+            cin >> user_choice ;
+        }
+        if (user_choice == 1)
+            {
+                saveimage(image2);
+            }else if (user_choice == 2)
+            {
+                menu(image2); 
+            }
+        
+    }
+}
+
+void infraredmode(Image image){
+    for (int i = 0; i < image.width; ++i) {
+        for (int j = 0; j < image.height; ++j) {
+            image(i, j, 1) = 255 - image(i, j, 1);
+            image(i, j, 2) = 255 - image(i, j, 2);
+        }
+    }
+    for (int i = 0; i < image.width; ++i) {
+        for (int j = 0; j < image.height; ++j) {
+                image(i, j , 0) = 255 ;
+        }
+    }
+    int user_choice ;
+    cout << "1 - save new image "<< endl << "2 - use another filter "<< endl << "please enter a choice ";
+    cin >> user_choice ;
+    if (user_choice == 1)
+    {
+        saveimage(image);
+    }else if (user_choice == 2)
+    {
+        menu(image);
+    }else
+    {
+        while (user_choice != 1 && user_choice != 2)
+        {
+            cout << endl << "invalid choice --> please enter a valid choice : ";
+            cin >> user_choice ;
+        }
+        if (user_choice == 1)
+            {
+                saveimage(image);
+            }else if (user_choice == 2)
+            {
+               menu(image); 
+            }
+        
+    }
+}
+
 void menu(Image image){
     int user_choice ;
     do
@@ -501,8 +582,8 @@ void menu(Image image){
         cout << "1- gray scale converter" << endl << "2- black and white processing" << endl << "3- inverter" << endl;
         cout << "4- merge images" << endl << "5- flip images" << endl ;
         cout << "7- darken and lighten processing" << endl << "8- crop image"<< endl ;
-        cout << "10- detect image edges" << endl << "11- resizing images" << endl ;
-        cout << "13- exit the program" << endl ;
+        cout << "10- detect image edges" << endl << "11- resizing images" << endl <<  "13- natural sunlight" << endl << "14- infrared mode" << endl; ;
+        cout << "15- exit the program" << endl ;
         cout << "enter the number that represents the filter you want: ";
         cin >> user_choice ;
         if (user_choice == 1)
@@ -534,12 +615,18 @@ void menu(Image image){
             resize(image);
         }else if (user_choice == 13)
         {
+            naturalSunlight(image);
+        }else if (user_choice == 14)
+        {
+            infraredmode(image);
+        }else if (user_choice == 15)
+        {
             break;
         }
         
         else
         {
-            while (user_choice != 1 || user_choice != 2 || user_choice != 3 || user_choice != 4 || user_choice != 5 || user_choice != 7 || user_choice != 8 || user_choice != 10 || user_choice != 11 || user_choice != 13)
+            while (user_choice != 1 || user_choice != 2 || user_choice != 3 || user_choice != 4 || user_choice != 5 || user_choice != 7 || user_choice != 8 || user_choice != 10 || user_choice != 11 || user_choice != 13 || user_choice != 14 || user_choice != 15)
             {
                 cout << "invalid input --> please enter a valid choice: ";
                 cin >> user_choice ;
@@ -570,11 +657,17 @@ void menu(Image image){
                 resize(image);
             }else if (user_choice == 13)
             {
+                naturalSunlight(image);
+            }else if (user_choice == 14)
+            {
+                infraredmode(image);
+            }else if (user_choice == 15)
+            {
                 break ;
             }
             
         }
-    }while(user_choice != 13);  
+    }while(user_choice != 15);  
 }
 
 int main() {
