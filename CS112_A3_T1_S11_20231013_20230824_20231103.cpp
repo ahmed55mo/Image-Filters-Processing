@@ -1,6 +1,6 @@
 /*
 assingment 3 version 6.0
-authors:    ahmed mohamed ahmed --> 20231013     performed filters no. 2 , 5 , 8 , 11 , 13 , 17 (filter number 14 in this file)     section 11
+authors:    ahmed mohamed ahmed --> 20231013     performed filters no. 2 , 5 , 8 , 11 , 13 , 16 (filter number 15 in this file) ,17 (filter number 14 in this file)     section 11
             ali alnazeir ahmed --> 20230824      performed filters no. 1 , 4 , 7 , 10 , did the gui      section 11
             abdullah alaa --> 20231103           performed filters no. 3 , 6 , 9 , 12      section 11
 this file is an image filter modification application 
@@ -574,6 +574,44 @@ void infraredmode(Image image){
     }
 }
 
+void violetMode(Image image){
+    Image image2(image.width , image.height);
+    for (int i = 0; i < image.width; i++)
+    {
+        for (int j = 0; j < image.height; j++)
+        {
+            image2(i , j , 0) = image(i , j , 0);
+            image2(i , j , 1) = image(i , j , 1) * 0.67;
+            image2(i , j , 2) = image(i , j , 2); 
+        }
+    }
+    int user_choice ;
+    cout << "1 - save new image "<< endl << "2 - use another filter "<< endl << "please enter a choice ";
+    cin >> user_choice ;
+    if (user_choice == 1)
+    {
+        saveimage(image2);
+    }else if (user_choice == 2)
+    {
+        menu(image2);
+    }else
+    {
+        while (user_choice != 1 && user_choice != 2)
+        {
+            cout << endl << "invalid choice --> please enter a valid choice : ";
+            cin >> user_choice ;
+        }
+        if (user_choice == 1)
+            {
+                saveimage(image2);
+            }else if (user_choice == 2)
+            {
+                menu(image2); 
+            }
+        
+    }
+}
+
 void menu(Image image){
     int user_choice ;
     do
@@ -583,7 +621,7 @@ void menu(Image image){
         cout << "4- merge images" << endl << "5- flip images" << endl ;
         cout << "7- darken and lighten processing" << endl << "8- crop image"<< endl ;
         cout << "10- detect image edges" << endl << "11- resizing images" << endl <<  "13- natural sunlight" << endl << "14- infrared mode" << endl; ;
-        cout << "15- exit the program" << endl ;
+        cout << "15- violet mode" << endl <<"16- exit the program" << endl ;
         cout << "enter the number that represents the filter you want: ";
         cin >> user_choice ;
         if (user_choice == 1)
@@ -621,12 +659,15 @@ void menu(Image image){
             infraredmode(image);
         }else if (user_choice == 15)
         {
+            violetMode(image);
+        }else if (user_choice == 16)
+        {
             break;
         }
         
         else
         {
-            while (user_choice != 1 || user_choice != 2 || user_choice != 3 || user_choice != 4 || user_choice != 5 || user_choice != 7 || user_choice != 8 || user_choice != 10 || user_choice != 11 || user_choice != 13 || user_choice != 14 || user_choice != 15)
+            while (user_choice != 1 || user_choice != 2 || user_choice != 3 || user_choice != 4 || user_choice != 5 || user_choice != 7 || user_choice != 8 || user_choice != 10 || user_choice != 11 || user_choice != 13 || user_choice != 14 || user_choice != 15 || user_choice != 16)
             {
                 cout << "invalid input --> please enter a valid choice: ";
                 cin >> user_choice ;
@@ -663,11 +704,14 @@ void menu(Image image){
                 infraredmode(image);
             }else if (user_choice == 15)
             {
+                violetMode(image);
+            }else if (user_choice == 16)
+            {
                 break ;
             }
             
         }
-    }while(user_choice != 15);  
+    }while(user_choice != 16);  
 }
 
 int main() {
