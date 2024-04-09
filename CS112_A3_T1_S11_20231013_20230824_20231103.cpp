@@ -1,5 +1,5 @@
 /*
-assingment 3 version 6.0
+assingment 3 version 7.0
 authors:    ahmed mohamed ahmed --> 20231013     performed filters no. 2 , 5 , 8 , 11 , 13 , 16 (filter number 15 in this file) ,17 (filter number 14 in this file)     section 11
             ali alnazeir ahmed --> 20230824      performed filters no. 1 , 4 , 7 , 10 , did the gui      section 11
             abdullah alaa --> 20231103           performed filters no. 3 , 6 , 9 , 12      section 11
@@ -17,8 +17,13 @@ void flip(Image image);
 void crop(Image image);
 void DarkenAndLighten(Image image);
 void DetectImageEdges(Image image);
+void rotate_of_90(Image image);
+void rotate_of_180(Image image);
+void rotate_of_270(Image image);
+void rotateMenu(Image image);
 void resize(Image image);
 void inverter(Image image);
+void frame(Image image);
 void naturalSunlight(Image image);
 void infraredmode(Image image);
 void violetMode(Image image);
@@ -343,6 +348,136 @@ void crop(Image image){
     }
 }
 
+void rotate_of_90(Image image) {
+    Image rotated_image(image.height, image.width);
+    for (int i = 0; i < image.width; ++i) {
+        for (int j = 0; j < image.height; ++j) {
+            int newi = image.height - 1 - j;
+            int newj = i;
+            rotated_image(newi, newj, 0) = image(i, j, 0);
+            rotated_image(newi, newj, 1) = image(i, j, 1);
+            rotated_image(newi, newj, 2) = image(i, j, 2);
+        }
+    }
+    int user_choice ;
+    cout << "1 - save new image "<< endl << "2 - use another filter "<< endl << "please enter a choice ";
+    cin >> user_choice ;
+    if (user_choice == 1)
+    {
+        saveimage(rotated_image);
+    }else if (user_choice == 2)
+    {
+        menu(rotated_image);
+    }else
+    {
+        while (user_choice != 1 && user_choice != 2)
+        {
+            cout << endl << "invalid choice --> please enter a valid choice : ";
+            cin >> user_choice ;
+        }
+        if (user_choice == 1)
+        {
+            saveimage(rotated_image);
+        }else if (user_choice == 2)
+        {
+            menu(rotated_image); 
+        }
+    }
+}
+
+void rotate_of_180(Image image) {
+    Image rotated_image(image.width, image.height);
+    for (int i = 0; i < image.width; ++i) {
+        for (int j = 0; j < image.height; ++j) {
+            int newi = image.width - 1 - i;
+            int newj = image.height - 1 - j;
+            rotated_image(newi, newj, 0) = image(i, j, 0);
+            rotated_image(newi, newj, 1) = image(i, j, 1);
+            rotated_image(newi, newj, 2) = image(i, j, 2);
+        }
+    }
+    int user_choice ;
+    cout << "1 - save new image "<< endl << "2 - use another filter "<< endl << "please enter a choice ";
+    cin >> user_choice ;
+    if (user_choice == 1)
+    {
+        saveimage(rotated_image);
+    }else if (user_choice == 2)
+    {
+        menu(rotated_image);
+    }else
+    {
+        while (user_choice != 1 && user_choice != 2)
+        {
+            cout << endl << "invalid choice --> please enter a valid choice : ";
+            cin >> user_choice ;
+        }
+        if (user_choice == 1)
+        {
+            saveimage(rotated_image);
+        }else if (user_choice == 2)
+        {
+            menu(rotated_image); 
+        }
+    }
+}
+
+void rotate_of_270(Image image) {
+    Image rotated_image(image.height, image.width);
+    for (int i = 0; i < image.width; ++i) {
+        for (int j = 0; j < image.height; ++j) {
+            int newi = j;
+            int newj = image.width - 1 - i;
+            rotated_image(newi, newj, 0) = image(i, j, 0);
+            rotated_image(newi, newj, 1) = image(i, j, 1);
+            rotated_image(newi, newj, 2) = image(i, j, 2);
+        }
+    }
+    int user_choice ;
+    cout << "1 - save new image "<< endl << "2 - use another filter "<< endl << "please enter a choice ";
+    cin >> user_choice ;
+    if (user_choice == 1)
+    {
+        saveimage(rotated_image);
+    }else if (user_choice == 2)
+    {
+        menu(rotated_image);
+    }else
+    {
+        while (user_choice != 1 && user_choice != 2)
+        {
+            cout << endl << "invalid choice --> please enter a valid choice : ";
+            cin >> user_choice ;
+        }
+        if (user_choice == 1)
+        {
+            saveimage(rotated_image);
+        }else if (user_choice == 2)
+        {
+            menu(rotated_image); 
+        }   
+    }
+}
+
+void rotateMenu(Image image){
+    string degree;
+    cout << "enter the degree you want to rotate: ";
+    cin >> degree;
+    while(degree!="90" && degree !="180" && degree!="270") {
+        cout << "please enter a valid degree => 90 or 180 or 270 : ";
+        cin >> degree;
+        if (degree == "90" || degree == "180" || degree == "270")
+            break;
+    }
+    if(degree=="90")
+        rotate_of_90(image);
+    else if (degree=="180")
+        rotate_of_180(image);
+    else if(degree=="270")
+        rotate_of_270(image);
+
+}
+
 void DarkenAndLighten(Image image){
     string choice;
     cout<<"Do you want the image to be dark or light: ";
@@ -392,6 +527,117 @@ void DarkenAndLighten(Image image){
                menu(image); 
             }
         
+    }
+}
+
+void frame(Image image){
+    float thickness;
+    cout <<"enter the thickness of the frame : ";
+    cin >> thickness;
+
+
+    for (int i = 0; i < image.width; ++i) {
+        for (int j = 0; j < thickness; ++j) {
+            image(i, j, 0) = 0;
+            image(i, j, 1) = 0;
+            image(i, j, 2) = 200;
+        }
+    }
+    for (int i = 0; i < image.width; ++i) {
+        for (int j = thickness; j < thickness + thickness / 1.5; ++j) {
+            image(i, j, 0) = 100;
+            image(i, j, 1) = 100;
+            image(i, j, 2) = 100;
+        }
+    }
+    for (int i = 0; i < image.width; ++i) {
+        for (int j = thickness; j < thickness+thickness/1.5; ++j) {
+            image(i, j, 0) = 100;
+            image(i, j, 1) = 100;
+            image(i, j, 2) = 100;
+        }
+    }
+    for (int i = 0; i < image.width; ++i) 
+    {
+        for (int j = image.height - thickness; j < image.height; ++j) 
+        {
+            image(i, j, 0) = 0;
+            image(i, j, 1) = 0;
+            image(i, j, 2) = 200;
+        }
+    }
+    for (int i = 0; i < image.width; ++i) 
+    {
+        for (int j = image.height - (thickness + thickness / 1.5); j < image.height - thickness / 1.5; ++j) 
+        {
+            image(i, j, 0) = 100;
+            image(i, j, 1) = 100;
+            image(i, j, 2) = 100;
+        }
+    }
+     for (int i = 0; i < image.width; ++i) {
+         for (int j = image.height-(thickness+thickness/1.5); j < thickness/1.5; ++j) {
+            image(i, j, 0) = 100;
+            image(i, j, 1) = 100;
+            image(i, j, 2) = 100;
+        }
+    }
+    for (int i = 0; i < thickness; ++i) {
+        for (int j = 0; j < image.height; ++j) {
+            image(i, j, 0) = 0;
+            image(i, j, 1) = 0;
+            image(i, j, 2) = 200;
+        }
+    }
+    for (int i = thickness; i < thickness + thickness / 1.5; ++i) 
+    {
+        for (int j = thickness; j < image.height-thickness; ++j) 
+        {
+            image(i, j, 0) = 100;
+            image(i, j, 1) = 100;
+            image(i, j, 2) = 100;
+        }
+    }
+    for (int i = image.width - thickness; i < image.width; ++i) 
+    {
+        for (int j = 0; j < image.height; ++j) {
+            image(i, j, 0) = 0;
+            image(i, j, 1) = 0;
+            image(i, j, 2) = 200;
+        }
+    }
+    for (int i = image.width - (thickness + thickness / 1.5); i < image.width - thickness / 1.5; ++i) 
+    {
+        for (int j = thickness; j < image.height-thickness; ++j)
+        {
+            image(i, j, 0) = 100;
+            image(i, j, 1) = 100;
+            image(i, j, 2) = 100;
+        }
+    }
+    int user_choice ;
+    cout << "1 - save new image "<< endl << "2 - use another filter "<< endl << "please enter a choice ";
+    cin >> user_choice ;
+    if (user_choice == 1)
+    {
+        saveimage(image);
+    }else if (user_choice == 2)
+    {
+        menu(image);
+    }else
+    {
+        while (user_choice != 1 && user_choice != 2)
+        {
+            cout << endl << "invalid choice --> please enter a valid choice : ";
+            cin >> user_choice ;
+        }
+        if (user_choice == 1)
+        {
+            saveimage(image);
+        }else if (user_choice == 2)
+        {
+            menu(image); 
+        }
     }
 }
 
@@ -641,12 +887,18 @@ void menu(Image image){
         }else if (user_choice == 5)
         {
             flip(image);
+        }else if (user_choice == 6)
+        {
+            rotateMenu(image);
         }else if (user_choice == 7)
         {
             DarkenAndLighten(image);
         }else if (user_choice == 8)
         {
             crop(image);
+        }else if (user_choice == 9)
+        {
+            frame(image);
         }else if (user_choice == 10)
         {
             DetectImageEdges(image);
@@ -669,7 +921,7 @@ void menu(Image image){
         
         else
         {
-            while (user_choice != 1 || user_choice != 2 || user_choice != 3 || user_choice != 4 || user_choice != 5 || user_choice != 7 || user_choice != 8 || user_choice != 10 || user_choice != 11 || user_choice != 13 || user_choice != 14 || user_choice != 15 || user_choice != 16)
+            while (user_choice != 1 || user_choice != 2 || user_choice != 3 || user_choice != 4 || user_choice != 5 || user_choice != 6 ||user_choice != 7 || user_choice != 8 || user_choice != 9 || user_choice != 10 || user_choice != 11 || user_choice != 13 || user_choice != 14 || user_choice != 15 || user_choice != 16)
             {
                 cout << "invalid input --> please enter a valid choice: ";
                 cin >> user_choice ;
@@ -686,12 +938,18 @@ void menu(Image image){
             }else if (user_choice == 5)
             {
                 flip(image);
+            }else if (user_choice == 6)
+            {
+                rotateMenu(image);
             }else if (user_choice == 7)
             {
                 DarkenAndLighten(image);
             }else if (user_choice == 8)
             {
                 crop(image);
+            }else if (user_choice == 9)
+            {
+                frame(image);
             }else if (user_choice == 10)
             {
                 DetectImageEdges(image);
