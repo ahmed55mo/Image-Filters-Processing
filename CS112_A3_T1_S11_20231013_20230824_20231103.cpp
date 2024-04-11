@@ -1,7 +1,7 @@
 /*
 assingment 3 version 7.0
 authors:    ahmed mohamed ahmed --> 20231013     performed filters no. 2 , 5 , 8 , 11 , 13 , 16 (filter number 15 in this file) ,17 (filter number 14 in this file)     section 11
-            ali alnazeir ahmed --> 20230824      performed filters no. 1 , 4 , 7 , 10 , did the gui      section 11
+            ali alnazeir ahmed --> 20230824      performed filters no. 1 , 4 , 7 , 10 , did the gui , did 2 more filters (number 16 , 17 in this file)    section 11
             abdullah alaa --> 20231103           performed filters no. 3 , 6 , 9 , 12      section 11
 this file is an image filter modification application 
 */
