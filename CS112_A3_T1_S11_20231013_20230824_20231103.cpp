@@ -27,6 +27,9 @@ void frame(Image image);
 void naturalSunlight(Image image);
 void infraredmode(Image image);
 void violetMode(Image image);
+void blur(Image image);
+void saturation(Image image);
+void ColorGrading(Image image);
 void menu(Image image);
 void saveimage(Image image);
 
@@ -860,16 +863,150 @@ void violetMode(Image image){
     }
 }
 
+void saturation(Image image){
+    for (int x = 0; x < image.width; x++) {
+        for (int y = 0; y < image.height; y++) {
+            for(int c =0 ; c<image.channels; c++) {
+                double r = image.getPixel(x, y, 0);
+                double g = image.getPixel(x, y, 1);
+                double b = image.getPixel(x, y, 2);
+                double lum = 0.2 * r + 0.7 * g + 0.07 * b;
+                image(x, y, c) = min(255.0, lum + 0.5 * (r - lum));
+            }
+        }
+    }
+    int user_choice ;
+    cout << "1 - save new image "<< endl << "2 - use another filter "<< endl << "please enter a choice ";
+    cin >> user_choice ;
+    if (user_choice == 1)
+    {
+        saveimage(image);
+    }else if (user_choice == 2)
+    {
+        menu(image);
+    }else
+    {
+        while (user_choice != 1 && user_choice != 2)
+        {
+            cout << endl << "invalid choice --> please enter a valid choice : ";
+            cin >> user_choice ;
+        }
+        if (user_choice == 1)
+        {
+            saveimage(image);
+        }else if (user_choice == 2)
+        {
+            menu(image); 
+        }
+    }
+}
+
+void ColorGrading(Image image){
+    const int brightness = 30;
+    const double contrast = 1.2;
+    for (int x = 0; x < image.width; x++) {
+        for (int y = 0; y < image.height; y++) {
+            for(int c =0 ; c<image.channels; c++) {
+                image(x, y, c) = min(255, max(0, image(x, y, c) + brightness));
+                image(x, y, c) = min(255, (int) ((image(x, y, c) - 128) * contrast) + 128);
+
+            }
+        }
+    }
+    int user_choice ;
+    cout << "1 - save new image "<< endl << "2 - use another filter "<< endl << "please enter a choice ";
+    cin >> user_choice ;
+    if (user_choice == 1)
+    {
+        saveimage(image);
+    }else if (user_choice == 2)
+    {
+        menu(image);
+    }else
+    {
+        while (user_choice != 1 && user_choice != 2)
+        {
+            cout << endl << "invalid choice --> please enter a valid choice : ";
+            cin >> user_choice ;
+        }
+        if (user_choice == 1)
+        {
+            saveimage(image);
+        }else if (user_choice == 2)
+        {
+            menu(image); 
+        }
+    }   
+}
+
+void blur(Image image){
+    int radius;
+    cout << "enter the radius: ";
+    cin >> radius;
+    Image newimage(image.width, image.height);
+    for (int i = 0; i < image.width; ++i) {
+        for (int j = 0; j < image.height; ++j) {
+            int sumR=0, sumG=0, sumB=0;
+            int counter = 0;
+
+            for (int x=i-(radius/2); x<=i+(radius/2); ++x) {
+                for (int y=j-(radius/2); y<=j+(radius/2); ++y) {
+                    if (x>=0 && x<image.width && y>=0 && y<image.height) {
+                        sumR += image(x, y, 0);
+                        sumG += image(x, y, 1);
+                        sumB += image(x, y, 2);
+                        counter++;
+                    }
+                }
+            }
+
+            int avgR , avgG , avgB;
+            avgR = sumR/counter;
+            avgG = sumG/counter;
+            avgB = sumB/counter;
+
+            newimage(i, j, 0) = avgR;
+            newimage(i, j, 1) = avgG;
+            newimage(i, j, 2) = avgB;
+        }
+    }
+    int user_choice ;
+    cout << "1 - save new image "<< endl << "2 - use another filter "<< endl << "please enter a choice ";
+    cin >> user_choice ;
+    if (user_choice == 1)
+    {
+        saveimage(newimage);
+    }else if (user_choice == 2)
+    {
+        menu(newimage);
+    }else
+    {
+        while (user_choice != 1 && user_choice != 2)
+        {
+            cout << endl << "invalid choice --> please enter a valid choice : ";
+            cin >> user_choice ;
+        }
+        if (user_choice == 1)
+        {
+            saveimage(newimage);
+        }else if (user_choice == 2)
+        {
+            menu(newimage); 
+        }
+    }
+}
+
+
 void menu(Image image){
     int user_choice ;
     do
     {
         cout << "what filter do you want to perform: " << endl;
         cout << "1- gray scale converter" << endl << "2- black and white processing" << endl << "3- inverter" << endl;
-        cout << "4- merge images" << endl << "5- flip images" << endl ;
-        cout << "7- darken and lighten processing" << endl << "8- crop image"<< endl ;
-        cout << "10- detect image edges" << endl << "11- resizing images" << endl <<  "13- natural sunlight" << endl << "14- infrared mode" << endl; ;
-        cout << "15- violet mode" << endl <<"16- exit the program" << endl ;
+        cout << "4- merge images" << endl << "5- flip images" << endl << "6- rotate image filter" << endl;
+        cout << "7- darken and lighten processing" << endl << "8- crop image"<< endl << "9- add frame to the picture" << endl;
+        cout << "10- detect image edges" << endl << "11- resizing images" << endl << "12- bluring filter" << endl <<"13- natural sunlight" << endl << "14- infrared mode" << endl; ;
+        cout << "15- violet mode" << endl << "16- saturation filter" << endl << "17- color grading filter"<< endl << "18- exit the program" << endl ;
         cout << "enter the number that represents the filter you want: ";
         cin >> user_choice ;
         if (user_choice == 1)
@@ -905,6 +1042,9 @@ void menu(Image image){
         }else if (user_choice == 11)
         {
             resize(image);
+        }else if (user_choice == 12)
+        {
+            blur(image);
         }else if (user_choice == 13)
         {
             naturalSunlight(image);
@@ -916,12 +1056,18 @@ void menu(Image image){
             violetMode(image);
         }else if (user_choice == 16)
         {
+            saturation(image);
+        }else if (user_choice == 17)
+        {
+            ColorGrading(image);
+        }else if (user_choice == 18)
+        {
             break;
         }
         
         else
         {
-            while (user_choice != 1 || user_choice != 2 || user_choice != 3 || user_choice != 4 || user_choice != 5 || user_choice != 6 ||user_choice != 7 || user_choice != 8 || user_choice != 9 || user_choice != 10 || user_choice != 11 || user_choice != 13 || user_choice != 14 || user_choice != 15 || user_choice != 16)
+            while (user_choice > 18 || user_choice < 1)
             {
                 cout << "invalid input --> please enter a valid choice: ";
                 cin >> user_choice ;
@@ -956,6 +1102,9 @@ void menu(Image image){
             }else if (user_choice == 11)
             {
                 resize(image);
+            }else if (user_choice == 12)
+            {
+                blur(image);
             }else if (user_choice == 13)
             {
                 naturalSunlight(image);
@@ -967,11 +1116,17 @@ void menu(Image image){
                 violetMode(image);
             }else if (user_choice == 16)
             {
+                saturation(image);
+            }else if (user_choice == 17)
+            {
+                ColorGrading(image);
+            }else if (user_choice == 18)
+            {
                 break ;
             }
             
         }
-    }while(user_choice != 16);  
+    }while(user_choice != 18);  
 }
 
 int main() {
