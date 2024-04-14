@@ -1,8 +1,8 @@
 /*
 assingment 3 version 7.0
-authors:    ahmed mohamed ahmed --> 20231013     performed filters no. 2 , 5 , 8 , 11 , 13 , 16 (filter number 15 in this file) ,17 (filter number 14 in this file)     section 11
-            ali alnazeir ahmed --> 20230824      performed filters no. 1 , 4 , 7 , 10 , did the gui , did 2 more filters (number 16 , 17 in this file)    section 11
-            abdullah alaa --> 20231103           performed filters no. 3 , 6 , 9 , 12      section 11
+authors:    Ahmed Mohamed Ahmed --> 20231013     performed filters no. 2 , 5 , 8 , 11 , 13 , 14 , 15 , 18    section 11
+            Ali Alnazeir Ahmed --> 20230824      performed filters no. 1 , 4 , 7 , 10 , did the gui , performed 2 more filters 16 , 17   section 11
+            Abdullah Alaa --> 20231103           performed filters no. 3 , 6 , 9 , 12 , 19 , 20   section 11
 this file is an image filter modification application 
 */
 
@@ -30,6 +30,9 @@ void violetMode(Image image);
 void blur(Image image);
 void saturation(Image image);
 void ColorGrading(Image image);
+void oilPaintedpic(Image image);
+void tv(Image image);
+void skew(Image image);
 void menu(Image image);
 void saveimage(Image image);
 
@@ -996,6 +999,135 @@ void blur(Image image){
     }
 }
 
+void tv(Image image){
+    for (int j = 0; j < image.height; ++j) 
+    {
+        if(j%2==0)
+        {
+            for (int i = 0; i < image.width; ++i) 
+            {
+                image(i, j, 0) = 53;
+                image(i, j, 1) = 57;
+                image(i, j, 2) = 53;
+            }
+        }
+    }
+
+    for (int j = 0; j < image.height; ++j) {
+        if(j%2==0){
+            for (int i = 0; i < image.width; ++i) {
+                image(i, j, 0)+=25;
+                image(i, j, 1)+=25;
+                image(i, j, 2)+=25;
+            }
+        }
+        else{
+            for (int i = 0; i < image.width; ++i) {
+                image(i, j, 0)-=25;
+                image(i, j, 1)-=25;
+                image(i, j, 2)-=25;
+            }
+        }
+    }
+    
+    int user_choice ;
+    cout << "1 - save new image "<< endl << "2 - use another filter "<< endl << "please enter a choice ";
+    cin >> user_choice ;
+    if (user_choice == 1)
+    {
+        saveimage(image);
+    }else if (user_choice == 2)
+    {
+        menu(image);
+    }else
+    {
+        while (user_choice != 1 && user_choice != 2)
+        {
+            cout << endl << "invalid choice --> please enter a valid choice : ";
+            cin >> user_choice ;
+        }
+        if (user_choice == 1)
+        {
+            saveimage(image);
+        }else if (user_choice == 2)
+        {
+            menu(image); 
+        }
+    }
+}
+
+void skew(Image image){
+    int skewval;
+    cout << "Enter the skew value in degrees: ";
+    cin >> skewval;
+    double radianAngle = (skewval * M_PI) / 180;
+    double shrinkingVal = (image.width * image.width) / (image.width + (image.height / tan(radianAngle)));
+    double step = image.width - shrinkingVal;
+    double move = step / image.width;
+    //resized the image
+    Image image2(image.width , image.height);
+    double scaleWidth = image.width / shrinkingVal ;
+    for (int i = 0; i < shrinkingVal; i++)
+    {
+        for (int j = 0; j < image.height; j++)
+        {
+            image2(i , j , 0) = round(image(i * scaleWidth , j  , 0));
+            image2(i , j , 1) = round(image(i * scaleWidth , j  , 1));
+            image2(i , j , 2) = round(image(i * scaleWidth , j  , 2));
+        }
+    }
+    
+
+    
+    Image image3(image2.width, image2.height);
+
+    for (int m = 0; m < image3.width; ++m) {
+        for (int n = 0; n < image3.height; ++n) {
+            int newWidth =  m + int(n * move); 
+            if (newWidth >= 0 && newWidth < image3.width) {
+                for (int c = 0; c < 3; ++c) {
+                    image3(newWidth, n, c) = image2(m, n, c);
+                }
+            }
+        }
+    }
+
+    Image rotated_image(image3.height, image3.width);
+    for (int i = 0; i < image3.width; ++i) {
+        for (int j = 0; j < image3.height; ++j) {
+            int newi = image3.height - 1 - j;
+            int newj = i;
+            rotated_image(newi, newj, 0) = image3(i, j, 0);
+            rotated_image(newi, newj, 1) = image3(i, j, 1);
+            rotated_image(newi, newj, 2) = image3(i, j, 2);
+        }
+    }
+    
+    int user_choice ;
+    cout << "1 - save new image "<< endl << "2 - use another filter "<< endl << "please enter a choice ";
+    cin >> user_choice ;
+    if (user_choice == 1)
+    {
+        saveimage(rotated_image);
+    }else if (user_choice == 2)
+    {
+        menu(rotated_image);
+    }else
+    {
+        while (user_choice != 1 && user_choice != 2)
+        {
+            cout << endl << "invalid choice --> please enter a valid choice : ";
+            cin >> user_choice ;
+        }
+        if (user_choice == 1)
+        {
+            saveimage(rotated_image);
+        }else if (user_choice == 2)
+        {
+            menu(rotated_image); 
+        }
+    }
+}
 
 void menu(Image image){
     int user_choice ;
@@ -1006,7 +1138,7 @@ void menu(Image image){
         cout << "4- merge images" << endl << "5- flip images" << endl << "6- rotate image filter" << endl;
         cout << "7- darken and lighten processing" << endl << "8- crop image"<< endl << "9- add frame to the picture" << endl;
         cout << "10- detect image edges" << endl << "11- resizing images" << endl << "12- bluring filter" << endl <<"13- natural sunlight" << endl << "14- infrared mode" << endl; ;
-        cout << "15- violet mode" << endl << "16- saturation filter" << endl << "17- color grading filter"<< endl << "18- exit the program" << endl ;
+        cout << "15- violet mode" << endl << "16- saturation filter" << endl << "17- color grading filter"<< endl << "18- oil painting filter" << endl  << "19- tv effect filter" << endl << "20- skew image" << endl << "21- exit the program" << endl ;
         cout << "enter the number that represents the filter you want: ";
         cin >> user_choice ;
         if (user_choice == 1)
@@ -1062,12 +1194,21 @@ void menu(Image image){
             ColorGrading(image);
         }else if (user_choice == 18)
         {
+            oilPaintedpic(image);
+        }else if (user_choice == 19)
+        {
+            tv(image);
+        }else if (user_choice == 20)
+        {
+            skew(image);
+        }else if (user_choice == 21)
+        {
             break;
         }
         
         else
         {
-            while (user_choice > 18 || user_choice < 1)
+            while (user_choice > 21 || user_choice < 1)
             {
                 cout << "invalid input --> please enter a valid choice: ";
                 cin >> user_choice ;
@@ -1078,6 +1219,9 @@ void menu(Image image){
             }else if (user_choice == 2)
             {
                 blackWhite(image);
+            }else if (user_choice == 3)
+            {
+                inverter(image);
             }else if (user_choice == 4)
             {
                 MergeImages(image);
@@ -1122,11 +1266,20 @@ void menu(Image image){
                 ColorGrading(image);
             }else if (user_choice == 18)
             {
+                oilPaintedpic(image);
+            }else if (user_choice == 19)
+            {
+                tv(image);
+            }else if (user_choice == 20)
+            {
+                skew(image);
+            }else if (user_choice == 21)
+            {
                 break ;
             }
             
         }
-    }while(user_choice != 18);  
+    }while(user_choice != 21);  
 }
 
 int main() {
