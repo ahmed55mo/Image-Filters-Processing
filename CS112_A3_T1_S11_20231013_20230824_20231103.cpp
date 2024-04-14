@@ -1129,6 +1129,83 @@ void skew(Image image){
     }
 }
 
+void oilPaintedpic(Image image){
+    int radius , intensityLevels;
+    cout << "enter a radius(number of pixels): ";
+    cin >> radius ;
+    cout << "enter the intensity level you want: ";
+    cin >> intensityLevels;
+    for (int i = 0; i < image.width; i++)
+    {
+        for (int j = 0; j < image.height; j++)
+        {
+            int sumR[256] = {0};
+            int sumG[256] = {0};
+            int sumB[256] = {0};
+            int intscount[256] = {0};
+            for (int l = i - radius; l < i + radius + 1; l++)
+            {
+                for (int m = j - radius; m < j + radius + 1; m++)
+                {
+                    if (l >= 0 && l < image.width && m >= 0 && m < image.height) {
+                        int r = image(l, m, 0); // Red
+                        int g = image(l, m, 1); // Green
+                        int b = image(l, m, 2); // Blue
+                        int currentints = ((r + g + b) / 3.0 * intensityLevels) / 255;
+
+                    // Increment corresponding sums and counts
+                        sumR[currentints] += r;
+                        sumG[currentints] += g;
+                        sumB[currentints] += b;
+                        intscount[currentints]++;
+                    }
+
+                }
+                
+            }
+            int maxIntensity = 0;
+            for (int k = 1; k < 256; k++) 
+            {
+                if (intscount[k] > intscount[maxIntensity]) 
+                {
+                    maxIntensity = k;
+                }
+            }
+            image(i, j, 0) = sumB[maxIntensity] / intscount[maxIntensity];
+            image(i, j, 1) = sumG[maxIntensity] / intscount[maxIntensity];
+            image(i, j, 2) = sumR[maxIntensity] / intscount[maxIntensity];
+        }
+        
+    }
+    
+    int user_choice ;
+    cout << "1 - save new image "<< endl << "2 - use another filter "<< endl << "please enter a choice ";
+    cin >> user_choice ;
+    if (user_choice == 1)
+    {
+        saveimage(image);
+    }else if (user_choice == 2)
+    {
+        menu(image);
+    }else
+    {
+        while (user_choice != 1 && user_choice != 2)
+        {
+            cout << endl << "invalid choice --> please enter a valid choice : ";
+            cin >> user_choice ;
+        }
+        if (user_choice == 1)
+        {
+            saveimage(image);
+        }else if (user_choice == 2)
+        {
+            menu(image); 
+        }
+        
+    }
+}
+
+
 void menu(Image image){
     int user_choice ;
     do
