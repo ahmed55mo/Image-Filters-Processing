@@ -1,0 +1,674 @@
+  ComponentFactory.Krypton.Workspace.Properties.Resources.resources - Embedded, ContainedInManifestFile, 
+  ComponentFactory.Krypton.Workspace.ToolboxBitmaps.KryptonWorkspaceSequence.bmp - Embedded, ContainedInManifestFile, 
+  ComponentFactory.Krypton.Workspace.ToolboxBitmaps.KryptonWorkspaceCell.bmp - Embedded, ContainedInManifestFile, 
+  ComponentFactory.Krypton.Workspace.ToolboxBitmaps.KryptonWorkspace.bmp - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly ComponentFactory.Krypton.Workspace, Version=4.6.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e: 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly ComponentFactory.Krypton.Toolkit, Version=4.6.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly ComponentFactory.Krypton.Navigator, Version=4.6.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Class ComponentFactory.Krypton.Workspace.KryptonWorkspaceSequenceConverter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.ComponentModel.ExpandableObjectConverter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    CanConvertTo(ITypeDescriptorContext, Type): PrivateScope, Public, Virtual, HideBySig
+    ConvertTo(ITypeDescriptorContext, CultureInfo, Object, Type): PrivateScope, Public, Virtual, HideBySig
+Class ComponentFactory.Krypton.Workspace.KryptonWorkspaceCollection: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.TypedRestrictCollection`1[System.ComponentModel.Component]
+    Void .ctor(ComponentFactory.Krypton.Workspace.KryptonWorkspaceSequence): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Type[] RestrictTypes 'get ' : 
+    Boolean ContainsVisibleCell 'get ' : 
+  Events:
+    System.ComponentModel.PropertyChangedEventHandler PropertyChanged: 
+    System.EventHandler MaximizeRestoreClicked: 
+  Methods:
+    add_PropertyChanged(PropertyChangedEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_PropertyChanged(PropertyChangedEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_MaximizeRestoreClicked(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_MaximizeRestoreClicked(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    get_RestrictTypes(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_ContainsVisibleCell(): PrivateScope, Public, HideBySig, SpecialName
+Class ComponentFactory.Krypton.Workspace.KryptonWorkspaceCell: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Navigator.KryptonNavigator
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    ComponentFactory.Krypton.Workspace.IWorkspaceItem
+  Properties:
+    System.Windows.Forms.DockStyle Dock 'get set' : 
+    System.String Text 'get set' : 
+    System.Drawing.Point Location 'get set' : 
+    System.Drawing.Size Size 'get set' : 
+    Int32 TabIndex 'get set' : 
+    Boolean WorkspaceVisible 'get ' : 
+    Boolean WorkspaceAllowResizing 'get ' : 
+    System.Drawing.Size WorkspaceActualSize 'get ' : 
+    System.Drawing.Size WorkspacePreferredSize 'get ' : 
+    ComponentFactory.Krypton.Workspace.StarSize WorkspaceStarSize 'get ' : 
+    System.Drawing.Size WorkspaceMinSize 'get ' : 
+    System.Drawing.Size WorkspaceMaxSize 'get ' : 
+    System.Drawing.Size MinimumSize 'get set' : 
+    System.Drawing.Size MaximumSize 'get set' : 
+    ComponentFactory.Krypton.Workspace.IWorkspaceItem WorkspaceParent 'get set' : 
+    Boolean AllowResizing 'get set' : 
+    System.String StarSize 'get set' : 
+    Boolean DisposeOnRemove 'get set' : 
+    System.String UniqueName 'get set' : 
+    ComponentFactory.Krypton.Navigator.ButtonSpecNavigator MaximizeRestoreButton 'get ' : 
+    Boolean LastVisibleSet 'get set' : 
+  Events:
+    System.ComponentModel.PropertyChangedEventHandler PropertyChanged: 
+    System.EventHandler MaximizeRestoreClicked: 
+  Methods:
+    add_PropertyChanged(PropertyChangedEventHandler): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    remove_PropertyChanged(PropertyChangedEventHandler): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    add_MaximizeRestoreClicked(EventHandler): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    remove_MaximizeRestoreClicked(EventHandler): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Dock(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Dock(DockStyle): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Text(): PrivateScope, Public, HideBySig, SpecialName
+    set_Text(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Location(): PrivateScope, Public, HideBySig, SpecialName
+    set_Location(Point): PrivateScope, Public, HideBySig, SpecialName
+    get_Size(): PrivateScope, Public, HideBySig, SpecialName
+    set_Size(Size): PrivateScope, Public, HideBySig, SpecialName
+    get_TabIndex(): PrivateScope, Public, HideBySig, SpecialName
+    set_TabIndex(Int32): PrivateScope, Public, HideBySig, SpecialName
+    Compact(CompactFlags): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    get_WorkspaceVisible(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_WorkspaceAllowResizing(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_WorkspaceActualSize(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_WorkspacePreferredSize(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_WorkspaceStarSize(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_WorkspaceMinSize(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_WorkspaceMaxSize(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_MinimumSize(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_MinimumSize(Size): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_MaximumSize(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_MaximumSize(Size): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_WorkspaceParent(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_AllowResizing(): PrivateScope, Public, HideBySig, SpecialName
+    set_AllowResizing(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_StarSize(): PrivateScope, Public, HideBySig, SpecialName
+    set_StarSize(String): PrivateScope, Public, HideBySig, SpecialName
+    get_DisposeOnRemove(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_DisposeOnRemove(Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_UniqueName(): PrivateScope, Public, HideBySig, SpecialName
+    set_UniqueName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_MaximizeRestoreButton(): PrivateScope, Public, HideBySig, SpecialName
+    SaveToXml(KryptonWorkspace, XmlWriter): PrivateScope, Public, HideBySig
+    LoadFromXml(KryptonWorkspace, XmlReader, UniqueNameToPage): PrivateScope, Public, HideBySig
+    get_LastVisibleSet(): PrivateScope, Public, HideBySig, SpecialName
+    set_LastVisibleSet(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    DebugOutput(Int32): PrivateScope, Public, HideBySig
+Class ComponentFactory.Krypton.Workspace.KryptonWorkspaceCellList: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Collections.Generic.List`1[ComponentFactory.Krypton.Workspace.KryptonWorkspaceCell]
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ComponentFactory.Krypton.Workspace.KryptonWorkspaceSequence: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.ComponentModel.Component
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Windows.Forms.Orientation): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    ComponentFactory.Krypton.Workspace.IWorkspaceItem
+  Properties:
+    ComponentFactory.Krypton.Workspace.KryptonWorkspaceCollection Children 'get ' : 
+    System.Windows.Forms.Orientation Orientation 'get set' : 
+    Boolean Visible 'get set' : 
+    System.String StarSize 'get set' : 
+    System.String UniqueName 'get set' : 
+    ComponentFactory.Krypton.Workspace.IWorkspaceItem WorkspaceParent 'get set' : 
+    System.Drawing.Size WorkspaceActualSize 'get set' : 
+    System.Drawing.Size WorkspacePreferredSize 'get ' : 
+    ComponentFactory.Krypton.Workspace.StarSize WorkspaceStarSize 'get ' : 
+    System.Drawing.Size WorkspaceMinSize 'get ' : 
+    System.Drawing.Size WorkspaceMaxSize 'get ' : 
+    Boolean WorkspaceAllowResizing 'get ' : 
+    Boolean WorkspaceVisible 'get ' : 
+    Boolean DisposeOnRemove 'get ' : 
+    ComponentFactory.Krypton.Workspace.KryptonWorkspace WorkspaceControl 'get set' : 
+  Events:
+    System.ComponentModel.PropertyChangedEventHandler PropertyChanged: 
+    System.EventHandler MaximizeRestoreClicked: 
+  Methods:
+    add_PropertyChanged(PropertyChangedEventHandler): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    remove_PropertyChanged(PropertyChangedEventHandler): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    add_MaximizeRestoreClicked(EventHandler): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    remove_MaximizeRestoreClicked(EventHandler): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    get_Children(): PrivateScope, Public, HideBySig, SpecialName
+    get_Orientation(): PrivateScope, Public, HideBySig, SpecialName
+    set_Orientation(Orientation): PrivateScope, Public, HideBySig, SpecialName
+    get_Visible(): PrivateScope, Public, HideBySig, SpecialName
+    set_Visible(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    Hide(): PrivateScope, Public, HideBySig
+    Show(): PrivateScope, Public, HideBySig
+    get_StarSize(): PrivateScope, Public, HideBySig, SpecialName
+    set_StarSize(String): PrivateScope, Public, HideBySig, SpecialName
+    get_UniqueName(): PrivateScope, Public, HideBySig, SpecialName
+    set_UniqueName(String): PrivateScope, Public, HideBySig, SpecialName
+    ResetUniqueName(): PrivateScope, Public, HideBySig
+    Compact(CompactFlags): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    get_WorkspaceParent(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_WorkspaceActualSize(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_WorkspacePreferredSize(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_WorkspaceStarSize(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_WorkspaceMinSize(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_WorkspaceMaxSize(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_WorkspaceAllowResizing(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_WorkspaceVisible(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_DisposeOnRemove(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    SaveToXml(KryptonWorkspace, XmlWriter): PrivateScope, Public, HideBySig
+    LoadFromXml(KryptonWorkspace, XmlReader, UniqueNameToPage): PrivateScope, Public, HideBySig
+    get_WorkspaceControl(): PrivateScope, Public, HideBySig, SpecialName
+    set_WorkspaceControl(KryptonWorkspace): PrivateScope, Public, HideBySig, SpecialName
+    DebugOutput(Int32): PrivateScope, Public, HideBySig
+Class ComponentFactory.Krypton.Workspace.KryptonWorkspace: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.VisualContainerControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    ComponentFactory.Krypton.Navigator.IDragTargetProvider
+  Properties:
+    Boolean TabStop 'get set' : 
+    Boolean AllowDrop 'get set' : 
+    Boolean AutoSize 'get set' : 
+    System.String Text 'get set' : 
+    System.Drawing.Color BackColor 'get set' : 
+    System.Drawing.Font Font 'get set' : 
+    System.Drawing.Color ForeColor 'get set' : 
+    ComponentFactory.Krypton.Toolkit.KryptonContextMenu KryptonContextMenu 'get set' : 
+    ControlCollection Controls 'get ' : 
+    ComponentFactory.Krypton.Workspace.KryptonWorkspaceCell ActiveCell 'get set' : 
+    ComponentFactory.Krypton.Navigator.KryptonPage ActivePage 'get ' : 
+    ComponentFactory.Krypton.Workspace.CompactFlags CompactFlags 'get set' : 
+    ComponentFactory.Krypton.Workspace.KryptonWorkspaceCell MaximizedCell 'get set' : 
+    Int32 SplitterWidth 'get set' : 
+    Boolean AllowResizing 'get set' : 
+    ComponentFactory.Krypton.Toolkit.PaletteBackStyle ContainerBackStyle 'get set' : 
+    ComponentFactory.Krypton.Toolkit.SeparatorStyle SeparatorStyle 'get set' : 
+    ComponentFactory.Krypton.Toolkit.PaletteSplitContainerRedirect StateCommon 'get ' : 
+    ComponentFactory.Krypton.Toolkit.PaletteSplitContainer StateDisabled 'get ' : 
+    ComponentFactory.Krypton.Toolkit.PaletteSplitContainer StateNormal 'get ' : 
+    ComponentFactory.Krypton.Toolkit.PaletteSeparatorPadding StateTracking 'get ' : 
+    ComponentFactory.Krypton.Toolkit.PaletteSeparatorPadding StatePressed 'get ' : 
+    ComponentFactory.Krypton.Workspace.WorkspaceMenus ContextMenus 'get ' : 
+    ComponentFactory.Krypton.Workspace.KryptonWorkspaceSequence Root 'get ' : 
+    Boolean AllowPageDrag 'get set' : 
+    Boolean ShowMaximizeButton 'get set' : 
+    Int32 PageCount 'get ' : 
+    Int32 PageVisibleCount 'get ' : 
+    Int32 CellCount 'get ' : 
+    Int32 CellVisibleCount 'get ' : 
+    ComponentFactory.Krypton.Navigator.IDragPageNotify DragPageNotify 'get set' : 
+  Events:
+    System.EventHandler CellCountChanged: 
+    System.EventHandler CellVisibleCountChanged: 
+    System.EventHandler`1[ComponentFactory.Krypton.Workspace.WorkspaceCellEventArgs] WorkspaceCellAdding: 
+    System.EventHandler`1[ComponentFactory.Krypton.Workspace.WorkspaceCellEventArgs] WorkspaceCellRemoved: 
+    System.EventHandler`1[ComponentFactory.Krypton.Workspace.ActiveCellChangedEventArgs] ActiveCellChanged: 
+    System.EventHandler`1[ComponentFactory.Krypton.Workspace.ActivePageChangedEventArgs] ActivePageChanged: 
+    System.EventHandler MaximizedCellChanged: 
+    System.EventHandler`1[ComponentFactory.Krypton.Workspace.XmlSavingEventArgs] GlobalSaving: 
+    System.EventHandler`1[ComponentFactory.Krypton.Workspace.XmlLoadingEventArgs] GlobalLoading: 
+    System.EventHandler`1[ComponentFactory.Krypton.Workspace.PageSavingEventArgs] PageSaving: 
+    System.EventHandler`1[ComponentFactory.Krypton.Workspace.PageLoadingEventArgs] PageLoading: 
+    System.EventHandler`1[ComponentFactory.Krypton.Workspace.RecreateLoadingPageEventArgs] RecreateLoadingPage: 
+    System.EventHandler`1[ComponentFactory.Krypton.Workspace.PagesUnmatchedEventArgs] PagesUnmatched: 
+    System.EventHandler`1[ComponentFactory.Krypton.Navigator.PageDragCancelEventArgs] BeforePageDrag: 
+    System.EventHandler`1[ComponentFactory.Krypton.Navigator.PageDragEndEventArgs] AfterPageDrag: 
+    System.EventHandler`1[ComponentFactory.Krypton.Navigator.PageDropEventArgs] PageDrop: 
+  Methods:
+    LoadLayoutFromFile(String): PrivateScope, Public, HideBySig
+    LoadLayoutFromStream(Stream): PrivateScope, Public, HideBySig
+    LoadLayoutFromXml(XmlReader): PrivateScope, Public, HideBySig
+    LoadLayoutFromXml(XmlReader, KryptonPageCollection): PrivateScope, Public, HideBySig
+    WriteCellElement(XmlWriter, KryptonWorkspaceCell): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ReadCellElement(XmlReader, KryptonWorkspaceCell): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    WriteSequenceElement(XmlWriter, KryptonWorkspaceSequence): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ReadSequenceElement(XmlReader, KryptonWorkspaceSequence): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    WritePageElement(XmlWriter, KryptonPage): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ReadPageElement(XmlReader, String, UniqueNameToPage): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    OnGlobalSaving(XmlSavingEventArgs): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    OnGlobalLoading(XmlLoadingEventArgs): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    OnPageSaving(PageSavingEventArgs): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    OnPageLoading(PageLoadingEventArgs): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    OnRecreateLoadingPage(RecreateLoadingPageEventArgs): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    OnPagesUnmatched(PagesUnmatchedEventArgs): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    SuspendWorkspaceLayout(): PrivateScope, Public, HideBySig
+    ResumeWorkspaceLayout(): PrivateScope, Public, HideBySig
+    DebugOutput(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    add_CellCountChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_CellCountChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_CellVisibleCountChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_CellVisibleCountChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_WorkspaceCellAdding(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_WorkspaceCellAdding(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    add_WorkspaceCellRemoved(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_WorkspaceCellRemoved(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    add_ActiveCellChanged(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_ActiveCellChanged(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    add_ActivePageChanged(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_ActivePageChanged(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    add_MaximizedCellChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_MaximizedCellChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_GlobalSaving(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_GlobalSaving(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    add_GlobalLoading(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_GlobalLoading(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    add_PageSaving(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_PageSaving(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    add_PageLoading(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_PageLoading(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    add_RecreateLoadingPage(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_RecreateLoadingPage(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    add_PagesUnmatched(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_PagesUnmatched(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    add_BeforePageDrag(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_BeforePageDrag(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    add_AfterPageDrag(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_AfterPageDrag(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    add_PageDrop(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_PageDrop(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    get_TabStop(): PrivateScope, Public, HideBySig, SpecialName
+    set_TabStop(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_AllowDrop(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_AllowDrop(Boolean): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_AutoSize(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_AutoSize(Boolean): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Text(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Text(String): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_BackColor(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_BackColor(Color): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Font(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Font(Font): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_ForeColor(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_ForeColor(Color): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_KryptonContextMenu(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_KryptonContextMenu(KryptonContextMenu): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Controls(): PrivateScope, Public, HideBySig, SpecialName
+    get_ActiveCell(): PrivateScope, Public, HideBySig, SpecialName
+    set_ActiveCell(KryptonWorkspaceCell): PrivateScope, Public, HideBySig, SpecialName
+    get_ActivePage(): PrivateScope, Public, HideBySig, SpecialName
+    get_CompactFlags(): PrivateScope, Public, HideBySig, SpecialName
+    set_CompactFlags(CompactFlags): PrivateScope, Public, HideBySig, SpecialName
+    get_MaximizedCell(): PrivateScope, Public, HideBySig, SpecialName
+    set_MaximizedCell(KryptonWorkspaceCell): PrivateScope, Public, HideBySig, SpecialName
+    get_SplitterWidth(): PrivateScope, Public, HideBySig, SpecialName
+    set_SplitterWidth(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_AllowResizing(): PrivateScope, Public, HideBySig, SpecialName
+    set_AllowResizing(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_ContainerBackStyle(): PrivateScope, Public, HideBySig, SpecialName
+    set_ContainerBackStyle(PaletteBackStyle): PrivateScope, Public, HideBySig, SpecialName
+    get_SeparatorStyle(): PrivateScope, Public, HideBySig, SpecialName
+    set_SeparatorStyle(SeparatorStyle): PrivateScope, Public, HideBySig, SpecialName
+    get_StateCommon(): PrivateScope, Public, HideBySig, SpecialName
+    get_StateDisabled(): PrivateScope, Public, HideBySig, SpecialName
+    get_StateNormal(): PrivateScope, Public, HideBySig, SpecialName
+    get_StateTracking(): PrivateScope, Public, HideBySig, SpecialName
+    get_StatePressed(): PrivateScope, Public, HideBySig, SpecialName
+    get_ContextMenus(): PrivateScope, Public, HideBySig, SpecialName
+    get_Root(): PrivateScope, Public, HideBySig, SpecialName
+    get_AllowPageDrag(): PrivateScope, Public, HideBySig, SpecialName
+    set_AllowPageDrag(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_ShowMaximizeButton(): PrivateScope, Public, HideBySig, SpecialName
+    set_ShowMaximizeButton(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_PageCount(): PrivateScope, Public, HideBySig, SpecialName
+    get_PageVisibleCount(): PrivateScope, Public, HideBySig, SpecialName
+    AllPages(): PrivateScope, Public, HideBySig
+    AllVisiblePages(): PrivateScope, Public, HideBySig
+    get_CellCount(): PrivateScope, Public, HideBySig, SpecialName
+    get_CellVisibleCount(): PrivateScope, Public, HideBySig, SpecialName
+    FirstCell(): PrivateScope, Public, HideBySig
+    LastCell(): PrivateScope, Public, HideBySig
+    NextCell(KryptonWorkspaceCell): PrivateScope, Public, HideBySig
+    PreviousCell(KryptonWorkspaceCell): PrivateScope, Public, HideBySig
+    IsCellPresent(KryptonWorkspaceCell): PrivateScope, Public, HideBySig
+    FirstVisibleCell(): PrivateScope, Public, HideBySig
+    LastVisibleCell(): PrivateScope, Public, HideBySig
+    NextVisibleCell(KryptonWorkspaceCell): PrivateScope, Public, HideBySig
+    PreviousVisibleCell(KryptonWorkspaceCell): PrivateScope, Public, HideBySig
+    CellForPage(KryptonPage): PrivateScope, Public, HideBySig
+    CellForUniqueName(String): PrivateScope, Public, HideBySig
+    PageForUniqueName(String): PrivateScope, Public, HideBySig
+    HideAllPages(): PrivateScope, Public, HideBySig
+    HideAllPages(Type): PrivateScope, Public, HideBySig
+    ShowAllPages(): PrivateScope, Public, HideBySig
+    ShowAllPages(Type): PrivateScope, Public, HideBySig
+    CanClosePage(KryptonPage): PrivateScope, Public, HideBySig
+    CanMovePageNext(KryptonPage): PrivateScope, Public, HideBySig
+    CanMovePagePrevious(KryptonPage): PrivateScope, Public, HideBySig
+    ClosePage(KryptonPage): PrivateScope, Public, HideBySig
+    CloseAllButThisPage(KryptonPage): PrivateScope, Public, HideBySig
+    MovePageNext(KryptonPage, Boolean): PrivateScope, Public, HideBySig
+    MovePagePrevious(KryptonPage, Boolean): PrivateScope, Public, HideBySig
+    ApplyRebalance(): PrivateScope, Public, HideBySig
+    ApplyResizing(KryptonWorkspaceSequence, String, String, Boolean, Boolean): PrivateScope, Public, HideBySig
+    ApplySingleCell(): PrivateScope, Public, HideBySig
+    ApplySingleCell(Boolean): PrivateScope, Public, HideBySig
+    ApplyGridCells(): PrivateScope, Public, HideBySig
+    ApplyGridCells(Boolean): PrivateScope, Public, HideBySig
+    ApplyGridCells(Boolean, Orientation): PrivateScope, Public, HideBySig
+    ApplyGridCells(Boolean, Orientation, Int32): PrivateScope, Public, HideBySig
+    ApplyGridPages(): PrivateScope, Public, HideBySig
+    ApplyGridPages(Boolean): PrivateScope, Public, HideBySig
+    ApplyGridPages(Boolean, Orientation): PrivateScope, Public, HideBySig
+    ApplyGridPages(Boolean, Orientation, Int32): PrivateScope, Public, HideBySig
+    ClearAllPages(): PrivateScope, Public, HideBySig
+    get_DragPageNotify(): PrivateScope, Public, HideBySig, SpecialName
+    set_DragPageNotify(IDragPageNotify): PrivateScope, Public, HideBySig, SpecialName
+    GenerateDragTargets(PageDragEndData): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GenerateDragTargets(PageDragEndData, KryptonPageFlags): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    SaveLayoutToArray(): PrivateScope, Public, HideBySig
+    SaveLayoutToArray(Encoding): PrivateScope, Public, HideBySig
+    SaveLayoutToFile(String): PrivateScope, Public, HideBySig
+    SaveLayoutToFile(String, Encoding): PrivateScope, Public, HideBySig
+    SaveLayoutToStream(Stream, Encoding): PrivateScope, Public, HideBySig
+    SaveLayoutToXml(XmlWriter): PrivateScope, Public, HideBySig
+    LoadLayoutFromArray(Byte[]): PrivateScope, Public, HideBySig
+Class ComponentFactory.Krypton.Workspace.DragTargetWorkspace: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  :ComponentFactory.Krypton.Navigator.DragTarget
+    Void .ctor(System.Drawing.Rectangle, System.Drawing.Rectangle, System.Drawing.Rectangle, ComponentFactory.Krypton.Navigator.DragTargetHint, ComponentFactory.Krypton.Workspace.KryptonWorkspace, ComponentFactory.Krypton.Navigator.KryptonPageFlags): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    ComponentFactory.Krypton.Workspace.KryptonWorkspace Workspace 'get ' : 
+  Methods:
+    get_Workspace(): PrivateScope, Public, HideBySig, SpecialName
+Class ComponentFactory.Krypton.Workspace.DragTargetWorkspaceCellTransfer: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Workspace.DragTargetWorkspace
+    Void .ctor(System.Drawing.Rectangle, System.Drawing.Rectangle, System.Drawing.Rectangle, ComponentFactory.Krypton.Workspace.KryptonWorkspace, ComponentFactory.Krypton.Workspace.KryptonWorkspaceCell, ComponentFactory.Krypton.Navigator.KryptonPageFlags): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    IsMatch(Point, PageDragEndData): PrivateScope, Public, Virtual, HideBySig
+    PerformDrop(Point, PageDragEndData): PrivateScope, Public, Virtual, HideBySig
+Class ComponentFactory.Krypton.Workspace.DragTargetWorkspaceCellEdge: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Workspace.DragTargetWorkspaceEdge
+    Void .ctor(System.Drawing.Rectangle, System.Drawing.Rectangle, System.Drawing.Rectangle, ComponentFactory.Krypton.Navigator.DragTargetHint, ComponentFactory.Krypton.Workspace.KryptonWorkspace, ComponentFactory.Krypton.Workspace.KryptonWorkspaceCell, ComponentFactory.Krypton.Navigator.KryptonPageFlags): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    ComponentFactory.Krypton.Workspace.KryptonWorkspaceCell Cell 'get ' : 
+  Methods:
+    get_Cell(): PrivateScope, Public, HideBySig, SpecialName
+    IsMatch(Point, PageDragEndData): PrivateScope, Public, Virtual, HideBySig
+    PerformDrop(Point, PageDragEndData): PrivateScope, Public, Virtual, HideBySig
+Class ComponentFactory.Krypton.Workspace.DragTargetWorkspaceEdge: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Workspace.DragTargetWorkspace
+    Void .ctor(System.Drawing.Rectangle, System.Drawing.Rectangle, System.Drawing.Rectangle, ComponentFactory.Krypton.Navigator.DragTargetHint, ComponentFactory.Krypton.Workspace.KryptonWorkspace, ComponentFactory.Krypton.Navigator.KryptonPageFlags): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    ComponentFactory.Krypton.Toolkit.VisualOrientation Edge 'get ' : 
+  Methods:
+    get_Edge(): PrivateScope, Public, HideBySig, SpecialName
+    PerformDrop(Point, PageDragEndData): PrivateScope, Public, Virtual, HideBySig
+Class ComponentFactory.Krypton.Workspace.CellDragCancelEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Navigator.PageDragCancelEventArgs
+    Void .ctor(System.Drawing.Point, System.Drawing.Point, System.Windows.Forms.Control, ComponentFactory.Krypton.Navigator.KryptonPage[], ComponentFactory.Krypton.Workspace.KryptonWorkspaceCell): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(ComponentFactory.Krypton.Navigator.PageDragCancelEventArgs, ComponentFactory.Krypton.Workspace.KryptonWorkspaceCell): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    ComponentFactory.Krypton.Workspace.KryptonWorkspaceCell Cell 'get ' : 
+  Methods:
+    get_Cell(): PrivateScope, Public, HideBySig, SpecialName
+Class ComponentFactory.Krypton.Workspace.ActiveCellChangedEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.EventArgs
+    Void .ctor(ComponentFactory.Krypton.Workspace.KryptonWorkspaceCell, ComponentFactory.Krypton.Workspace.KryptonWorkspaceCell): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    ComponentFactory.Krypton.Workspace.KryptonWorkspaceCell OldCell 'get ' : 
+    ComponentFactory.Krypton.Workspace.KryptonWorkspaceCell NewCell 'get ' : 
+  Methods:
+    get_OldCell(): PrivateScope, Public, HideBySig, SpecialName
+    get_NewCell(): PrivateScope, Public, HideBySig, SpecialName
+Class ComponentFactory.Krypton.Workspace.ActivePageChangedEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.EventArgs
+    Void .ctor(ComponentFactory.Krypton.Navigator.KryptonPage, ComponentFactory.Krypton.Navigator.KryptonPage): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    ComponentFactory.Krypton.Navigator.KryptonPage OldPage 'get ' : 
+    ComponentFactory.Krypton.Navigator.KryptonPage NewPage 'get ' : 
+  Methods:
+    get_OldPage(): PrivateScope, Public, HideBySig, SpecialName
+    get_NewPage(): PrivateScope, Public, HideBySig, SpecialName
+Class ComponentFactory.Krypton.Workspace.PagesUnmatchedEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.EventArgs
+    Void .ctor(ComponentFactory.Krypton.Workspace.KryptonWorkspace, System.Collections.Generic.List`1[ComponentFactory.Krypton.Navigator.KryptonPage]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    ComponentFactory.Krypton.Workspace.KryptonWorkspace Workspace 'get ' : 
+    System.Collections.Generic.List`1[ComponentFactory.Krypton.Navigator.KryptonPage] Unmatched 'get ' : 
+  Methods:
+    get_Workspace(): PrivateScope, Public, HideBySig, SpecialName
+    get_Unmatched(): PrivateScope, Public, HideBySig, SpecialName
+Class ComponentFactory.Krypton.Workspace.PageLoadingEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Workspace.XmlLoadingEventArgs
+    Void .ctor(ComponentFactory.Krypton.Workspace.KryptonWorkspace, ComponentFactory.Krypton.Navigator.KryptonPage, System.Xml.XmlReader): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    ComponentFactory.Krypton.Navigator.KryptonPage Page 'get set' : 
+  Methods:
+    get_Page(): PrivateScope, Public, HideBySig, SpecialName
+    set_Page(KryptonPage): PrivateScope, Public, HideBySig, SpecialName
+Class ComponentFactory.Krypton.Workspace.PageSavingEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Workspace.XmlSavingEventArgs
+    Void .ctor(ComponentFactory.Krypton.Workspace.KryptonWorkspace, ComponentFactory.Krypton.Navigator.KryptonPage, System.Xml.XmlWriter): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    ComponentFactory.Krypton.Navigator.KryptonPage Page 'get ' : 
+  Methods:
+    get_Page(): PrivateScope, Public, HideBySig, SpecialName
+Class ComponentFactory.Krypton.Workspace.RecreateLoadingPageEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.ComponentModel.CancelEventArgs
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    ComponentFactory.Krypton.Navigator.KryptonPage Page 'get set' : 
+    System.String UniqueName 'get ' : 
+  Methods:
+    get_Page(): PrivateScope, Public, HideBySig, SpecialName
+    set_Page(KryptonPage): PrivateScope, Public, HideBySig, SpecialName
+    get_UniqueName(): PrivateScope, Public, HideBySig, SpecialName
+Class ComponentFactory.Krypton.Workspace.XmlLoadingEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.EventArgs
+    Void .ctor(ComponentFactory.Krypton.Workspace.KryptonWorkspace, System.Xml.XmlReader): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    ComponentFactory.Krypton.Workspace.KryptonWorkspace Workspace 'get ' : 
+    System.Xml.XmlReader XmlReader 'get ' : 
+  Methods:
+    get_Workspace(): PrivateScope, Public, HideBySig, SpecialName
+    get_XmlReader(): PrivateScope, Public, HideBySig, SpecialName
+Class ComponentFactory.Krypton.Workspace.XmlSavingEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.EventArgs
+    Void .ctor(ComponentFactory.Krypton.Workspace.KryptonWorkspace, System.Xml.XmlWriter): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    ComponentFactory.Krypton.Workspace.KryptonWorkspace Workspace 'get ' : 
+    System.Xml.XmlWriter XmlWriter 'get ' : 
+  Methods:
+    get_Workspace(): PrivateScope, Public, HideBySig, SpecialName
+    get_XmlWriter(): PrivateScope, Public, HideBySig, SpecialName
+Class ComponentFactory.Krypton.Workspace.WorkspaceCellEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.EventArgs
+    Void .ctor(ComponentFactory.Krypton.Workspace.KryptonWorkspaceCell): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    ComponentFactory.Krypton.Workspace.KryptonWorkspaceCell Cell 'get ' : 
+  Methods:
+    get_Cell(): PrivateScope, Public, HideBySig, SpecialName
+Class ComponentFactory.Krypton.Workspace.CellPageNotify: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(ComponentFactory.Krypton.Workspace.KryptonWorkspace): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    ComponentFactory.Krypton.Navigator.IDragPageNotify
+  Methods:
+    PageDragStart(Object, KryptonNavigator, PageDragCancelEventArgs): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    PageDragMove(Object, PointEventArgs): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    PageDragEnd(Object, PointEventArgs): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    PageDragQuit(Object): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class ComponentFactory.Krypton.Workspace.StarSize: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Value 'get set' : 
+    ComponentFactory.Krypton.Workspace.StarNumber StarWidth 'get ' : 
+    ComponentFactory.Krypton.Workspace.StarNumber StarHeight 'get ' : 
+  Methods:
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    get_Value(): PrivateScope, Public, HideBySig, SpecialName
+    set_Value(String): PrivateScope, Public, HideBySig, SpecialName
+    get_StarWidth(): PrivateScope, Public, HideBySig, SpecialName
+    get_StarHeight(): PrivateScope, Public, HideBySig, SpecialName
+Struct ComponentFactory.Krypton.Workspace.CompactFlags: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ComponentFactory.Krypton.Workspace.CompactFlags None = 0 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Workspace.CompactFlags RemoveEmptyCells = 1 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Workspace.CompactFlags RemoveEmptySequences = 2 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Workspace.CompactFlags PromoteLeafs = 4 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Workspace.CompactFlags AtLeastOneVisibleCell = 8 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Workspace.CompactFlags All = 15 : Public, Static, Literal, HasDefault
+Interface ComponentFactory.Krypton.Workspace.IWorkspaceItem: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Properties:
+    ComponentFactory.Krypton.Workspace.IWorkspaceItem WorkspaceParent 'get ' : 
+    Boolean WorkspaceAllowResizing 'get ' : 
+    Boolean WorkspaceVisible 'get ' : 
+    System.Drawing.Size WorkspaceActualSize 'get ' : 
+    System.Drawing.Size WorkspacePreferredSize 'get ' : 
+    ComponentFactory.Krypton.Workspace.StarSize WorkspaceStarSize 'get ' : 
+    System.Drawing.Size WorkspaceMinSize 'get ' : 
+    System.Drawing.Size WorkspaceMaxSize 'get ' : 
+    Boolean DisposeOnRemove 'get ' : 
+  Events:
+    System.ComponentModel.PropertyChangedEventHandler PropertyChanged: 
+    System.EventHandler MaximizeRestoreClicked: 
+  Methods:
+    add_PropertyChanged(PropertyChangedEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    remove_PropertyChanged(PropertyChangedEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    add_MaximizeRestoreClicked(EventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    remove_MaximizeRestoreClicked(EventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_WorkspaceParent(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_WorkspaceAllowResizing(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_WorkspaceVisible(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_WorkspaceActualSize(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_WorkspacePreferredSize(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_WorkspaceStarSize(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_WorkspaceMinSize(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_WorkspaceMaxSize(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_DisposeOnRemove(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    Compact(CompactFlags): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class ComponentFactory.Krypton.Workspace.StarNumber: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Value 'get set' : 
+    Boolean UsingStar 'get ' : 
+    Int32 FixedSize 'get ' : 
+    Double StarSize 'get ' : 
+  Methods:
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    get_Value(): PrivateScope, Public, HideBySig, SpecialName
+    set_Value(String): PrivateScope, Public, HideBySig, SpecialName
+    get_UsingStar(): PrivateScope, Public, HideBySig, SpecialName
+    get_FixedSize(): PrivateScope, Public, HideBySig, SpecialName
+    get_StarSize(): PrivateScope, Public, HideBySig, SpecialName
+Class ComponentFactory.Krypton.Workspace.WorkspaceMenus: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.Storage
+    Void .ctor(ComponentFactory.Krypton.Workspace.KryptonWorkspace): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean IsDefault 'get ' : 
+    System.String TextClose 'get set' : 
+    System.String TextCloseAllButThis 'get set' : 
+    System.String TextMoveNext 'get set' : 
+    System.String TextMovePrevious 'get set' : 
+    System.String TextSplitVertical 'get set' : 
+    System.String TextSplitHorizontal 'get set' : 
+    System.String TextRebalance 'get set' : 
+    System.String TextMaximize 'get set' : 
+    System.String TextRestore 'get set' : 
+    System.Windows.Forms.Keys ShortcutClose 'get set' : 
+    System.Windows.Forms.Keys ShortcutCloseAllButThis 'get set' : 
+    System.Windows.Forms.Keys ShortcutMoveNext 'get set' : 
+    System.Windows.Forms.Keys ShortcutMovePrevious 'get set' : 
+    System.Windows.Forms.Keys ShortcutSplitVertical 'get set' : 
+    System.Windows.Forms.Keys ShortcutSplitHorizontal 'get set' : 
+    System.Windows.Forms.Keys ShortcutRebalance 'get set' : 
+    System.Windows.Forms.Keys ShortcutMaximizeRestore 'get set' : 
+    Boolean ShowContextMenu 'get set' : 
+  Methods:
+    get_IsDefault(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_TextClose(): PrivateScope, Public, HideBySig, SpecialName
+    set_TextClose(String): PrivateScope, Public, HideBySig, SpecialName
+    ResetTextClose(): PrivateScope, Public, HideBySig
+    get_TextCloseAllButThis(): PrivateScope, Public, HideBySig, SpecialName
+    set_TextCloseAllButThis(String): PrivateScope, Public, HideBySig, SpecialName
+    ResetTextCloseAllButThis(): PrivateScope, Public, HideBySig
+    get_TextMoveNext(): PrivateScope, Public, HideBySig, SpecialName
+    set_TextMoveNext(String): PrivateScope, Public, HideBySig, SpecialName
+    ResetTextMoveNext(): PrivateScope, Public, HideBySig
+    get_TextMovePrevious(): PrivateScope, Public, HideBySig, SpecialName
+    set_TextMovePrevious(String): PrivateScope, Public, HideBySig, SpecialName
+    ResetTextMovePrevious(): PrivateScope, Public, HideBySig
+    get_TextSplitVertical(): PrivateScope, Public, HideBySig, SpecialName
+    set_TextSplitVertical(String): PrivateScope, Public, HideBySig, SpecialName
+    ResetTextSplitVertical(): PrivateScope, Public, HideBySig
+    get_TextSplitHorizontal(): PrivateScope, Public, HideBySig, SpecialName
+    set_TextSplitHorizontal(String): PrivateScope, Public, HideBySig, SpecialName
+    ResetTextSplitHorizontal(): PrivateScope, Public, HideBySig
+    get_TextRebalance(): PrivateScope, Public, HideBySig, SpecialName
+    set_TextRebalance(String): PrivateScope, Public, HideBySig, SpecialName
+    ResetTextRebalance(): PrivateScope, Public, HideBySig
+    get_TextMaximize(): PrivateScope, Public, HideBySig, SpecialName
+    set_TextMaximize(String): PrivateScope, Public, HideBySig, SpecialName
+    ResetTextMaximize(): PrivateScope, Public, HideBySig
+    get_TextRestore(): PrivateScope, Public, HideBySig, SpecialName
+    set_TextRestore(String): PrivateScope, Public, HideBySig, SpecialName
+    ResetTextRestore(): PrivateScope, Public, HideBySig
+    get_ShortcutClose(): PrivateScope, Public, HideBySig, SpecialName
+    set_ShortcutClose(Keys): PrivateScope, Public, HideBySig, SpecialName
+    ResetShortcutClose(): PrivateScope, Public, HideBySig
+    get_ShortcutCloseAllButThis(): PrivateScope, Public, HideBySig, SpecialName
+    set_ShortcutCloseAllButThis(Keys): PrivateScope, Public, HideBySig, SpecialName
+    ResetShortcutCloseAllButThis(): PrivateScope, Public, HideBySig
+    get_ShortcutMoveNext(): PrivateScope, Public, HideBySig, SpecialName
+    set_ShortcutMoveNext(Keys): PrivateScope, Public, HideBySig, SpecialName
+    ResetShortcutMoveNext(): PrivateScope, Public, HideBySig
+    get_ShortcutMovePrevious(): PrivateScope, Public, HideBySig, SpecialName
+    set_ShortcutMovePrevious(Keys): PrivateScope, Public, HideBySig, SpecialName
+    ResetShortcutMovePrevious(): PrivateScope, Public, HideBySig
+    get_ShortcutSplitVertical(): PrivateScope, Public, HideBySig, SpecialName
+    set_ShortcutSplitVertical(Keys): PrivateScope, Public, HideBySig, SpecialName
+    ResetShortcutSplitVertical(): PrivateScope, Public, HideBySig
+    get_ShortcutSplitHorizontal(): PrivateScope, Public, HideBySig, SpecialName
+    set_ShortcutSplitHorizontal(Keys): PrivateScope, Public, HideBySig, SpecialName
+    ResetShortcutSplitHorizontal(): PrivateScope, Public, HideBySig
+    get_ShortcutRebalance(): PrivateScope, Public, HideBySig, SpecialName
+    set_ShortcutRebalance(Keys): PrivateScope, Public, HideBySig, SpecialName
+    ResetShortcutRebalance(): PrivateScope, Public, HideBySig
+    get_ShortcutMaximizeRestore(): PrivateScope, Public, HideBySig, SpecialName
+    set_ShortcutMaximizeRestore(Keys): PrivateScope, Public, HideBySig, SpecialName
+    ResetShortcutMaximizeRestore(): PrivateScope, Public, HideBySig
+    get_ShowContextMenu(): PrivateScope, Public, HideBySig, SpecialName
+    set_ShowContextMenu(Boolean): PrivateScope, Public, HideBySig, SpecialName
+Class ComponentFactory.Krypton.Workspace.ViewDrawWorkspaceSeparator: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.ViewDrawSeparator
+    Void .ctor(ComponentFactory.Krypton.Workspace.KryptonWorkspace, ComponentFactory.Krypton.Workspace.IWorkspaceItem, System.Windows.Forms.Orientation): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    ComponentFactory.Krypton.Toolkit.ISeparatorSource
+  Properties:
+    ComponentFactory.Krypton.Workspace.IWorkspaceItem WorkspaceItem 'get ' : 
+    System.Windows.Forms.Control SeparatorControl 'get ' : 
+    System.Windows.Forms.Orientation SeparatorOrientation 'get ' : 
+    Boolean SeparatorCanMove 'get ' : 
+    Int32 SeparatorIncrements 'get ' : 
+    System.Drawing.Rectangle SeparatorMoveBox 'get ' : 
+  Methods:
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    get_WorkspaceItem(): PrivateScope, Public, HideBySig, SpecialName
+    get_SeparatorControl(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_SeparatorOrientation(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_SeparatorCanMove(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_SeparatorIncrements(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_SeparatorMoveBox(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    SeparatorMoving(Point, Point): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    SeparatorMoved(Point, Point): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    SeparatorNotMoved(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask

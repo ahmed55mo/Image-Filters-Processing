@@ -1,0 +1,722 @@
+﻿  MyForm.cpp
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image_write.h(785,13): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  (compiling source file 'MyForm.cpp')
+  
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\GUI.2\MyForm.h(174,5): warning C4150: deletion of pointer to incomplete type 'GUI2::Image'; no destructor called
+  (compiling source file 'MyForm.cpp')
+  C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\GUI.2\MyForm.h(18,8):
+  see declaration of 'GUI2::Image'
+  
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\GUI.2\MyForm.h(5120,20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'MyForm.cpp')
+  
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\GUI.2\MyForm.h(5143,16): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'MyForm.cpp')
+  
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\GUI.2\MyForm.h(5390,41): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'MyForm.cpp')
+  
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\GUI.2\MyForm.cpp(14,33): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(751,1): warning C4793: '`anonymous namespace'::stbi__cpuid3': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(751,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2631,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2631,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2632,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2632,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2633,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2633,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2634,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2634,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2635,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2635,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2636,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2636,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2637,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2637,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2638,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2638,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2641,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2641,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2642,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2642,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2645,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2645,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2646,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2646,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2647,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2647,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2648,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2648,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2649,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2649,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2650,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2650,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2651,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2651,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2652,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2652,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2655,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2659,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2659,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2659,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2659,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2660,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2660,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2660,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2660,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2661,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2661,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2661,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2661,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2662,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2662,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2662,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2662,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2665,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2665,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2665,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2665,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2666,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2666,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2666,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2666,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2667,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2667,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2667,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2667,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2668,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2668,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2668,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2668,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2671,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2671,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2671,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2671,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2672,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2672,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2672,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2672,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2673,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2673,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2673,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2673,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2674,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2674,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2674,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2674,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2678,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2682,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2682,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2683,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2683,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2684,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2684,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2685,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2685,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2688,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2688,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2688,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2688,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2689,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2689,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2689,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2689,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2692,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2692,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2692,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2692,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2693,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2693,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2693,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2693,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2696,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2696,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2696,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2696,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2697,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2697,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2697,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2697,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2700,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2700,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2701,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2701,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2701,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2701,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2702,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2702,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2703,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2703,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2703,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2703,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2704,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2704,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2705,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2705,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2705,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2705,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2706,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2706,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2707,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2707,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2707,1): warning C4793: '`anonymous namespace'::stbi__idct_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(2707,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3712,1): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3712,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3713,1): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3713,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3714,1): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3714,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3715,1): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3715,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3716,1): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3716,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3717,1): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3717,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3718,1): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3718,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3722,1): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3722,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3723,1): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3723,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3724,1): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3724,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3725,1): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3725,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3726,1): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3726,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3729,1): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3729,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3730,1): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3730,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3730,1): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3730,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3731,1): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3731,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3731,1): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3731,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3734,1): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3734,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3735,1): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3735,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3736,1): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3736,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3737,1): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3737,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3738,1): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3738,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3739,1): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3739,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3740,1): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3740,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3741,1): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3741,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3742,1): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3742,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3745,1): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3745,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3746,1): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3746,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3747,1): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3747,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3750,1): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3750,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3751,1): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3751,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3754,1): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3754,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3755,1): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3755,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3756,1): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3756,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3757,1): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3757,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3760,1): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3760,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3761,1): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3761,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3564,1): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3564,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3565,1): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3565,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3566,1): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3566,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3567,1): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3567,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3568,1): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3568,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3569,1): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3569,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3570,1): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3570,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3571,1): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3571,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3578,1): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3578,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3579,1): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3579,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3580,1): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3580,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3581,1): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3581,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3587,1): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3587,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3588,1): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3588,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3589,1): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3589,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3590,1): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3590,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3591,1): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3591,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3592,1): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3592,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3593,1): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3593,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3596,1): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3596,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3597,1): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3597,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3598,1): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3598,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3599,1): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3599,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3602,1): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3602,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3603,1): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image.h(3603,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image_write.h(488,1): warning C4793: '`anonymous namespace'::stbiw__outfile': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image_write.h(488,1): warning C4793: 	varargs not supported under /clr
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image_write.h(493,1): warning C4793: '`anonymous namespace'::stbiw__outfile': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image_write.h(493,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image_write.h(495,1): warning C4793: '`anonymous namespace'::stbiw__outfile': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image_write.h(495,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image_write.h(388,1): warning C4793: '`anonymous namespace'::stbiw__writef': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image_write.h(388,1): warning C4793: 	varargs not supported under /clr
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image_write.h(390,1): warning C4793: '`anonymous namespace'::stbiw__writef': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image_write.h(390,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image_write.h(392,1): warning C4793: '`anonymous namespace'::stbiw__writef': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image_write.h(392,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image_write.h(363,1): warning C4793: '`anonymous namespace'::stbiw__writefv': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image_write.h(363,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image_write.h(366,1): warning C4793: '`anonymous namespace'::stbiw__writefv': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image_write.h(366,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image_write.h(372,1): warning C4793: '`anonymous namespace'::stbiw__writefv': function compiled as native:
+C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\lib\stb_image_write.h(372,1): warning C4793: 	Found an intrinsic not supported in managed code
+  MyForm.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+MyForm.obj : warning LNK4248: unresolved typeref token (0100000F) for 'GUI2.Image'; image may not run
+  GUI.2.vcxproj -> C:\Users\egtea\OneDrive\سطح المكتب\CS112_A3_Part3_20230824_20231013_20231103\x64\Debug\GUI.2.exe

@@ -1,0 +1,2114 @@
+  ComponentFactory.Krypton.Navigator.KryptonPageFormEditFlags.resources - Embedded, ContainedInManifestFile, 
+  ComponentFactory.Krypton.Navigator.Properties.Resources.resources - Embedded, ContainedInManifestFile, 
+  ComponentFactory.Krypton.Navigator.ToolboxBitmaps.KryptonNavigator.bmp - Embedded, ContainedInManifestFile, 
+  ComponentFactory.Krypton.Navigator.ToolboxBitmaps.KryptonPage.bmp - Embedded, ContainedInManifestFile, 
+  ComponentFactory.Krypton.Navigator.Resources.BlueDown.bmp - Embedded, ContainedInManifestFile, 
+  ComponentFactory.Krypton.Navigator.Resources.BlueUp.bmp - Embedded, ContainedInManifestFile, 
+  ComponentFactory.Krypton.Navigator.Resources.PageLarge.png - Embedded, ContainedInManifestFile, 
+  ComponentFactory.Krypton.Navigator.Resources.PageMedium.png - Embedded, ContainedInManifestFile, 
+  ComponentFactory.Krypton.Navigator.Resources.PageSmall.png - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly ComponentFactory.Krypton.Navigator, Version=4.6.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e: 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly ComponentFactory.Krypton.Toolkit, Version=4.6.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Class ComponentFactory.Krypton.Navigator.ButtonSpecNavigator: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.ButtonSpecHeaderGroup
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    ComponentFactory.Krypton.Toolkit.PaletteButtonSpecStyle Type 'get set' : 
+    ComponentFactory.Krypton.Navigator.PaletteNavButtonSpecStyle TypeRestricted 'get set' : 
+  Methods:
+    get_Type(): PrivateScope, Public, HideBySig, SpecialName
+    set_Type(PaletteButtonSpecStyle): PrivateScope, Public, HideBySig, SpecialName
+    get_TypeRestricted(): PrivateScope, Public, HideBySig, SpecialName
+    set_TypeRestricted(PaletteNavButtonSpecStyle): PrivateScope, Public, HideBySig, SpecialName
+    ResetTypeRestricted(): PrivateScope, Public, HideBySig
+Class ComponentFactory.Krypton.Navigator.ButtonSpecNavFixed: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.ButtonSpec
+    Void .ctor(ComponentFactory.Krypton.Navigator.KryptonNavigator, ComponentFactory.Krypton.Toolkit.PaletteButtonSpecStyle): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean IsDefault 'get ' : 
+    Boolean AllowComponent 'get ' : 
+    ComponentFactory.Krypton.Toolkit.HeaderLocation HeaderLocation 'get set' : 
+  Methods:
+    get_IsDefault(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_AllowComponent(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_HeaderLocation(): PrivateScope, Public, HideBySig, SpecialName
+    set_HeaderLocation(HeaderLocation): PrivateScope, Public, HideBySig, SpecialName
+    ResetHeaderLocation(): PrivateScope, Public, HideBySig
+    GetLocation(IPalette): PrivateScope, Public, Virtual, HideBySig
+Class ComponentFactory.Krypton.Navigator.ButtonSpecNavClose: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Navigator.ButtonSpecNavFixed
+    Void .ctor(ComponentFactory.Krypton.Navigator.KryptonNavigator): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    GetVisible(IPalette): PrivateScope, Public, Virtual, HideBySig
+    GetEnabled(IPalette): PrivateScope, Public, Virtual, HideBySig
+    GetChecked(IPalette): PrivateScope, Public, Virtual, HideBySig
+Class ComponentFactory.Krypton.Navigator.ButtonSpecNavPrevious: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Navigator.ButtonSpecNavFixed
+    Void .ctor(ComponentFactory.Krypton.Navigator.KryptonNavigator): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    GetVisible(IPalette): PrivateScope, Public, Virtual, HideBySig
+    GetEnabled(IPalette): PrivateScope, Public, Virtual, HideBySig
+    GetChecked(IPalette): PrivateScope, Public, Virtual, HideBySig
+Class ComponentFactory.Krypton.Navigator.ButtonSpecNavNext: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Navigator.ButtonSpecNavFixed
+    Void .ctor(ComponentFactory.Krypton.Navigator.KryptonNavigator): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    GetVisible(IPalette): PrivateScope, Public, Virtual, HideBySig
+    GetEnabled(IPalette): PrivateScope, Public, Virtual, HideBySig
+    GetChecked(IPalette): PrivateScope, Public, Virtual, HideBySig
+Class ComponentFactory.Krypton.Navigator.ButtonSpecNavContext: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Navigator.ButtonSpecNavFixed
+    Void .ctor(ComponentFactory.Krypton.Navigator.KryptonNavigator): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    GetVisible(IPalette): PrivateScope, Public, Virtual, HideBySig
+    GetEnabled(IPalette): PrivateScope, Public, Virtual, HideBySig
+    GetChecked(IPalette): PrivateScope, Public, Virtual, HideBySig
+Class ComponentFactory.Krypton.Navigator.ButtonSpecNavFixedConverter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.ComponentModel.ExpandableObjectConverter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    CanConvertTo(ITypeDescriptorContext, Type): PrivateScope, Public, Virtual, HideBySig
+    ConvertTo(ITypeDescriptorContext, CultureInfo, Object, Type): PrivateScope, Public, Virtual, HideBySig
+Class ComponentFactory.Krypton.Navigator.PageButtonController: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.ButtonController
+    Void .ctor(ComponentFactory.Krypton.Toolkit.ViewBase, ComponentFactory.Krypton.Toolkit.NeedPaintHandler): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ComponentFactory.Krypton.Navigator.DragViewController: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.GlobalId
+    Void .ctor(ComponentFactory.Krypton.Toolkit.ViewBase): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    ComponentFactory.Krypton.Toolkit.IMouseController
+    ComponentFactory.Krypton.Toolkit.IKeyController
+    ComponentFactory.Krypton.Toolkit.ISourceController
+  Properties:
+    System.Drawing.Point MousePoint 'get ' : 
+    Boolean AllowDragging 'get set' : 
+    Boolean IgnoreVisualFormLeftButtonDown 'get ' : 
+    ComponentFactory.Krypton.Toolkit.ViewBase Target 'get ' : 
+  Events:
+    System.EventHandler LeftMouseDown: 
+    System.EventHandler RightMouseDown: 
+    System.EventHandler LeftDoubleClick: 
+    System.EventHandler`1[ComponentFactory.Krypton.Toolkit.DragStartEventCancelArgs] DragStart: 
+    System.EventHandler`1[ComponentFactory.Krypton.Toolkit.PointEventArgs] DragMove: 
+    System.EventHandler`1[ComponentFactory.Krypton.Toolkit.PointEventArgs] DragEnd: 
+    System.EventHandler DragQuit: 
+  Methods:
+    add_LeftMouseDown(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_LeftMouseDown(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_RightMouseDown(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_RightMouseDown(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_LeftDoubleClick(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_LeftDoubleClick(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_DragStart(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_DragStart(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    add_DragMove(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_DragMove(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    add_DragEnd(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_DragEnd(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    add_DragQuit(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_DragQuit(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    get_MousePoint(): PrivateScope, Public, HideBySig, SpecialName
+    get_AllowDragging(): PrivateScope, Public, HideBySig, SpecialName
+    set_AllowDragging(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    MouseEnter(Control): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    MouseMove(Control, Point): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    MouseDown(Control, Point, MouseButtons): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    MouseUp(Control, Point, MouseButtons): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    MouseLeave(Control, ViewBase): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    DoubleClick(Point): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_IgnoreVisualFormLeftButtonDown(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    KeyDown(Control, KeyEventArgs): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    KeyPress(Control, KeyPressEventArgs): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    KeyUp(Control, KeyEventArgs): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GotFocus(Control): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    LostFocus(Control): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_Target(): PrivateScope, Public, HideBySig, SpecialName
+Class ComponentFactory.Krypton.Navigator.ButtonDisplayConverter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.StringLookupConverter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ComponentFactory.Krypton.Navigator.ButtonDisplayLogicConverter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.StringLookupConverter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ComponentFactory.Krypton.Navigator.CloseButtonActionConverter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.StringLookupConverter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ComponentFactory.Krypton.Navigator.BarItemSizingConverter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.StringLookupConverter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ComponentFactory.Krypton.Navigator.ContextButtonActionConverter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.StringLookupConverter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ComponentFactory.Krypton.Navigator.PopupPageAllowConverter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.StringLookupConverter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ComponentFactory.Krypton.Navigator.PopupPagePositionConverter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.StringLookupConverter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ComponentFactory.Krypton.Navigator.DirectionButtonActionConverter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.StringLookupConverter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ComponentFactory.Krypton.Navigator.NavigatorModeConverter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.StringLookupConverter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ComponentFactory.Krypton.Navigator.MapKryptonPageImageConverter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.StringLookupConverter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ComponentFactory.Krypton.Navigator.MapKryptonPageTextConverter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.StringLookupConverter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ComponentFactory.Krypton.Navigator.DragFeedbackDocking: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Navigator.DragFeedback
+    Void .ctor(ComponentFactory.Krypton.Toolkit.PaletteDragFeedback): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Start(IPaletteDragDrop, IRenderer, PageDragEndData, DragTargetList): PrivateScope, Public, Virtual, HideBySig
+    Feedback(Point, DragTarget): PrivateScope, Public, Virtual, HideBySig
+    Quit(): PrivateScope, Public, Virtual, HideBySig
+Class ComponentFactory.Krypton.Navigator.DragFeedback: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  Interfaces:
+    System.IDisposable
+  Properties:
+    Boolean IsDisposed 'get ' : 
+  Methods:
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    get_IsDisposed(): PrivateScope, Public, HideBySig, SpecialName
+    Start(IPaletteDragDrop, IRenderer, PageDragEndData, DragTargetList): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Feedback(Point, DragTarget): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Quit(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class ComponentFactory.Krypton.Navigator.DragFeedbackSolid: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Navigator.DragFeedback
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Start(IPaletteDragDrop, IRenderer, PageDragEndData, DragTargetList): PrivateScope, Public, Virtual, HideBySig
+    Feedback(Point, DragTarget): PrivateScope, Public, Virtual, HideBySig
+    Quit(): PrivateScope, Public, Virtual, HideBySig
+Class ComponentFactory.Krypton.Navigator.DragTargetProviderCollection: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.TypedCollection`1[ComponentFactory.Krypton.Navigator.IDragTargetProvider]
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ComponentFactory.Krypton.Navigator.DragManager: AutoLayout, AnsiClass, Class, Public
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    ComponentFactory.Krypton.Navigator.IDragPageNotify
+    System.IDisposable
+  Properties:
+    Boolean IsDisposed 'get ' : 
+    ComponentFactory.Krypton.Toolkit.PaletteDragDrop StateCommon 'get ' : 
+    ComponentFactory.Krypton.Toolkit.PaletteMode PaletteMode 'get set' : 
+    ComponentFactory.Krypton.Toolkit.IPalette Palette 'get set' : 
+    ComponentFactory.Krypton.Navigator.DragTargetProviderCollection DragTargetProviders 'get ' : 
+    Boolean IsDragging 'get ' : 
+    Boolean DocumentCursor 'get set' : 
+  Methods:
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    get_IsDisposed(): PrivateScope, Public, HideBySig, SpecialName
+    get_StateCommon(): PrivateScope, Public, HideBySig, SpecialName
+    get_PaletteMode(): PrivateScope, Public, HideBySig, SpecialName
+    set_PaletteMode(PaletteMode): PrivateScope, Public, HideBySig, SpecialName
+    get_Palette(): PrivateScope, Public, HideBySig, SpecialName
+    set_Palette(IPalette): PrivateScope, Public, HideBySig, SpecialName
+    get_DragTargetProviders(): PrivateScope, Public, HideBySig, SpecialName
+    get_IsDragging(): PrivateScope, Public, HideBySig, SpecialName
+    get_DocumentCursor(): PrivateScope, Public, HideBySig, SpecialName
+    set_DocumentCursor(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    DragStart(Point, PageDragEndData): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    DragMove(Point): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    DragEnd(Point): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    DragQuit(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    PageDragStart(Object, KryptonNavigator, PageDragCancelEventArgs): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    PageDragMove(Object, PointEventArgs): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    PageDragEnd(Object, PointEventArgs): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    PageDragQuit(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class ComponentFactory.Krypton.Navigator.DragTargetNavigatorTransfer: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Navigator.DragTarget
+    Void .ctor(System.Drawing.Rectangle, ComponentFactory.Krypton.Navigator.KryptonNavigator, ComponentFactory.Krypton.Navigator.KryptonPageFlags): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    IsMatch(Point, PageDragEndData): PrivateScope, Public, Virtual, HideBySig
+    PerformDrop(Point, PageDragEndData): PrivateScope, Public, Virtual, HideBySig
+Class ComponentFactory.Krypton.Navigator.DropDockingIndicatorsRounded: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.NativeWindow
+    Void .ctor(ComponentFactory.Krypton.Toolkit.IPaletteDragDrop, ComponentFactory.Krypton.Toolkit.IRenderer, Boolean, Boolean, Boolean, Boolean, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+    ComponentFactory.Krypton.Navigator.IDropDockingIndicator
+  Methods:
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    ShowRelative(Rectangle): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Hide(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    ScreenMouseMove(Point): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    MouseReset(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class ComponentFactory.Krypton.Navigator.DropDockingIndicatorsSquare: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(ComponentFactory.Krypton.Toolkit.IPaletteDragDrop, ComponentFactory.Krypton.Toolkit.IRenderer, Boolean, Boolean, Boolean, Boolean, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    ComponentFactory.Krypton.Navigator.IDropDockingIndicator
+  Methods:
+    ShowRelative(Rectangle): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    ScreenMouseMove(Point): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    MouseReset(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class ComponentFactory.Krypton.Navigator.DropSolidWindow: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(ComponentFactory.Krypton.Toolkit.IPaletteDragDrop, ComponentFactory.Krypton.Toolkit.IRenderer): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Drawing.Rectangle SolidRect 'get set' : 
+  Methods:
+    ShowWithoutActivate(): PrivateScope, Public, HideBySig
+    get_SolidRect(): PrivateScope, Public, HideBySig, SpecialName
+    set_SolidRect(Rectangle): PrivateScope, Public, HideBySig, SpecialName
+Class ComponentFactory.Krypton.Navigator.PageDragEndData: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.Object, ComponentFactory.Krypton.Navigator.KryptonPageCollection): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Object, ComponentFactory.Krypton.Navigator.KryptonNavigator, ComponentFactory.Krypton.Navigator.KryptonPageCollection): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Object Source 'get ' : 
+    ComponentFactory.Krypton.Navigator.KryptonNavigator Navigator 'get ' : 
+    ComponentFactory.Krypton.Navigator.KryptonPageCollection Pages 'get ' : 
+  Methods:
+    get_Source(): PrivateScope, Public, HideBySig, SpecialName
+    get_Navigator(): PrivateScope, Public, HideBySig, SpecialName
+    get_Pages(): PrivateScope, Public, HideBySig, SpecialName
+Class ComponentFactory.Krypton.Navigator.DragTargetList: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Collections.Generic.List`1[ComponentFactory.Krypton.Navigator.DragTarget]
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    AddRange(IDragTargetProvider, PageDragEndData): PrivateScope, Public, HideBySig
+Class ComponentFactory.Krypton.Navigator.DragTarget: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+    Void .ctor(System.Drawing.Rectangle, System.Drawing.Rectangle, System.Drawing.Rectangle, ComponentFactory.Krypton.Navigator.DragTargetHint, ComponentFactory.Krypton.Navigator.KryptonPageFlags): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Properties:
+    Boolean IsDisposed 'get ' : 
+    System.Drawing.Rectangle ScreenRect 'get ' : 
+    System.Drawing.Rectangle HotRect 'get ' : 
+    System.Drawing.Rectangle DrawRect 'get ' : 
+    ComponentFactory.Krypton.Navigator.DragTargetHint Hint 'get ' : 
+    ComponentFactory.Krypton.Navigator.KryptonPageFlags AllowFlags 'get ' : 
+  Methods:
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    get_IsDisposed(): PrivateScope, Public, HideBySig, SpecialName
+    get_ScreenRect(): PrivateScope, Public, HideBySig, SpecialName
+    get_HotRect(): PrivateScope, Public, HideBySig, SpecialName
+    get_DrawRect(): PrivateScope, Public, HideBySig, SpecialName
+    get_Hint(): PrivateScope, Public, HideBySig, SpecialName
+    get_AllowFlags(): PrivateScope, Public, HideBySig, SpecialName
+    IsMatch(Point, PageDragEndData): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    PerformDrop(Point, PageDragEndData): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class ComponentFactory.Krypton.Navigator.CloseActionEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Navigator.KryptonPageEventArgs
+    Void .ctor(ComponentFactory.Krypton.Navigator.KryptonPage, Int32, ComponentFactory.Krypton.Navigator.CloseButtonAction): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    ComponentFactory.Krypton.Navigator.CloseButtonAction Action 'get set' : 
+  Methods:
+    get_Action(): PrivateScope, Public, HideBySig, SpecialName
+    set_Action(CloseButtonAction): PrivateScope, Public, HideBySig, SpecialName
+Class ComponentFactory.Krypton.Navigator.ContextActionEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Navigator.KryptonContextMenuEventArgs
+    Void .ctor(ComponentFactory.Krypton.Navigator.KryptonPage, Int32, ComponentFactory.Krypton.Navigator.ContextButtonAction, ComponentFactory.Krypton.Toolkit.KryptonContextMenu): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    ComponentFactory.Krypton.Navigator.ContextButtonAction Action 'get set' : 
+  Methods:
+    get_Action(): PrivateScope, Public, HideBySig, SpecialName
+    set_Action(ContextButtonAction): PrivateScope, Public, HideBySig, SpecialName
+Class ComponentFactory.Krypton.Navigator.PageReorderEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.ComponentModel.CancelEventArgs
+    Void .ctor(ComponentFactory.Krypton.Navigator.KryptonPage, ComponentFactory.Krypton.Navigator.KryptonPage, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    ComponentFactory.Krypton.Navigator.KryptonPage PageMoving 'get ' : 
+    ComponentFactory.Krypton.Navigator.KryptonPage PageTarget 'get ' : 
+    Boolean MovingBefore 'get ' : 
+  Methods:
+    get_PageMoving(): PrivateScope, Public, HideBySig, SpecialName
+    get_PageTarget(): PrivateScope, Public, HideBySig, SpecialName
+    get_MovingBefore(): PrivateScope, Public, HideBySig, SpecialName
+Class ComponentFactory.Krypton.Navigator.PageDropEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.ComponentModel.CancelEventArgs
+    Void .ctor(ComponentFactory.Krypton.Navigator.KryptonPage): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    ComponentFactory.Krypton.Navigator.KryptonPage Page 'get set' : 
+  Methods:
+    get_Page(): PrivateScope, Public, HideBySig, SpecialName
+    set_Page(KryptonPage): PrivateScope, Public, HideBySig, SpecialName
+Class ComponentFactory.Krypton.Navigator.TabMovedEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.EventArgs
+    Void .ctor(ComponentFactory.Krypton.Navigator.KryptonPage, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    ComponentFactory.Krypton.Navigator.KryptonPage Page 'get ' : 
+    Int32 Index 'get ' : 
+  Methods:
+    get_Page(): PrivateScope, Public, HideBySig, SpecialName
+    get_Index(): PrivateScope, Public, HideBySig, SpecialName
+Class ComponentFactory.Krypton.Navigator.PageDragEndEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.EventArgs
+    Void .ctor(Boolean, ComponentFactory.Krypton.Navigator.KryptonPage[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean Dropped 'get ' : 
+    ComponentFactory.Krypton.Navigator.KryptonPageCollection Pages 'get ' : 
+  Methods:
+    get_Dropped(): PrivateScope, Public, HideBySig, SpecialName
+    get_Pages(): PrivateScope, Public, HideBySig, SpecialName
+Class ComponentFactory.Krypton.Navigator.CtrlTabCancelEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.ComponentModel.CancelEventArgs
+    Void .ctor(Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean Forward 'get ' : 
+  Methods:
+    get_Forward(): PrivateScope, Public, HideBySig, SpecialName
+Class ComponentFactory.Krypton.Navigator.PageDragCancelEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.ComponentModel.CancelEventArgs
+    Void .ctor(System.Drawing.Point, System.Drawing.Point, System.Windows.Forms.Control, ComponentFactory.Krypton.Navigator.KryptonPage[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Drawing.Point, System.Drawing.Point, System.Windows.Forms.Control, ComponentFactory.Krypton.Navigator.KryptonPageCollection): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Drawing.Point ScreenPoint 'get ' : 
+    System.Drawing.Point ElementOffset 'get ' : 
+    System.Windows.Forms.Control Control 'get ' : 
+    ComponentFactory.Krypton.Navigator.KryptonPageCollection Pages 'get ' : 
+  Methods:
+    get_ScreenPoint(): PrivateScope, Public, HideBySig, SpecialName
+    get_ElementOffset(): PrivateScope, Public, HideBySig, SpecialName
+    get_Control(): PrivateScope, Public, HideBySig, SpecialName
+    get_Pages(): PrivateScope, Public, HideBySig, SpecialName
+Class ComponentFactory.Krypton.Navigator.PageDragEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.EventArgs
+    Void .ctor(System.Drawing.Point, ComponentFactory.Krypton.Navigator.KryptonPage[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Drawing.Point, ComponentFactory.Krypton.Navigator.KryptonPageCollection): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Drawing.Point ScreenPoint 'get ' : 
+    ComponentFactory.Krypton.Navigator.KryptonPageCollection Pages 'get ' : 
+  Methods:
+    get_ScreenPoint(): PrivateScope, Public, HideBySig, SpecialName
+    get_Pages(): PrivateScope, Public, HideBySig, SpecialName
+Class ComponentFactory.Krypton.Navigator.ShowContextMenuArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Navigator.KryptonPageCancelEventArgs
+    Void .ctor(ComponentFactory.Krypton.Navigator.KryptonPage, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Windows.Forms.ContextMenuStrip ContextMenuStrip 'get set' : 
+    ComponentFactory.Krypton.Toolkit.KryptonContextMenu KryptonContextMenu 'get set' : 
+  Methods:
+    get_ContextMenuStrip(): PrivateScope, Public, HideBySig, SpecialName
+    set_ContextMenuStrip(ContextMenuStrip): PrivateScope, Public, HideBySig, SpecialName
+    get_KryptonContextMenu(): PrivateScope, Public, HideBySig, SpecialName
+    set_KryptonContextMenu(KryptonContextMenu): PrivateScope, Public, HideBySig, SpecialName
+Class ComponentFactory.Krypton.Navigator.KryptonContextMenuEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Navigator.KryptonPageEventArgs
+    Void .ctor(ComponentFactory.Krypton.Navigator.KryptonPage, Int32, ComponentFactory.Krypton.Toolkit.KryptonContextMenu): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    ComponentFactory.Krypton.Toolkit.KryptonContextMenu KryptonContextMenu 'get ' : 
+  Methods:
+    get_KryptonContextMenu(): PrivateScope, Public, HideBySig, SpecialName
+Class ComponentFactory.Krypton.Navigator.PopupPageEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Navigator.KryptonPageCancelEventArgs
+    Void .ctor(ComponentFactory.Krypton.Navigator.KryptonPage, Int32, System.Drawing.Rectangle): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Drawing.Rectangle ScreenRect 'get set' : 
+  Methods:
+    get_ScreenRect(): PrivateScope, Public, HideBySig, SpecialName
+    set_ScreenRect(Rectangle): PrivateScope, Public, HideBySig, SpecialName
+Class ComponentFactory.Krypton.Navigator.DirectionActionEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Navigator.KryptonPageEventArgs
+    Void .ctor(ComponentFactory.Krypton.Navigator.KryptonPage, Int32, ComponentFactory.Krypton.Navigator.DirectionButtonAction): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    ComponentFactory.Krypton.Navigator.DirectionButtonAction Action 'get set' : 
+  Methods:
+    get_Action(): PrivateScope, Public, HideBySig, SpecialName
+    set_Action(DirectionButtonAction): PrivateScope, Public, HideBySig, SpecialName
+Class ComponentFactory.Krypton.Navigator.KryptonPageFlagsEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.EventArgs
+    Void .ctor(ComponentFactory.Krypton.Navigator.KryptonPageFlags): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    ComponentFactory.Krypton.Navigator.KryptonPageFlags Flags 'get ' : 
+  Methods:
+    get_Flags(): PrivateScope, Public, HideBySig, SpecialName
+Class ComponentFactory.Krypton.Navigator.KryptonNavigatorActionList: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.ComponentModel.Design.DesignerActionList
+    Void .ctor(ComponentFactory.Krypton.Navigator.KryptonNavigatorDesigner): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    ComponentFactory.Krypton.Navigator.NavigatorMode NavigatorMode 'get set' : 
+    ComponentFactory.Krypton.Toolkit.PaletteBackStyle PageBackStyle 'get set' : 
+    ComponentFactory.Krypton.Toolkit.VisualOrientation BarOrientation 'get set' : 
+    ComponentFactory.Krypton.Toolkit.ButtonOrientation ItemOrientationBar 'get set' : 
+    ComponentFactory.Krypton.Toolkit.ButtonOrientation ItemOrientationStack 'get set' : 
+    ComponentFactory.Krypton.Toolkit.ButtonOrientation ItemOrientationOutlook 'get set' : 
+    ComponentFactory.Krypton.Toolkit.RelativePositionAlign ItemAlignment 'get set' : 
+    ComponentFactory.Krypton.Navigator.BarItemSizing ItemSizing 'get set' : 
+    ComponentFactory.Krypton.Toolkit.TabBorderStyle TabBorderStyle 'get set' : 
+    ComponentFactory.Krypton.Toolkit.TabStyle TabStyle 'get set' : 
+    ComponentFactory.Krypton.Toolkit.ButtonStyle CheckButtonStyleBar 'get set' : 
+    ComponentFactory.Krypton.Toolkit.ButtonStyle CheckButtonStyleStack 'get set' : 
+    ComponentFactory.Krypton.Toolkit.ButtonStyle CheckButtonStyleOutlook 'get set' : 
+    ComponentFactory.Krypton.Navigator.ButtonDisplayLogic ButtonDisplayLogic 'get set' : 
+    ComponentFactory.Krypton.Navigator.ButtonDisplay CloseButtonDisplay 'get set' : 
+    ComponentFactory.Krypton.Navigator.CloseButtonAction CloseButtonAction 'get set' : 
+    ComponentFactory.Krypton.Toolkit.PaletteBackStyle GroupBackStyle 'get set' : 
+    ComponentFactory.Krypton.Toolkit.PaletteBorderStyle GroupBorderStyle 'get set' : 
+    ComponentFactory.Krypton.Toolkit.HeaderStyle BarHeaderStyle 'get set' : 
+    ComponentFactory.Krypton.Toolkit.VisualOrientation BarHeaderPosition 'get set' : 
+    ComponentFactory.Krypton.Toolkit.HeaderStyle PrimaryHeaderStyle 'get set' : 
+    ComponentFactory.Krypton.Toolkit.VisualOrientation PrimaryHeaderPosition 'get set' : 
+    ComponentFactory.Krypton.Toolkit.HeaderStyle SecondaryHeaderStyle 'get set' : 
+    ComponentFactory.Krypton.Toolkit.VisualOrientation SecondaryHeaderPosition 'get set' : 
+    ComponentFactory.Krypton.Toolkit.InheritBool SecondaryHeaderOutlookVisible 'get set' : 
+    System.Windows.Forms.Orientation OutlookOrientation 'get set' : 
+    ComponentFactory.Krypton.Toolkit.PaletteBackStyle PanelBackStyle 'get set' : 
+    System.Windows.Forms.Orientation StackOrientation 'get set' : 
+    ComponentFactory.Krypton.Toolkit.RelativePositionAlign StackAlignment 'get set' : 
+  Methods:
+    get_NavigatorMode(): PrivateScope, Public, HideBySig, SpecialName
+    set_NavigatorMode(NavigatorMode): PrivateScope, Public, HideBySig, SpecialName
+    get_PageBackStyle(): PrivateScope, Public, HideBySig, SpecialName
+    set_PageBackStyle(PaletteBackStyle): PrivateScope, Public, HideBySig, SpecialName
+    get_BarOrientation(): PrivateScope, Public, HideBySig, SpecialName
+    set_BarOrientation(VisualOrientation): PrivateScope, Public, HideBySig, SpecialName
+    get_ItemOrientationBar(): PrivateScope, Public, HideBySig, SpecialName
+    set_ItemOrientationBar(ButtonOrientation): PrivateScope, Public, HideBySig, SpecialName
+    get_ItemOrientationStack(): PrivateScope, Public, HideBySig, SpecialName
+    set_ItemOrientationStack(ButtonOrientation): PrivateScope, Public, HideBySig, SpecialName
+    get_ItemOrientationOutlook(): PrivateScope, Public, HideBySig, SpecialName
+    set_ItemOrientationOutlook(ButtonOrientation): PrivateScope, Public, HideBySig, SpecialName
+    get_ItemAlignment(): PrivateScope, Public, HideBySig, SpecialName
+    set_ItemAlignment(RelativePositionAlign): PrivateScope, Public, HideBySig, SpecialName
+    get_ItemSizing(): PrivateScope, Public, HideBySig, SpecialName
+    set_ItemSizing(BarItemSizing): PrivateScope, Public, HideBySig, SpecialName
+    get_TabBorderStyle(): PrivateScope, Public, HideBySig, SpecialName
+    set_TabBorderStyle(TabBorderStyle): PrivateScope, Public, HideBySig, SpecialName
+    get_TabStyle(): PrivateScope, Public, HideBySig, SpecialName
+    set_TabStyle(TabStyle): PrivateScope, Public, HideBySig, SpecialName
+    get_CheckButtonStyleBar(): PrivateScope, Public, HideBySig, SpecialName
+    set_CheckButtonStyleBar(ButtonStyle): PrivateScope, Public, HideBySig, SpecialName
+    get_CheckButtonStyleStack(): PrivateScope, Public, HideBySig, SpecialName
+    set_CheckButtonStyleStack(ButtonStyle): PrivateScope, Public, HideBySig, SpecialName
+    get_CheckButtonStyleOutlook(): PrivateScope, Public, HideBySig, SpecialName
+    set_CheckButtonStyleOutlook(ButtonStyle): PrivateScope, Public, HideBySig, SpecialName
+    get_ButtonDisplayLogic(): PrivateScope, Public, HideBySig, SpecialName
+    set_ButtonDisplayLogic(ButtonDisplayLogic): PrivateScope, Public, HideBySig, SpecialName
+    get_CloseButtonDisplay(): PrivateScope, Public, HideBySig, SpecialName
+    set_CloseButtonDisplay(ButtonDisplay): PrivateScope, Public, HideBySig, SpecialName
+    get_CloseButtonAction(): PrivateScope, Public, HideBySig, SpecialName
+    set_CloseButtonAction(CloseButtonAction): PrivateScope, Public, HideBySig, SpecialName
+    get_GroupBackStyle(): PrivateScope, Public, HideBySig, SpecialName
+    set_GroupBackStyle(PaletteBackStyle): PrivateScope, Public, HideBySig, SpecialName
+    get_GroupBorderStyle(): PrivateScope, Public, HideBySig, SpecialName
+    set_GroupBorderStyle(PaletteBorderStyle): PrivateScope, Public, HideBySig, SpecialName
+    get_BarHeaderStyle(): PrivateScope, Public, HideBySig, SpecialName
+    set_BarHeaderStyle(HeaderStyle): PrivateScope, Public, HideBySig, SpecialName
+    get_BarHeaderPosition(): PrivateScope, Public, HideBySig, SpecialName
+    set_BarHeaderPosition(VisualOrientation): PrivateScope, Public, HideBySig, SpecialName
+    get_PrimaryHeaderStyle(): PrivateScope, Public, HideBySig, SpecialName
+    set_PrimaryHeaderStyle(HeaderStyle): PrivateScope, Public, HideBySig, SpecialName
+    get_PrimaryHeaderPosition(): PrivateScope, Public, HideBySig, SpecialName
+    set_PrimaryHeaderPosition(VisualOrientation): PrivateScope, Public, HideBySig, SpecialName
+    get_SecondaryHeaderStyle(): PrivateScope, Public, HideBySig, SpecialName
+    set_SecondaryHeaderStyle(HeaderStyle): PrivateScope, Public, HideBySig, SpecialName
+    get_SecondaryHeaderPosition(): PrivateScope, Public, HideBySig, SpecialName
+    set_SecondaryHeaderPosition(VisualOrientation): PrivateScope, Public, HideBySig, SpecialName
+    get_SecondaryHeaderOutlookVisible(): PrivateScope, Public, HideBySig, SpecialName
+    set_SecondaryHeaderOutlookVisible(InheritBool): PrivateScope, Public, HideBySig, SpecialName
+    get_OutlookOrientation(): PrivateScope, Public, HideBySig, SpecialName
+    set_OutlookOrientation(Orientation): PrivateScope, Public, HideBySig, SpecialName
+    get_PanelBackStyle(): PrivateScope, Public, HideBySig, SpecialName
+    set_PanelBackStyle(PaletteBackStyle): PrivateScope, Public, HideBySig, SpecialName
+    get_StackOrientation(): PrivateScope, Public, HideBySig, SpecialName
+    set_StackOrientation(Orientation): PrivateScope, Public, HideBySig, SpecialName
+    get_StackAlignment(): PrivateScope, Public, HideBySig, SpecialName
+    set_StackAlignment(RelativePositionAlign): PrivateScope, Public, HideBySig, SpecialName
+    GetSortedActionItems(): PrivateScope, Public, Virtual, HideBySig
+    AddPage(): PrivateScope, Public, HideBySig
+    RemovePage(): PrivateScope, Public, HideBySig
+    ClearPages(): PrivateScope, Public, HideBySig
+Class ComponentFactory.Krypton.Navigator.KryptonNavigatorDesigner: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Design.ParentControlDesigner
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.ComponentModel.Design.DesignerActionListCollection ActionLists 'get ' : 
+    System.ComponentModel.Design.DesignerVerbCollection Verbs 'get ' : 
+    System.Collections.ICollection AssociatedComponents 'get ' : 
+  Methods:
+    Initialize(IComponent): PrivateScope, Public, Virtual, HideBySig
+    InitializeNewComponent(IDictionary): PrivateScope, Public, Virtual, HideBySig
+    get_ActionLists(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Verbs(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_AssociatedComponents(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    CanParent(Control): PrivateScope, Public, Virtual, HideBySig
+    InternalControlDesigner(Int32): PrivateScope, Public, Virtual, HideBySig
+    NumberOfInternalControlDesigners(): PrivateScope, Public, Virtual, HideBySig
+    AddPage(): PrivateScope, Public, HideBySig
+    RemovePage(): PrivateScope, Public, HideBySig
+    ClearPages(): PrivateScope, Public, HideBySig
+Class ComponentFactory.Krypton.Navigator.KryptonPage: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.VisualPanel
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Drawing.Image, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    ComponentFactory.Krypton.Toolkit.PaletteMode PaletteMode 'get set' : 
+    ComponentFactory.Krypton.Toolkit.IPalette Palette 'get set' : 
+    ComponentFactory.Krypton.Navigator.PageButtonSpecCollection ButtonSpecs 'get ' : 
+    ComponentFactory.Krypton.Navigator.PaletteNavigatorRedirect StateCommon 'get ' : 
+    ComponentFactory.Krypton.Navigator.PaletteNavigator StateDisabled 'get ' : 
+    ComponentFactory.Krypton.Navigator.PaletteNavigator StateNormal 'get ' : 
+    ComponentFactory.Krypton.Navigator.PaletteNavigatorOtherEx StateTracking 'get ' : 
+    ComponentFactory.Krypton.Navigator.PaletteNavigatorOtherEx StatePressed 'get ' : 
+    ComponentFactory.Krypton.Navigator.PaletteNavigatorOther StateSelected 'get ' : 
+    ComponentFactory.Krypton.Navigator.PaletteNavigatorOtherRedirect OverrideFocus 'get ' : 
+    System.String Text 'get set' : 
+    System.String TextTitle 'get set' : 
+    System.String TextDescription 'get set' : 
+    System.Drawing.Image ImageSmall 'get set' : 
+    System.Drawing.Image ImageMedium 'get set' : 
+    System.Drawing.Image ImageLarge 'get set' : 
+    System.Drawing.Image ToolTipImage 'get set' : 
+    System.Drawing.Color ToolTipImageTransparentColor 'get set' : 
+    System.String ToolTipTitle 'get set' : 
+    System.String ToolTipBody 'get set' : 
+    ComponentFactory.Krypton.Toolkit.LabelStyle ToolTipStyle 'get set' : 
+    ComponentFactory.Krypton.Toolkit.KryptonContextMenu KryptonContextMenu 'get set' : 
+    System.String UniqueName 'get set' : 
+    System.Drawing.Size AutoHiddenSlideSize 'get set' : 
+    System.Drawing.Color BackColor 'get set' : 
+    System.Windows.Forms.AnchorStyles Anchor 'get set' : 
+    Boolean AutoSize 'get set' : 
+    System.Drawing.Size Size 'get set' : 
+    System.Windows.Forms.AutoSizeMode AutoSizeMode 'get set' : 
+    System.Windows.Forms.DockStyle Dock 'get set' : 
+    System.Drawing.Point Location 'get set' : 
+    Int32 TabIndex 'get set' : 
+    Boolean TabStop 'get set' : 
+    System.Windows.Forms.Control KryptonParentContainer 'get ' : 
+    Int32 Flags 'get set' : 
+    Boolean LastVisibleSet 'get set' : 
+  Events:
+    System.EventHandler Load: 
+    System.ComponentModel.PropertyChangedEventHandler AppearancePropertyChanged: 
+    ComponentFactory.Krypton.Navigator.KryptonPageFlagsEventHandler FlagsChanged: 
+    System.EventHandler AutoHiddenSlideSizeChanged: 
+    System.EventHandler DockChanged: 
+    System.EventHandler LocationChanged: 
+    System.EventHandler TabIndexChanged: 
+    System.EventHandler TabStopChanged: 
+  Methods:
+    add_Load(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_Load(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_AppearancePropertyChanged(PropertyChangedEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_AppearancePropertyChanged(PropertyChangedEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_FlagsChanged(KryptonPageFlagsEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_FlagsChanged(KryptonPageFlagsEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_AutoHiddenSlideSizeChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_AutoHiddenSlideSizeChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_DockChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_DockChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_LocationChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_LocationChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_TabIndexChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_TabIndexChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_TabStopChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_TabStopChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    get_PaletteMode(): PrivateScope, Public, HideBySig, SpecialName
+    set_PaletteMode(PaletteMode): PrivateScope, Public, HideBySig, SpecialName
+    get_Palette(): PrivateScope, Public, HideBySig, SpecialName
+    set_Palette(IPalette): PrivateScope, Public, HideBySig, SpecialName
+    get_ButtonSpecs(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_StateCommon(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_StateDisabled(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_StateNormal(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_StateTracking(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_StatePressed(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_StateSelected(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_OverrideFocus(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Text(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Text(String): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_TextTitle(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_TextTitle(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    ResetTextTitle(): PrivateScope, Public, HideBySig
+    get_TextDescription(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_TextDescription(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    ResetTextDescription(): PrivateScope, Public, HideBySig
+    get_ImageSmall(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_ImageSmall(Image): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    ResetImageSmall(): PrivateScope, Public, HideBySig
+    get_ImageMedium(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_ImageMedium(Image): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    ResetImageMedium(): PrivateScope, Public, HideBySig
+    get_ImageLarge(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_ImageLarge(Image): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    ResetImageLarge(): PrivateScope, Public, HideBySig
+    get_ToolTipImage(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_ToolTipImage(Image): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    ResetToolTipImage(): PrivateScope, Public, HideBySig
+    get_ToolTipImageTransparentColor(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_ToolTipImageTransparentColor(Color): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    ResetToolTipImageTransparentColor(): PrivateScope, Public, HideBySig
+    get_ToolTipTitle(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_ToolTipTitle(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    ResetToolTipTitle(): PrivateScope, Public, HideBySig
+    get_ToolTipBody(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_ToolTipBody(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    ResetToolTipBody(): PrivateScope, Public, HideBySig
+    get_ToolTipStyle(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_ToolTipStyle(LabelStyle): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    ResetToolTipStyle(): PrivateScope, Public, HideBySig
+    get_KryptonContextMenu(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_KryptonContextMenu(KryptonContextMenu): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_UniqueName(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_UniqueName(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    ResetUniqueName(): PrivateScope, Public, HideBySig
+    SetFixedState(PaletteState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_AutoHiddenSlideSize(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_AutoHiddenSlideSize(Size): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    SetInherit(Control, PaletteNavigatorRedirect, PaletteNavigator, PaletteNavigator, PaletteNavigatorOtherEx, PaletteNavigatorOtherEx, PaletteNavigatorOther, PaletteNavigatorOtherRedirect): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ResetInherit(Control): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_BackColor(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_BackColor(Color): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Anchor(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Anchor(AnchorStyles): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_AutoSize(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_AutoSize(Boolean): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Size(): PrivateScope, Public, HideBySig, SpecialName
+    set_Size(Size): PrivateScope, Public, HideBySig, SpecialName
+    get_AutoSizeMode(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_AutoSizeMode(AutoSizeMode): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Dock(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Dock(DockStyle): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Location(): PrivateScope, Public, HideBySig, SpecialName
+    set_Location(Point): PrivateScope, Public, HideBySig, SpecialName
+    get_TabIndex(): PrivateScope, Public, HideBySig, SpecialName
+    set_TabIndex(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_TabStop(): PrivateScope, Public, HideBySig, SpecialName
+    set_TabStop(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    GetTextMapping(MapKryptonPageText): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetImageMapping(MapKryptonPageImage): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_KryptonParentContainer(): PrivateScope, Public, HideBySig, SpecialName
+    get_Flags(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Flags(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    SetFlags(KryptonPageFlags): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ClearFlags(KryptonPageFlags): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    AreFlagsSet(KryptonPageFlags): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_LastVisibleSet(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_LastVisibleSet(Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+Class ComponentFactory.Krypton.Navigator.KryptonPageCancelEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Navigator.KryptonPageEventArgs
+    Void .ctor(ComponentFactory.Krypton.Navigator.KryptonPage, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean Cancel 'get set' : 
+  Methods:
+    get_Cancel(): PrivateScope, Public, HideBySig, SpecialName
+    set_Cancel(Boolean): PrivateScope, Public, HideBySig, SpecialName
+Class ComponentFactory.Krypton.Navigator.UniqueNameToPage: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Collections.Generic.Dictionary`2[System.String,ComponentFactory.Krypton.Navigator.KryptonPage]
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ComponentFactory.Krypton.Navigator.KryptonPageEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.TypedCollectionEventArgs`1[ComponentFactory.Krypton.Navigator.KryptonPage]
+    Void .ctor(ComponentFactory.Krypton.Navigator.KryptonPage, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ComponentFactory.Krypton.Navigator.KryptonPageCollection: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.TypedCollection`1[ComponentFactory.Krypton.Navigator.KryptonPage]
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    ComponentFactory.Krypton.Navigator.KryptonPage Item [System.String] 'get ' : 
+    Int32 VisibleCount 'get ' : 
+  Methods:
+    get_Item(String): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_VisibleCount(): PrivateScope, Public, HideBySig, SpecialName
+Class ComponentFactory.Krypton.Navigator.PaletteMetrics: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.Storage
+    Void .ctor(ComponentFactory.Krypton.Navigator.KryptonNavigator, ComponentFactory.Krypton.Toolkit.NeedPaintHandler): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean IsDefault 'get ' : 
+    Int32 PageButtonSpecInset 'get set' : 
+    System.Windows.Forms.Padding PageButtonSpecPadding 'get set' : 
+  Methods:
+    get_IsDefault(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_PageButtonSpecInset(): PrivateScope, Public, HideBySig, SpecialName
+    set_PageButtonSpecInset(Int32): PrivateScope, Public, HideBySig, SpecialName
+    ResetPageButtonSpecInset(): PrivateScope, Public, HideBySig
+    get_PageButtonSpecPadding(): PrivateScope, Public, HideBySig, SpecialName
+    set_PageButtonSpecPadding(Padding): PrivateScope, Public, HideBySig, SpecialName
+    ResetPageButtonSpecPadding(): PrivateScope, Public, HideBySig
+Class ComponentFactory.Krypton.Navigator.NavigatorToolTips: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.Storage
+    Void .ctor(ComponentFactory.Krypton.Navigator.KryptonNavigator, ComponentFactory.Krypton.Toolkit.NeedPaintHandler): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean IsDefault 'get ' : 
+    Boolean AllowPageToolTips 'get set' : 
+    Boolean AllowButtonSpecToolTips 'get set' : 
+    ComponentFactory.Krypton.Navigator.MapKryptonPageImage MapImage 'get set' : 
+    ComponentFactory.Krypton.Navigator.MapKryptonPageText MapText 'get set' : 
+    ComponentFactory.Krypton.Navigator.MapKryptonPageText MapExtraText 'get set' : 
+  Methods:
+    get_IsDefault(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_AllowPageToolTips(): PrivateScope, Public, HideBySig, SpecialName
+    set_AllowPageToolTips(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_AllowButtonSpecToolTips(): PrivateScope, Public, HideBySig, SpecialName
+    set_AllowButtonSpecToolTips(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_MapImage(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_MapImage(MapKryptonPageImage): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    ResetMapImage(): PrivateScope, Public, HideBySig
+    get_MapText(): PrivateScope, Public, HideBySig, SpecialName
+    set_MapText(MapKryptonPageText): PrivateScope, Public, HideBySig, SpecialName
+    ResetMapText(): PrivateScope, Public, HideBySig
+    get_MapExtraText(): PrivateScope, Public, HideBySig, SpecialName
+    set_MapExtraText(MapKryptonPageText): PrivateScope, Public, HideBySig, SpecialName
+    ResetMapExtraText(): PrivateScope, Public, HideBySig
+Class ComponentFactory.Krypton.Navigator.NavigatorPopupPages: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.Storage
+    Void .ctor(ComponentFactory.Krypton.Navigator.KryptonNavigator, ComponentFactory.Krypton.Toolkit.NeedPaintHandler): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean IsDefault 'get ' : 
+    ComponentFactory.Krypton.Navigator.PopupPageAllow AllowPopupPages 'get set' : 
+    Int32 Border 'get set' : 
+    ComponentFactory.Krypton.Navigator.PopupPageElement Element 'get set' : 
+    Int32 Gap  'get set' : 
+    ComponentFactory.Krypton.Navigator.PopupPagePosition Position 'get set' : 
+  Methods:
+    get_IsDefault(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_AllowPopupPages(): PrivateScope, Public, HideBySig, SpecialName
+    set_AllowPopupPages(PopupPageAllow): PrivateScope, Public, HideBySig, SpecialName
+    get_Border(): PrivateScope, Public, HideBySig, SpecialName
+    set_Border(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Element(): PrivateScope, Public, HideBySig, SpecialName
+    set_Element(PopupPageElement): PrivateScope, Public, HideBySig, SpecialName
+    get_Gap(): PrivateScope, Public, HideBySig, SpecialName
+    set_Gap(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Position(): PrivateScope, Public, HideBySig, SpecialName
+    set_Position(PopupPagePosition): PrivateScope, Public, HideBySig, SpecialName
+Class ComponentFactory.Krypton.Navigator.NavigatorOutlookMini: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.Storage
+    Void .ctor(ComponentFactory.Krypton.Navigator.KryptonNavigator, ComponentFactory.Krypton.Toolkit.NeedPaintHandler): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean IsDefault 'get ' : 
+    ComponentFactory.Krypton.Toolkit.ButtonStyle MiniButtonStyle 'get set' : 
+    ComponentFactory.Krypton.Navigator.MapKryptonPageImage MiniMapImage 'get set' : 
+    ComponentFactory.Krypton.Navigator.MapKryptonPageText MiniMapText 'get set' : 
+    ComponentFactory.Krypton.Navigator.MapKryptonPageText MiniMapExtraText 'get set' : 
+    ComponentFactory.Krypton.Navigator.MapKryptonPageImage StackMapImage 'get set' : 
+    ComponentFactory.Krypton.Navigator.MapKryptonPageText StackMapText 'get set' : 
+    ComponentFactory.Krypton.Navigator.MapKryptonPageText StackMapExtraText 'get set' : 
+  Methods:
+    get_IsDefault(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_MiniButtonStyle(): PrivateScope, Public, HideBySig, SpecialName
+    set_MiniButtonStyle(ButtonStyle): PrivateScope, Public, HideBySig, SpecialName
+    get_MiniMapImage(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_MiniMapImage(MapKryptonPageImage): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    ResetMiniMapImage(): PrivateScope, Public, HideBySig
+    get_MiniMapText(): PrivateScope, Public, HideBySig, SpecialName
+    set_MiniMapText(MapKryptonPageText): PrivateScope, Public, HideBySig, SpecialName
+    ResetMiniMapText(): PrivateScope, Public, HideBySig
+    get_MiniMapExtraText(): PrivateScope, Public, HideBySig, SpecialName
+    set_MiniMapExtraText(MapKryptonPageText): PrivateScope, Public, HideBySig, SpecialName
+    ResetMiniMapExtraText(): PrivateScope, Public, HideBySig
+    get_StackMapImage(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_StackMapImage(MapKryptonPageImage): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    ResetStackMapImage(): PrivateScope, Public, HideBySig
+    get_StackMapText(): PrivateScope, Public, HideBySig, SpecialName
+    set_StackMapText(MapKryptonPageText): PrivateScope, Public, HideBySig, SpecialName
+    ResetStackMapText(): PrivateScope, Public, HideBySig
+    get_StackMapExtraText(): PrivateScope, Public, HideBySig, SpecialName
+    set_StackMapExtraText(MapKryptonPageText): PrivateScope, Public, HideBySig, SpecialName
+    ResetStackMapExtraText(): PrivateScope, Public, HideBySig
+Class ComponentFactory.Krypton.Navigator.NavigatorOutlookFull: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.Storage
+    Void .ctor(ComponentFactory.Krypton.Navigator.KryptonNavigator, ComponentFactory.Krypton.Toolkit.NeedPaintHandler): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean IsDefault 'get ' : 
+    ComponentFactory.Krypton.Navigator.MapKryptonPageImage OverflowMapImage 'get set' : 
+    ComponentFactory.Krypton.Navigator.MapKryptonPageText OverflowMapText 'get set' : 
+    ComponentFactory.Krypton.Navigator.MapKryptonPageText OverflowMapExtraText 'get set' : 
+    ComponentFactory.Krypton.Navigator.MapKryptonPageImage StackMapImage 'get set' : 
+    ComponentFactory.Krypton.Navigator.MapKryptonPageText StackMapText 'get set' : 
+    ComponentFactory.Krypton.Navigator.MapKryptonPageText StackMapExtraText 'get set' : 
+  Methods:
+    get_IsDefault(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_OverflowMapImage(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_OverflowMapImage(MapKryptonPageImage): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    ResetOverflowMapImage(): PrivateScope, Public, HideBySig
+    get_OverflowMapText(): PrivateScope, Public, HideBySig, SpecialName
+    set_OverflowMapText(MapKryptonPageText): PrivateScope, Public, HideBySig, SpecialName
+    ResetOverflowMapText(): PrivateScope, Public, HideBySig
+    get_OverflowMapExtraText(): PrivateScope, Public, HideBySig, SpecialName
+    set_OverflowMapExtraText(MapKryptonPageText): PrivateScope, Public, HideBySig, SpecialName
+    ResetOverflowMapExtraText(): PrivateScope, Public, HideBySig
+    get_StackMapImage(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_StackMapImage(MapKryptonPageImage): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    ResetStackMapImage(): PrivateScope, Public, HideBySig
+    get_StackMapText(): PrivateScope, Public, HideBySig, SpecialName
+    set_StackMapText(MapKryptonPageText): PrivateScope, Public, HideBySig, SpecialName
+    ResetStackMapText(): PrivateScope, Public, HideBySig
+    get_StackMapExtraText(): PrivateScope, Public, HideBySig, SpecialName
+    set_StackMapExtraText(MapKryptonPageText): PrivateScope, Public, HideBySig, SpecialName
+    ResetStackMapExtraText(): PrivateScope, Public, HideBySig
+Class ComponentFactory.Krypton.Navigator.PaletteNavContentText: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.PaletteContentText
+    Void .ctor(ComponentFactory.Krypton.Toolkit.NeedPaintHandler): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Drawing.Font Font 'get set' : 
+    ComponentFactory.Krypton.Toolkit.PaletteTextHint Hint 'get set' : 
+    System.Drawing.Color Color1 'get set' : 
+    System.Drawing.Color Color2 'get set' : 
+    ComponentFactory.Krypton.Toolkit.PaletteColorStyle ColorStyle 'get set' : 
+    ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign ColorAlign 'get set' : 
+    Single ColorAngle 'get set' : 
+    System.Drawing.Image Image 'get set' : 
+    ComponentFactory.Krypton.Toolkit.PaletteImageStyle ImageStyle 'get set' : 
+    ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign ImageAlign 'get set' : 
+  Methods:
+    get_Font(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Font(Font): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Hint(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Hint(PaletteTextHint): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Color1(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Color1(Color): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Color2(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Color2(Color): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_ColorStyle(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_ColorStyle(PaletteColorStyle): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_ColorAlign(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_ColorAlign(PaletteRectangleAlign): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_ColorAngle(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_ColorAngle(Single): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Image(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Image(Image): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_ImageStyle(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_ImageStyle(PaletteImageStyle): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_ImageAlign(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_ImageAlign(PaletteRectangleAlign): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Class ComponentFactory.Krypton.Navigator.PaletteNavContent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.Storage
+    Void .ctor(ComponentFactory.Krypton.Toolkit.IPaletteContent, ComponentFactory.Krypton.Toolkit.NeedPaintHandler): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    ComponentFactory.Krypton.Toolkit.IPaletteContent
+  Properties:
+    Boolean IsDefault 'get ' : 
+    ComponentFactory.Krypton.Toolkit.InheritBool Draw 'get set' : 
+    ComponentFactory.Krypton.Toolkit.InheritBool DrawFocus 'get set' : 
+    ComponentFactory.Krypton.Toolkit.PaletteContentImage Image 'get ' : 
+    ComponentFactory.Krypton.Navigator.PaletteNavContentText ShortText 'get ' : 
+    ComponentFactory.Krypton.Navigator.PaletteNavContentText LongText 'get ' : 
+    System.Windows.Forms.Padding Padding 'get set' : 
+    Int32 AdjacentGap 'get set' : 
+  Methods:
+    get_IsDefault(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    SetInherit(IPaletteContent): PrivateScope, Public, HideBySig
+    PopulateFromBase(PaletteState): PrivateScope, Public, HideBySig
+    get_Draw(): PrivateScope, Public, HideBySig, SpecialName
+    set_Draw(InheritBool): PrivateScope, Public, HideBySig, SpecialName
+    GetContentDraw(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    get_DrawFocus(): PrivateScope, Public, HideBySig, SpecialName
+    set_DrawFocus(InheritBool): PrivateScope, Public, HideBySig, SpecialName
+    GetContentDrawFocus(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    get_Image(): PrivateScope, Public, HideBySig, SpecialName
+    GetContentImageH(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetContentImageV(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetContentImageEffect(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetContentImageColorMap(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetContentImageColorTo(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    get_ShortText(): PrivateScope, Public, HideBySig, SpecialName
+    GetContentShortTextFont(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetContentShortTextNewFont(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetContentShortTextHint(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetContentShortTextPrefix(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetContentShortTextTrim(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetContentShortTextH(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetContentShortTextV(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetContentShortTextMultiLineH(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetContentShortTextMultiLine(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetContentShortTextColor1(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetContentShortTextColor2(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetContentShortTextColorStyle(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetContentShortTextColorAlign(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetContentShortTextColorAngle(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetContentShortTextImage(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetContentShortTextImageStyle(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetContentShortTextImageAlign(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    get_LongText(): PrivateScope, Public, HideBySig, SpecialName
+    GetContentLongTextFont(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetContentLongTextNewFont(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetContentLongTextHint(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetContentLongTextPrefix(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetContentLongTextTrim(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetContentLongTextH(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetContentLongTextV(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetContentLongTextMultiLineH(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetContentLongTextMultiLine(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetContentLongTextColor1(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetContentLongTextColor2(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetContentLongTextColorStyle(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetContentLongTextColorAlign(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetContentLongTextColorAngle(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetContentLongTextImage(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetContentLongTextImageStyle(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetContentLongTextImageAlign(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    get_Padding(): PrivateScope, Public, HideBySig, SpecialName
+    set_Padding(Padding): PrivateScope, Public, HideBySig, SpecialName
+    ResetPadding(): PrivateScope, Public, HideBySig
+    GetContentPadding(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    get_AdjacentGap(): PrivateScope, Public, HideBySig, SpecialName
+    set_AdjacentGap(Int32): PrivateScope, Public, HideBySig, SpecialName
+    ResetAdjacentGap(): PrivateScope, Public, HideBySig
+    GetContentAdjacentGap(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetContentStyle(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class ComponentFactory.Krypton.Navigator.PaletteRedirectRibbonTabContent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.PaletteRedirect
+    Void .ctor(ComponentFactory.Krypton.Toolkit.IPalette): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(ComponentFactory.Krypton.Toolkit.IPalette, ComponentFactory.Krypton.Toolkit.IPaletteRibbonBack, ComponentFactory.Krypton.Toolkit.IPaletteRibbonBack, ComponentFactory.Krypton.Toolkit.IPaletteRibbonBack, ComponentFactory.Krypton.Toolkit.IPaletteRibbonBack, ComponentFactory.Krypton.Toolkit.IPaletteRibbonBack, ComponentFactory.Krypton.Toolkit.IPaletteRibbonBack, ComponentFactory.Krypton.Toolkit.IPaletteRibbonText, ComponentFactory.Krypton.Toolkit.IPaletteRibbonText, ComponentFactory.Krypton.Toolkit.IPaletteRibbonText, ComponentFactory.Krypton.Toolkit.IPaletteRibbonText, ComponentFactory.Krypton.Toolkit.IPaletteRibbonText, ComponentFactory.Krypton.Toolkit.IPaletteRibbonText, ComponentFactory.Krypton.Toolkit.IPaletteContent, ComponentFactory.Krypton.Toolkit.IPaletteContent, ComponentFactory.Krypton.Toolkit.IPaletteContent, ComponentFactory.Krypton.Toolkit.IPaletteContent, ComponentFactory.Krypton.Toolkit.IPaletteContent, ComponentFactory.Krypton.Toolkit.IPaletteContent): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    SetRedirectStates(PaletteRibbonTabContent, PaletteRibbonTabContent, PaletteRibbonTabContent, PaletteRibbonTabContent, PaletteRibbonTabContent, PaletteRibbonTabContentRedirect): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ResetRedirectStates(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetRibbonBackColorStyle(PaletteRibbonBackStyle, PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetRibbonBackColor1(PaletteRibbonBackStyle, PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetRibbonBackColor2(PaletteRibbonBackStyle, PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetRibbonBackColor3(PaletteRibbonBackStyle, PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetRibbonBackColor4(PaletteRibbonBackStyle, PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetRibbonBackColor5(PaletteRibbonBackStyle, PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetRibbonTextColor(PaletteRibbonTextStyle, PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetContentDraw(PaletteContentStyle, PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetContentDrawFocus(PaletteContentStyle, PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetContentImageH(PaletteContentStyle, PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetContentImageV(PaletteContentStyle, PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetContentImageEffect(PaletteContentStyle, PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetContentShortTextFont(PaletteContentStyle, PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetContentShortTextHint(PaletteContentStyle, PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetContentShortTextPrefix(PaletteContentStyle, PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetContentShortTextMultiLine(PaletteContentStyle, PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetContentShortTextTrim(PaletteContentStyle, PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetContentShortTextH(PaletteContentStyle, PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetContentShortTextV(PaletteContentStyle, PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetContentShortTextMultiLineH(PaletteContentStyle, PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetContentShortTextColor1(PaletteContentStyle, PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetContentShortTextColor2(PaletteContentStyle, PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetContentShortTextColorStyle(PaletteContentStyle, PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetContentShortTextColorAlign(PaletteContentStyle, PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetContentShortTextColorAngle(PaletteContentStyle, PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetContentShortTextImage(PaletteContentStyle, PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetContentShortTextImageStyle(PaletteContentStyle, PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetContentShortTextImageAlign(PaletteContentStyle, PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetContentLongTextFont(PaletteContentStyle, PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetContentLongTextHint(PaletteContentStyle, PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetContentLongTextMultiLine(PaletteContentStyle, PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetContentLongTextTrim(PaletteContentStyle, PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetContentLongTextPrefix(PaletteContentStyle, PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetContentLongTextH(PaletteContentStyle, PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetContentLongTextV(PaletteContentStyle, PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetContentLongTextMultiLineH(PaletteContentStyle, PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetContentLongTextColor1(PaletteContentStyle, PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetContentLongTextColor2(PaletteContentStyle, PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetContentLongTextColorStyle(PaletteContentStyle, PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetContentLongTextColorAlign(PaletteContentStyle, PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetContentLongTextImage(PaletteContentStyle, PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetContentLongTextImageStyle(PaletteContentStyle, PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetContentLongTextImageAlign(PaletteContentStyle, PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetContentPadding(PaletteContentStyle, PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetContentAdjacentGap(PaletteContentStyle, PaletteState): PrivateScope, Public, Virtual, HideBySig
+Class ComponentFactory.Krypton.Navigator.PaletteRibbonTabContentInheritOverride: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.PaletteRibbonDoubleInherit
+    Void .ctor(ComponentFactory.Krypton.Toolkit.IPaletteRibbonBack, ComponentFactory.Krypton.Toolkit.IPaletteRibbonText, ComponentFactory.Krypton.Toolkit.IPaletteContent, ComponentFactory.Krypton.Toolkit.IPaletteRibbonBack, ComponentFactory.Krypton.Toolkit.IPaletteRibbonText, ComponentFactory.Krypton.Toolkit.IPaletteContent, ComponentFactory.Krypton.Toolkit.PaletteState): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    ComponentFactory.Krypton.Toolkit.IPaletteContent
+  Properties:
+    Boolean Apply 'get set' : 
+    Boolean Override 'get set' : 
+    ComponentFactory.Krypton.Toolkit.PaletteState OverrideState 'get set' : 
+  Methods:
+    get_Apply(): PrivateScope, Public, HideBySig, SpecialName
+    set_Apply(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_Override(): PrivateScope, Public, HideBySig, SpecialName
+    set_Override(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_OverrideState(): PrivateScope, Public, HideBySig, SpecialName
+    set_OverrideState(PaletteState): PrivateScope, Public, HideBySig, SpecialName
+    GetRibbonBackColorStyle(PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetRibbonBackColor1(PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetRibbonBackColor2(PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetRibbonBackColor3(PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetRibbonBackColor4(PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetRibbonBackColor5(PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetRibbonTextColor(PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetContentDraw(PaletteState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetContentDrawFocus(PaletteState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetContentImageH(PaletteState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetContentImageV(PaletteState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetContentImageEffect(PaletteState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetContentImageColorMap(PaletteState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetContentImageColorTo(PaletteState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetContentShortTextFont(PaletteState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetContentShortTextNewFont(PaletteState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetContentShortTextHint(PaletteState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetContentShortTextPrefix(PaletteState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetContentShortTextMultiLine(PaletteState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetContentShortTextTrim(PaletteState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetContentShortTextH(PaletteState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetContentShortTextV(PaletteState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetContentShortTextMultiLineH(PaletteState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetContentShortTextColor1(PaletteState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetContentShortTextColor2(PaletteState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetContentShortTextColorStyle(PaletteState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetContentShortTextColorAlign(PaletteState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetContentShortTextColorAngle(PaletteState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetContentShortTextImage(PaletteState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetContentShortTextImageStyle(PaletteState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetContentShortTextImageAlign(PaletteState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetContentLongTextFont(PaletteState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetContentLongTextNewFont(PaletteState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetContentLongTextHint(PaletteState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetContentLongTextPrefix(PaletteState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetContentLongTextMultiLine(PaletteState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetContentLongTextTrim(PaletteState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetContentLongTextH(PaletteState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetContentLongTextV(PaletteState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetContentLongTextMultiLineH(PaletteState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetContentLongTextColor1(PaletteState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetContentLongTextColor2(PaletteState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetContentLongTextColorStyle(PaletteState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetContentLongTextColorAlign(PaletteState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetContentLongTextColorAngle(PaletteState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetContentLongTextImage(PaletteState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetContentLongTextImageStyle(PaletteState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetContentLongTextImageAlign(PaletteState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetContentPadding(PaletteState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetContentAdjacentGap(PaletteState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetContentStyle(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class ComponentFactory.Krypton.Navigator.PaletteRibbonTabContentRedirect: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.Storage
+    Void .ctor(ComponentFactory.Krypton.Toolkit.PaletteRedirect, ComponentFactory.Krypton.Toolkit.NeedPaintHandler): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean IsDefault 'get ' : 
+    ComponentFactory.Krypton.Toolkit.PaletteRibbonDoubleRedirect TabDraw 'get ' : 
+    ComponentFactory.Krypton.Navigator.PaletteNavContent Content 'get ' : 
+  Methods:
+    SetRedirector(PaletteRedirect): PrivateScope, Public, HideBySig
+    get_IsDefault(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_TabDraw(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Content(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+Class ComponentFactory.Krypton.Navigator.NavigatorOutlook: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.Storage
+    Void .ctor(ComponentFactory.Krypton.Navigator.KryptonNavigator, ComponentFactory.Krypton.Toolkit.NeedPaintHandler): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean IsDefault 'get ' : 
+    ComponentFactory.Krypton.Navigator.NavigatorOutlookFull Full 'get ' : 
+    ComponentFactory.Krypton.Navigator.NavigatorOutlookMini Mini 'get ' : 
+    ComponentFactory.Krypton.Toolkit.ButtonStyle CheckButtonStyle 'get set' : 
+    ComponentFactory.Krypton.Toolkit.ButtonStyle OverflowButtonStyle 'get set' : 
+    ComponentFactory.Krypton.Toolkit.PaletteBorderStyle BorderEdgeStyle 'get set' : 
+    System.Windows.Forms.Orientation Orientation 'get set' : 
+    ComponentFactory.Krypton.Toolkit.ButtonOrientation ItemOrientation 'get set' : 
+    ComponentFactory.Krypton.Toolkit.InheritBool HeaderSecondaryVisible 'get set' : 
+    System.String TextMoreButtons 'get set' : 
+    System.String TextFewerButtons 'get set' : 
+    System.String TextAddRemoveButtons 'get set' : 
+    Boolean ShowDropDownButton 'get set' : 
+  Methods:
+    get_IsDefault(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Full(): PrivateScope, Public, HideBySig, SpecialName
+    get_Mini(): PrivateScope, Public, HideBySig, SpecialName
+    get_CheckButtonStyle(): PrivateScope, Public, HideBySig, SpecialName
+    set_CheckButtonStyle(ButtonStyle): PrivateScope, Public, HideBySig, SpecialName
+    get_OverflowButtonStyle(): PrivateScope, Public, HideBySig, SpecialName
+    set_OverflowButtonStyle(ButtonStyle): PrivateScope, Public, HideBySig, SpecialName
+    get_BorderEdgeStyle(): PrivateScope, Public, HideBySig, SpecialName
+    set_BorderEdgeStyle(PaletteBorderStyle): PrivateScope, Public, HideBySig, SpecialName
+    get_Orientation(): PrivateScope, Public, HideBySig, SpecialName
+    set_Orientation(Orientation): PrivateScope, Public, HideBySig, SpecialName
+    ResetOrientation(): PrivateScope, Public, HideBySig
+    get_ItemOrientation(): PrivateScope, Public, HideBySig, SpecialName
+    set_ItemOrientation(ButtonOrientation): PrivateScope, Public, HideBySig, SpecialName
+    ResetItemOrientation(): PrivateScope, Public, HideBySig
+    get_HeaderSecondaryVisible(): PrivateScope, Public, HideBySig, SpecialName
+    set_HeaderSecondaryVisible(InheritBool): PrivateScope, Public, HideBySig, SpecialName
+    ResetHeaderSecondaryVisible(): PrivateScope, Public, HideBySig
+    get_TextMoreButtons(): PrivateScope, Public, HideBySig, SpecialName
+    set_TextMoreButtons(String): PrivateScope, Public, HideBySig, SpecialName
+    ResetTextMoreButtons(): PrivateScope, Public, HideBySig
+    get_TextFewerButtons(): PrivateScope, Public, HideBySig, SpecialName
+    set_TextFewerButtons(String): PrivateScope, Public, HideBySig, SpecialName
+    ResetTextFewerButtons(): PrivateScope, Public, HideBySig
+    get_TextAddRemoveButtons(): PrivateScope, Public, HideBySig, SpecialName
+    set_TextAddRemoveButtons(String): PrivateScope, Public, HideBySig, SpecialName
+    ResetTextAddRemoveButtons(): PrivateScope, Public, HideBySig
+    get_ShowDropDownButton(): PrivateScope, Public, HideBySig, SpecialName
+    set_ShowDropDownButton(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    ResetShowDropDownButton(): PrivateScope, Public, HideBySig
+Class ComponentFactory.Krypton.Navigator.PaletteNavigatorOtherEx: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Navigator.PaletteNavigatorOther
+    Void .ctor(ComponentFactory.Krypton.Navigator.PaletteNavigatorRedirect, ComponentFactory.Krypton.Toolkit.NeedPaintHandler): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean IsDefault 'get ' : 
+    ComponentFactory.Krypton.Toolkit.PaletteSeparatorPadding Separator 'get ' : 
+  Methods:
+    get_IsDefault(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    SetInherit(PaletteNavigator): PrivateScope, Public, Virtual, HideBySig
+    get_Separator(): PrivateScope, Public, HideBySig, SpecialName
+Class ComponentFactory.Krypton.Navigator.NavigatorStack: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.Storage
+    Void .ctor(ComponentFactory.Krypton.Navigator.KryptonNavigator, ComponentFactory.Krypton.Toolkit.NeedPaintHandler): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean IsDefault 'get ' : 
+    ComponentFactory.Krypton.Toolkit.ButtonStyle CheckButtonStyle 'get set' : 
+    ComponentFactory.Krypton.Toolkit.PaletteBorderStyle BorderEdgeStyle 'get set' : 
+    Boolean StackAnimation 'get set' : 
+    System.Windows.Forms.Orientation StackOrientation 'get set' : 
+    ComponentFactory.Krypton.Toolkit.RelativePositionAlign StackAlignment 'get set' : 
+    ComponentFactory.Krypton.Toolkit.ButtonOrientation ItemOrientation 'get set' : 
+    ComponentFactory.Krypton.Navigator.MapKryptonPageImage StackMapImage 'get set' : 
+    ComponentFactory.Krypton.Navigator.MapKryptonPageText StackMapText 'get set' : 
+    ComponentFactory.Krypton.Navigator.MapKryptonPageText StackMapExtraText 'get set' : 
+  Methods:
+    get_IsDefault(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_CheckButtonStyle(): PrivateScope, Public, HideBySig, SpecialName
+    set_CheckButtonStyle(ButtonStyle): PrivateScope, Public, HideBySig, SpecialName
+    get_BorderEdgeStyle(): PrivateScope, Public, HideBySig, SpecialName
+    set_BorderEdgeStyle(PaletteBorderStyle): PrivateScope, Public, HideBySig, SpecialName
+    get_StackAnimation(): PrivateScope, Public, HideBySig, SpecialName
+    set_StackAnimation(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    ResetStackAnimation(): PrivateScope, Public, HideBySig
+    get_StackOrientation(): PrivateScope, Public, HideBySig, SpecialName
+    set_StackOrientation(Orientation): PrivateScope, Public, HideBySig, SpecialName
+    ResetStackOrientation(): PrivateScope, Public, HideBySig
+    get_StackAlignment(): PrivateScope, Public, HideBySig, SpecialName
+    set_StackAlignment(RelativePositionAlign): PrivateScope, Public, HideBySig, SpecialName
+    ResetStackAlignment(): PrivateScope, Public, HideBySig
+    get_ItemOrientation(): PrivateScope, Public, HideBySig, SpecialName
+    set_ItemOrientation(ButtonOrientation): PrivateScope, Public, HideBySig, SpecialName
+    ResetItemOrientation(): PrivateScope, Public, HideBySig
+    get_StackMapImage(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_StackMapImage(MapKryptonPageImage): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    ResetStackMapImage(): PrivateScope, Public, HideBySig
+    get_StackMapText(): PrivateScope, Public, HideBySig, SpecialName
+    set_StackMapText(MapKryptonPageText): PrivateScope, Public, HideBySig, SpecialName
+    ResetStackMapText(): PrivateScope, Public, HideBySig
+    get_StackMapExtraText(): PrivateScope, Public, HideBySig, SpecialName
+    set_StackMapExtraText(MapKryptonPageText): PrivateScope, Public, HideBySig, SpecialName
+    ResetStackMapExtraText(): PrivateScope, Public, HideBySig
+Class ComponentFactory.Krypton.Navigator.NavigatorPanel: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.Storage
+    Void .ctor(ComponentFactory.Krypton.Navigator.KryptonNavigator, ComponentFactory.Krypton.Toolkit.NeedPaintHandler): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean IsDefault 'get ' : 
+    ComponentFactory.Krypton.Toolkit.PaletteBackStyle PanelBackStyle 'get set' : 
+  Methods:
+    get_IsDefault(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_PanelBackStyle(): PrivateScope, Public, HideBySig, SpecialName
+    set_PanelBackStyle(PaletteBackStyle): PrivateScope, Public, HideBySig, SpecialName
+Class ComponentFactory.Krypton.Navigator.PaletteNavigatorHeaderGroup: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.PaletteHeaderGroup
+    Void .ctor(ComponentFactory.Krypton.Toolkit.PaletteHeaderGroupRedirect, ComponentFactory.Krypton.Toolkit.PaletteHeaderPaddingRedirect, ComponentFactory.Krypton.Toolkit.PaletteHeaderPaddingRedirect, ComponentFactory.Krypton.Toolkit.PaletteHeaderPaddingRedirect, ComponentFactory.Krypton.Toolkit.PaletteHeaderPaddingRedirect, ComponentFactory.Krypton.Toolkit.NeedPaintHandler): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean IsDefault 'get ' : 
+    ComponentFactory.Krypton.Toolkit.PaletteTripleMetric HeaderBar 'get ' : 
+    ComponentFactory.Krypton.Toolkit.PaletteTripleMetric HeaderOverflow 'get ' : 
+  Methods:
+    get_IsDefault(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    SetInherit(PaletteNavigatorHeaderGroup): PrivateScope, Public, HideBySig
+    get_HeaderBar(): PrivateScope, Public, HideBySig, SpecialName
+    get_HeaderOverflow(): PrivateScope, Public, HideBySig, SpecialName
+Class ComponentFactory.Krypton.Navigator.PaletteNavigatorHeaderGroupRedirect: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.PaletteHeaderGroupRedirect
+    Void .ctor(ComponentFactory.Krypton.Toolkit.PaletteRedirect, ComponentFactory.Krypton.Toolkit.NeedPaintHandler): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(ComponentFactory.Krypton.Toolkit.PaletteRedirect, ComponentFactory.Krypton.Toolkit.PaletteRedirect, ComponentFactory.Krypton.Toolkit.PaletteRedirect, ComponentFactory.Krypton.Toolkit.PaletteRedirect, ComponentFactory.Krypton.Toolkit.PaletteRedirect, ComponentFactory.Krypton.Toolkit.NeedPaintHandler): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean IsDefault 'get ' : 
+    ComponentFactory.Krypton.Toolkit.PaletteHeaderPaddingRedirect HeaderBar 'get ' : 
+    ComponentFactory.Krypton.Toolkit.PaletteHeaderPaddingRedirect HeaderOverflow 'get ' : 
+  Methods:
+    get_IsDefault(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_HeaderBar(): PrivateScope, Public, HideBySig, SpecialName
+    get_HeaderOverflow(): PrivateScope, Public, HideBySig, SpecialName
+Class ComponentFactory.Krypton.Navigator.PaletteNavigatorOtherRedirect: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.Storage
+    Void .ctor(ComponentFactory.Krypton.Toolkit.PaletteRedirect, ComponentFactory.Krypton.Toolkit.PaletteRedirect, ComponentFactory.Krypton.Toolkit.PaletteRedirect, ComponentFactory.Krypton.Toolkit.PaletteRedirect, ComponentFactory.Krypton.Toolkit.PaletteRedirect, ComponentFactory.Krypton.Toolkit.NeedPaintHandler): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean IsDefault 'get ' : 
+    ComponentFactory.Krypton.Toolkit.PaletteTripleRedirect CheckButton 'get ' : 
+    ComponentFactory.Krypton.Toolkit.PaletteTripleRedirect OverflowButton 'get ' : 
+    ComponentFactory.Krypton.Toolkit.PaletteTripleRedirect MiniButton 'get ' : 
+    ComponentFactory.Krypton.Toolkit.PaletteTabTripleRedirect Tab 'get ' : 
+    ComponentFactory.Krypton.Navigator.PaletteRibbonTabContentRedirect RibbonTab 'get ' : 
+  Methods:
+    get_IsDefault(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_CheckButton(): PrivateScope, Public, HideBySig, SpecialName
+    get_OverflowButton(): PrivateScope, Public, HideBySig, SpecialName
+    get_MiniButton(): PrivateScope, Public, HideBySig, SpecialName
+    get_Tab(): PrivateScope, Public, HideBySig, SpecialName
+    get_RibbonTab(): PrivateScope, Public, HideBySig, SpecialName
+Class ComponentFactory.Krypton.Navigator.NavigatorBar: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.Storage
+    Void .ctor(ComponentFactory.Krypton.Navigator.KryptonNavigator, ComponentFactory.Krypton.Toolkit.NeedPaintHandler): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean IsDefault 'get ' : 
+    Boolean BarAnimation 'get set' : 
+    ComponentFactory.Krypton.Toolkit.VisualOrientation BarOrientation 'get set' : 
+    Int32 BarFirstItemInset 'get set' : 
+    Int32 BarLastItemInset 'get set' : 
+    Int32 BarMinimumHeight 'get set' : 
+    ComponentFactory.Krypton.Navigator.BarMultiline BarMultiline 'get set' : 
+    ComponentFactory.Krypton.Toolkit.ButtonStyle CheckButtonStyle 'get set' : 
+    ComponentFactory.Krypton.Toolkit.TabStyle TabStyle 'get set' : 
+    ComponentFactory.Krypton.Toolkit.TabBorderStyle TabBorderStyle 'get set' : 
+    ComponentFactory.Krypton.Toolkit.RelativePositionAlign ItemAlignment 'get set' : 
+    System.Drawing.Size ItemMinimumSize 'get set' : 
+    System.Drawing.Size ItemMaximumSize 'get set' : 
+    ComponentFactory.Krypton.Toolkit.ButtonOrientation ItemOrientation 'get set' : 
+    ComponentFactory.Krypton.Navigator.BarItemSizing ItemSizing 'get set' : 
+    ComponentFactory.Krypton.Navigator.MapKryptonPageImage BarMapImage 'get set' : 
+    ComponentFactory.Krypton.Navigator.MapKryptonPageText BarMapText 'get set' : 
+    ComponentFactory.Krypton.Navigator.MapKryptonPageText BarMapExtraText 'get set' : 
+  Methods:
+    get_IsDefault(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_BarAnimation(): PrivateScope, Public, HideBySig, SpecialName
+    set_BarAnimation(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    ResetBarAnimation(): PrivateScope, Public, HideBySig
+    get_BarOrientation(): PrivateScope, Public, HideBySig, SpecialName
+    set_BarOrientation(VisualOrientation): PrivateScope, Public, HideBySig, SpecialName
+    ResetBarOrientation(): PrivateScope, Public, HideBySig
+    get_BarFirstItemInset(): PrivateScope, Public, HideBySig, SpecialName
+    set_BarFirstItemInset(Int32): PrivateScope, Public, HideBySig, SpecialName
+    ResetBarFirstItemInset(): PrivateScope, Public, HideBySig
+    get_BarLastItemInset(): PrivateScope, Public, HideBySig, SpecialName
+    set_BarLastItemInset(Int32): PrivateScope, Public, HideBySig, SpecialName
+    ResetBarLastItemInset(): PrivateScope, Public, HideBySig
+    get_BarMinimumHeight(): PrivateScope, Public, HideBySig, SpecialName
+    set_BarMinimumHeight(Int32): PrivateScope, Public, HideBySig, SpecialName
+    ResetBarMinimumHeight(): PrivateScope, Public, HideBySig
+    get_BarMultiline(): PrivateScope, Public, HideBySig, SpecialName
+    set_BarMultiline(BarMultiline): PrivateScope, Public, HideBySig, SpecialName
+    ResetBarMultiline(): PrivateScope, Public, HideBySig
+    get_CheckButtonStyle(): PrivateScope, Public, HideBySig, SpecialName
+    set_CheckButtonStyle(ButtonStyle): PrivateScope, Public, HideBySig, SpecialName
+    get_TabStyle(): PrivateScope, Public, HideBySig, SpecialName
+    set_TabStyle(TabStyle): PrivateScope, Public, HideBySig, SpecialName
+    get_TabBorderStyle(): PrivateScope, Public, HideBySig, SpecialName
+    set_TabBorderStyle(TabBorderStyle): PrivateScope, Public, HideBySig, SpecialName
+    get_ItemAlignment(): PrivateScope, Public, HideBySig, SpecialName
+    set_ItemAlignment(RelativePositionAlign): PrivateScope, Public, HideBySig, SpecialName
+    ResetItemAlignment(): PrivateScope, Public, HideBySig
+    get_ItemMinimumSize(): PrivateScope, Public, HideBySig, SpecialName
+    set_ItemMinimumSize(Size): PrivateScope, Public, HideBySig, SpecialName
+    ResetItemMinimumSize(): PrivateScope, Public, HideBySig
+    get_ItemMaximumSize(): PrivateScope, Public, HideBySig, SpecialName
+    set_ItemMaximumSize(Size): PrivateScope, Public, HideBySig, SpecialName
+    ResetItemMaximumSize(): PrivateScope, Public, HideBySig
+    get_ItemOrientation(): PrivateScope, Public, HideBySig, SpecialName
+    set_ItemOrientation(ButtonOrientation): PrivateScope, Public, HideBySig, SpecialName
+    ResetItemOrientation(): PrivateScope, Public, HideBySig
+    get_ItemSizing(): PrivateScope, Public, HideBySig, SpecialName
+    set_ItemSizing(BarItemSizing): PrivateScope, Public, HideBySig, SpecialName
+    ResetItemSizing(): PrivateScope, Public, HideBySig
+    get_BarMapImage(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_BarMapImage(MapKryptonPageImage): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    ResetBarMapImage(): PrivateScope, Public, HideBySig
+    get_BarMapText(): PrivateScope, Public, HideBySig, SpecialName
+    set_BarMapText(MapKryptonPageText): PrivateScope, Public, HideBySig, SpecialName
+    ResetBarMapText(): PrivateScope, Public, HideBySig
+    get_BarMapExtraText(): PrivateScope, Public, HideBySig, SpecialName
+    set_BarMapExtraText(MapKryptonPageText): PrivateScope, Public, HideBySig, SpecialName
+    ResetBarMapExtraText(): PrivateScope, Public, HideBySig
+Class ComponentFactory.Krypton.Navigator.PaletteNavigatorOther: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.Storage
+    Void .ctor(ComponentFactory.Krypton.Navigator.PaletteNavigatorRedirect, ComponentFactory.Krypton.Toolkit.NeedPaintHandler): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean IsDefault 'get ' : 
+    ComponentFactory.Krypton.Toolkit.PaletteTriple CheckButton 'get ' : 
+    ComponentFactory.Krypton.Toolkit.PaletteTriple OverflowButton 'get ' : 
+    ComponentFactory.Krypton.Toolkit.PaletteTriple MiniButton 'get ' : 
+    ComponentFactory.Krypton.Toolkit.PaletteTabTriple Tab 'get ' : 
+    ComponentFactory.Krypton.Navigator.PaletteRibbonTabContent RibbonTab 'get ' : 
+  Methods:
+    get_IsDefault(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    SetInherit(PaletteNavigator): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_CheckButton(): PrivateScope, Public, HideBySig, SpecialName
+    get_OverflowButton(): PrivateScope, Public, HideBySig, SpecialName
+    get_MiniButton(): PrivateScope, Public, HideBySig, SpecialName
+    get_Tab(): PrivateScope, Public, HideBySig, SpecialName
+    get_RibbonTab(): PrivateScope, Public, HideBySig, SpecialName
+Class ComponentFactory.Krypton.Navigator.NavigatorGroup: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.Storage
+    Void .ctor(ComponentFactory.Krypton.Navigator.KryptonNavigator, ComponentFactory.Krypton.Toolkit.NeedPaintHandler): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean IsDefault 'get ' : 
+    ComponentFactory.Krypton.Toolkit.PaletteBackStyle GroupBackStyle 'get set' : 
+    ComponentFactory.Krypton.Toolkit.PaletteBorderStyle GroupBorderStyle 'get set' : 
+  Methods:
+    get_IsDefault(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_GroupBackStyle(): PrivateScope, Public, HideBySig, SpecialName
+    set_GroupBackStyle(PaletteBackStyle): PrivateScope, Public, HideBySig, SpecialName
+    get_GroupBorderStyle(): PrivateScope, Public, HideBySig, SpecialName
+    set_GroupBorderStyle(PaletteBorderStyle): PrivateScope, Public, HideBySig, SpecialName
+Class ComponentFactory.Krypton.Navigator.NavigatorButton: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.Storage
+    Void .ctor(ComponentFactory.Krypton.Navigator.KryptonNavigator, ComponentFactory.Krypton.Toolkit.NeedPaintHandler): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean IsDefault 'get ' : 
+    ComponentFactory.Krypton.Navigator.NavigatorButtonSpecCollection ButtonSpecs 'get ' : 
+    ComponentFactory.Krypton.Navigator.ButtonSpecNavPrevious PreviousButton 'get ' : 
+    ComponentFactory.Krypton.Navigator.DirectionButtonAction PreviousButtonAction 'get set' : 
+    ComponentFactory.Krypton.Navigator.ButtonDisplay PreviousButtonDisplay 'get set' : 
+    System.Windows.Forms.Keys PreviousButtonShortcut 'get set' : 
+    ComponentFactory.Krypton.Navigator.ButtonSpecNavNext NextButton 'get ' : 
+    ComponentFactory.Krypton.Navigator.DirectionButtonAction NextButtonAction 'get set' : 
+    ComponentFactory.Krypton.Navigator.ButtonDisplay NextButtonDisplay 'get set' : 
+    System.Windows.Forms.Keys NextButtonShortcut 'get set' : 
+    ComponentFactory.Krypton.Navigator.ButtonSpecNavContext ContextButton 'get ' : 
+    ComponentFactory.Krypton.Navigator.ContextButtonAction ContextButtonAction 'get set' : 
+    ComponentFactory.Krypton.Navigator.ButtonDisplay ContextButtonDisplay 'get set' : 
+    System.Windows.Forms.Keys ContextButtonShortcut 'get set' : 
+    ComponentFactory.Krypton.Navigator.MapKryptonPageText ContextMenuMapText 'get set' : 
+    ComponentFactory.Krypton.Navigator.MapKryptonPageImage ContextMenuMapImage 'get set' : 
+    ComponentFactory.Krypton.Navigator.ButtonSpecNavClose CloseButton 'get ' : 
+    ComponentFactory.Krypton.Navigator.CloseButtonAction CloseButtonAction 'get set' : 
+    ComponentFactory.Krypton.Navigator.ButtonDisplay CloseButtonDisplay 'get set' : 
+    System.Windows.Forms.Keys CloseButtonShortcut 'get set' : 
+    ComponentFactory.Krypton.Navigator.ButtonDisplayLogic ButtonDisplayLogic 'get set' : 
+  Methods:
+    get_IsDefault(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_ButtonSpecs(): PrivateScope, Public, HideBySig, SpecialName
+    get_PreviousButton(): PrivateScope, Public, HideBySig, SpecialName
+    get_PreviousButtonAction(): PrivateScope, Public, HideBySig, SpecialName
+    set_PreviousButtonAction(DirectionButtonAction): PrivateScope, Public, HideBySig, SpecialName
+    get_PreviousButtonDisplay(): PrivateScope, Public, HideBySig, SpecialName
+    set_PreviousButtonDisplay(ButtonDisplay): PrivateScope, Public, HideBySig, SpecialName
+    get_PreviousButtonShortcut(): PrivateScope, Public, HideBySig, SpecialName
+    set_PreviousButtonShortcut(Keys): PrivateScope, Public, HideBySig, SpecialName
+    ResetPreviousButtonShortcut(): PrivateScope, Public, HideBySig
+    get_NextButton(): PrivateScope, Public, HideBySig, SpecialName
+    get_NextButtonAction(): PrivateScope, Public, HideBySig, SpecialName
+    set_NextButtonAction(DirectionButtonAction): PrivateScope, Public, HideBySig, SpecialName
+    get_NextButtonDisplay(): PrivateScope, Public, HideBySig, SpecialName
+    set_NextButtonDisplay(ButtonDisplay): PrivateScope, Public, HideBySig, SpecialName
+    get_NextButtonShortcut(): PrivateScope, Public, HideBySig, SpecialName
+    set_NextButtonShortcut(Keys): PrivateScope, Public, HideBySig, SpecialName
+    ResetNextButtonShortcut(): PrivateScope, Public, HideBySig
+    get_ContextButton(): PrivateScope, Public, HideBySig, SpecialName
+    get_ContextButtonAction(): PrivateScope, Public, HideBySig, SpecialName
+    set_ContextButtonAction(ContextButtonAction): PrivateScope, Public, HideBySig, SpecialName
+    get_ContextButtonDisplay(): PrivateScope, Public, HideBySig, SpecialName
+    set_ContextButtonDisplay(ButtonDisplay): PrivateScope, Public, HideBySig, SpecialName
+    get_ContextButtonShortcut(): PrivateScope, Public, HideBySig, SpecialName
+    set_ContextButtonShortcut(Keys): PrivateScope, Public, HideBySig, SpecialName
+    ResetContextButtonShortcut(): PrivateScope, Public, HideBySig
+    get_ContextMenuMapText(): PrivateScope, Public, HideBySig, SpecialName
+    set_ContextMenuMapText(MapKryptonPageText): PrivateScope, Public, HideBySig, SpecialName
+    get_ContextMenuMapImage(): PrivateScope, Public, HideBySig, SpecialName
+    set_ContextMenuMapImage(MapKryptonPageImage): PrivateScope, Public, HideBySig, SpecialName
+    get_CloseButton(): PrivateScope, Public, HideBySig, SpecialName
+    get_CloseButtonAction(): PrivateScope, Public, HideBySig, SpecialName
+    set_CloseButtonAction(CloseButtonAction): PrivateScope, Public, HideBySig, SpecialName
+    get_CloseButtonDisplay(): PrivateScope, Public, HideBySig, SpecialName
+    set_CloseButtonDisplay(ButtonDisplay): PrivateScope, Public, HideBySig, SpecialName
+    get_CloseButtonShortcut(): PrivateScope, Public, HideBySig, SpecialName
+    set_CloseButtonShortcut(Keys): PrivateScope, Public, HideBySig, SpecialName
+    ResetCloseButtonShortcut(): PrivateScope, Public, HideBySig
+    get_ButtonDisplayLogic(): PrivateScope, Public, HideBySig, SpecialName
+    set_ButtonDisplayLogic(ButtonDisplayLogic): PrivateScope, Public, HideBySig, SpecialName
+    ResetButtonDisplayLogic(): PrivateScope, Public, HideBySig
+Class ComponentFactory.Krypton.Navigator.NavigatorHeader: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.Storage
+    Void .ctor(ComponentFactory.Krypton.Navigator.KryptonNavigator, ComponentFactory.Krypton.Toolkit.NeedPaintHandler): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean IsDefault 'get ' : 
+    ComponentFactory.Krypton.Toolkit.HeaderStyle HeaderStylePrimary 'get set' : 
+    ComponentFactory.Krypton.Toolkit.HeaderStyle HeaderStyleSecondary 'get set' : 
+    ComponentFactory.Krypton.Toolkit.HeaderStyle HeaderStyleBar 'get set' : 
+    ComponentFactory.Krypton.Toolkit.VisualOrientation HeaderPositionPrimary 'get set' : 
+    ComponentFactory.Krypton.Toolkit.VisualOrientation HeaderPositionSecondary 'get set' : 
+    ComponentFactory.Krypton.Toolkit.VisualOrientation HeaderPositionBar 'get set' : 
+    Boolean HeaderVisiblePrimary 'get set' : 
+    Boolean HeaderVisibleSecondary 'get set' : 
+    Boolean HeaderVisibleBar 'get set' : 
+    ComponentFactory.Krypton.Navigator.HeaderGroupMappingPrimary HeaderValuesPrimary 'get ' : 
+    ComponentFactory.Krypton.Navigator.HeaderGroupMappingSecondary HeaderValuesSecondary 'get ' : 
+  Methods:
+    get_IsDefault(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_HeaderStylePrimary(): PrivateScope, Public, HideBySig, SpecialName
+    set_HeaderStylePrimary(HeaderStyle): PrivateScope, Public, HideBySig, SpecialName
+    get_HeaderStyleSecondary(): PrivateScope, Public, HideBySig, SpecialName
+    set_HeaderStyleSecondary(HeaderStyle): PrivateScope, Public, HideBySig, SpecialName
+    get_HeaderStyleBar(): PrivateScope, Public, HideBySig, SpecialName
+    set_HeaderStyleBar(HeaderStyle): PrivateScope, Public, HideBySig, SpecialName
+    get_HeaderPositionPrimary(): PrivateScope, Public, HideBySig, SpecialName
+    set_HeaderPositionPrimary(VisualOrientation): PrivateScope, Public, HideBySig, SpecialName
+    get_HeaderPositionSecondary(): PrivateScope, Public, HideBySig, SpecialName
+    set_HeaderPositionSecondary(VisualOrientation): PrivateScope, Public, HideBySig, SpecialName
+    get_HeaderPositionBar(): PrivateScope, Public, HideBySig, SpecialName
+    set_HeaderPositionBar(VisualOrientation): PrivateScope, Public, HideBySig, SpecialName
+    get_HeaderVisiblePrimary(): PrivateScope, Public, HideBySig, SpecialName
+    set_HeaderVisiblePrimary(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_HeaderVisibleSecondary(): PrivateScope, Public, HideBySig, SpecialName
+    set_HeaderVisibleSecondary(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_HeaderVisibleBar(): PrivateScope, Public, HideBySig, SpecialName
+    set_HeaderVisibleBar(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_HeaderValuesPrimary(): PrivateScope, Public, HideBySig, SpecialName
+    get_HeaderValuesSecondary(): PrivateScope, Public, HideBySig, SpecialName
+Class ComponentFactory.Krypton.Navigator.PaletteBarRedirect: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.PaletteMetricRedirect
+    Void .ctor(ComponentFactory.Krypton.Toolkit.PaletteRedirect, ComponentFactory.Krypton.Toolkit.NeedPaintHandler): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean IsDefault 'get ' : 
+    System.Windows.Forms.Padding BarPaddingTabs 'get set' : 
+    System.Windows.Forms.Padding BarPaddingInside 'get set' : 
+    System.Windows.Forms.Padding BarPaddingOutside 'get set' : 
+    System.Windows.Forms.Padding BarPaddingOnly 'get set' : 
+    System.Windows.Forms.Padding ButtonPadding 'get set' : 
+    Int32 ButtonEdgeOutside 'get set' : 
+    Int32 ButtonEdgeInside 'get set' : 
+    Int32 CheckButtonGap 'get set' : 
+    Int32 RibbonTabGap 'get set' : 
+  Methods:
+    get_IsDefault(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_BarPaddingTabs(): PrivateScope, Public, HideBySig, SpecialName
+    set_BarPaddingTabs(Padding): PrivateScope, Public, HideBySig, SpecialName
+    ResetBarPaddingTabs(): PrivateScope, Public, HideBySig
+    get_BarPaddingInside(): PrivateScope, Public, HideBySig, SpecialName
+    set_BarPaddingInside(Padding): PrivateScope, Public, HideBySig, SpecialName
+    ResetBarPaddingInside(): PrivateScope, Public, HideBySig
+    get_BarPaddingOutside(): PrivateScope, Public, HideBySig, SpecialName
+    set_BarPaddingOutside(Padding): PrivateScope, Public, HideBySig, SpecialName
+    ResetBarPaddingOutside(): PrivateScope, Public, HideBySig
+    get_BarPaddingOnly(): PrivateScope, Public, HideBySig, SpecialName
+    set_BarPaddingOnly(Padding): PrivateScope, Public, HideBySig, SpecialName
+    ResetBarPaddingOnly(): PrivateScope, Public, HideBySig
+    get_ButtonPadding(): PrivateScope, Public, HideBySig, SpecialName
+    set_ButtonPadding(Padding): PrivateScope, Public, HideBySig, SpecialName
+    ResetButtonPadding(): PrivateScope, Public, HideBySig
+    get_ButtonEdgeOutside(): PrivateScope, Public, HideBySig, SpecialName
+    set_ButtonEdgeOutside(Int32): PrivateScope, Public, HideBySig, SpecialName
+    ResetButtonEdgeOutside(): PrivateScope, Public, HideBySig
+    get_ButtonEdgeInside(): PrivateScope, Public, HideBySig, SpecialName
+    set_ButtonEdgeInside(Int32): PrivateScope, Public, HideBySig, SpecialName
+    ResetButtonEdgeInside(): PrivateScope, Public, HideBySig
+    get_CheckButtonGap(): PrivateScope, Public, HideBySig, SpecialName
+    set_CheckButtonGap(Int32): PrivateScope, Public, HideBySig, SpecialName
+    ResetCheckButtonGap(): PrivateScope, Public, HideBySig
+    get_RibbonTabGap(): PrivateScope, Public, HideBySig, SpecialName
+    set_RibbonTabGap(Int32): PrivateScope, Public, HideBySig, SpecialName
+    ResetRibbonTabGap(): PrivateScope, Public, HideBySig
+    GetMetricInt(PaletteState, PaletteMetricInt): PrivateScope, Public, Virtual, HideBySig
+    GetMetricBool(PaletteState, PaletteMetricBool): PrivateScope, Public, Virtual, HideBySig
+    GetMetricPadding(PaletteState, PaletteMetricPadding): PrivateScope, Public, Virtual, HideBySig
+Class ComponentFactory.Krypton.Navigator.PaletteRibbonTabContent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.Storage
+    Void .ctor(ComponentFactory.Krypton.Toolkit.IPaletteRibbonBack, ComponentFactory.Krypton.Toolkit.IPaletteRibbonText, ComponentFactory.Krypton.Toolkit.IPaletteContent, ComponentFactory.Krypton.Toolkit.NeedPaintHandler): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean IsDefault 'get ' : 
+    ComponentFactory.Krypton.Toolkit.PaletteRibbonDouble TabDraw 'get ' : 
+    ComponentFactory.Krypton.Navigator.PaletteNavContent Content 'get ' : 
+  Methods:
+    get_IsDefault(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    PopulateFromBase(PaletteState): PrivateScope, Public, HideBySig
+    SetInherit(IPaletteRibbonBack, IPaletteRibbonText, IPaletteContent): PrivateScope, Public, HideBySig
+    get_TabDraw(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Content(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+Class ComponentFactory.Krypton.Navigator.PalettePageRedirect: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.PaletteDoubleRedirect
+    Void .ctor(ComponentFactory.Krypton.Toolkit.PaletteRedirect, ComponentFactory.Krypton.Toolkit.NeedPaintHandler): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    ComponentFactory.Krypton.Toolkit.PaletteBorder Border 'get ' : 
+    ComponentFactory.Krypton.Toolkit.IPaletteBorder PaletteBorder 'get ' : 
+  Methods:
+    get_Border(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_PaletteBorder(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Class ComponentFactory.Krypton.Navigator.PalettePage: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.PaletteDouble
+    Void .ctor(ComponentFactory.Krypton.Toolkit.IPaletteDouble, ComponentFactory.Krypton.Toolkit.NeedPaintHandler): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    ComponentFactory.Krypton.Toolkit.PaletteBorder Border 'get ' : 
+    ComponentFactory.Krypton.Toolkit.IPaletteBorder PaletteBorder 'get ' : 
+  Methods:
+    get_Border(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_PaletteBorder(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Class ComponentFactory.Krypton.Navigator.PaletteNavigator: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.PaletteDoubleMetric
+    Void .ctor(ComponentFactory.Krypton.Navigator.PaletteNavigatorRedirect, ComponentFactory.Krypton.Toolkit.NeedPaintHandler): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean IsDefault 'get ' : 
+    ComponentFactory.Krypton.Toolkit.PaletteBack Back 'get ' : 
+    ComponentFactory.Krypton.Toolkit.IPaletteBack PaletteBack 'get ' : 
+    ComponentFactory.Krypton.Toolkit.PaletteBorder Border 'get ' : 
+    ComponentFactory.Krypton.Toolkit.IPaletteBorder PaletteBorder 'get ' : 
+    ComponentFactory.Krypton.Toolkit.PaletteBack Panel 'get ' : 
+    ComponentFactory.Krypton.Toolkit.PaletteTriple CheckButton 'get ' : 
+    ComponentFactory.Krypton.Toolkit.PaletteTriple OverflowButton 'get ' : 
+    ComponentFactory.Krypton.Toolkit.PaletteTriple MiniButton 'get ' : 
+    ComponentFactory.Krypton.Navigator.PaletteNavigatorHeaderGroup HeaderGroup 'get ' : 
+    ComponentFactory.Krypton.Toolkit.PaletteBack Page 'get ' : 
+    ComponentFactory.Krypton.Toolkit.PaletteBorderEdge BorderEdge 'get ' : 
+    ComponentFactory.Krypton.Toolkit.PaletteSeparatorPadding Separator 'get ' : 
+    ComponentFactory.Krypton.Toolkit.PaletteTabTriple Tab 'get ' : 
+    ComponentFactory.Krypton.Navigator.PaletteRibbonTabContent RibbonTab 'get ' : 
+  Methods:
+    get_IsDefault(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    SetInherit(PaletteNavigator): PrivateScope, Public, HideBySig
+    get_Back(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_PaletteBack(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Border(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_PaletteBorder(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Panel(): PrivateScope, Public, HideBySig, SpecialName
+    get_CheckButton(): PrivateScope, Public, HideBySig, SpecialName
+    get_OverflowButton(): PrivateScope, Public, HideBySig, SpecialName
+    get_MiniButton(): PrivateScope, Public, HideBySig, SpecialName
+    get_HeaderGroup(): PrivateScope, Public, HideBySig, SpecialName
+    get_Page(): PrivateScope, Public, HideBySig, SpecialName
+    get_BorderEdge(): PrivateScope, Public, HideBySig, SpecialName
+    get_Separator(): PrivateScope, Public, HideBySig, SpecialName
+    get_Tab(): PrivateScope, Public, HideBySig, SpecialName
+    get_RibbonTab(): PrivateScope, Public, HideBySig, SpecialName
+Class ComponentFactory.Krypton.Navigator.PaletteRibbonGeneralNavRedirect: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.Storage
+    Void .ctor(ComponentFactory.Krypton.Toolkit.PaletteRedirect, ComponentFactory.Krypton.Toolkit.NeedPaintHandler): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    ComponentFactory.Krypton.Toolkit.IPaletteRibbonGeneral
+  Properties:
+    Boolean IsDefault 'get ' : 
+    System.Drawing.Font TextFont 'get set' : 
+    ComponentFactory.Krypton.Toolkit.PaletteTextHint TextHint 'get set' : 
+  Methods:
+    SetRedirector(PaletteRedirect): PrivateScope, Public, HideBySig
+    get_IsDefault(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    GetRibbonContextTextAlign(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetRibbonContextTextFont(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetRibbonContextTextColor(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetRibbonDisabledDark(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetRibbonDisabledLight(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetRibbonDropArrowLight(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetRibbonDropArrowDark(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetRibbonGroupDialogDark(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetRibbonGroupDialogLight(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetRibbonGroupSeparatorDark(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetRibbonGroupSeparatorLight(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetRibbonMinimizeBarDark(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetRibbonMinimizeBarLight(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetRibbonShape(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetRibbonTabSeparatorColor(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetRibbonTabSeparatorContextColor(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    get_TextFont(): PrivateScope, Public, HideBySig, SpecialName
+    set_TextFont(Font): PrivateScope, Public, HideBySig, SpecialName
+    ResetTextFont(): PrivateScope, Public, HideBySig
+    GetRibbonTextFont(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    get_TextHint(): PrivateScope, Public, HideBySig, SpecialName
+    set_TextHint(PaletteTextHint): PrivateScope, Public, HideBySig, SpecialName
+    ResetTextHint(): PrivateScope, Public, HideBySig
+    GetRibbonTextHint(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetRibbonQATButtonDark(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetRibbonQATButtonLight(PaletteState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class ComponentFactory.Krypton.Navigator.HeaderGroupMappingBase: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.HeaderValuesBase
+    Void .ctor(ComponentFactory.Krypton.Navigator.KryptonNavigator, ComponentFactory.Krypton.Toolkit.NeedPaintHandler): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean IsDefault 'get ' : 
+    ComponentFactory.Krypton.Navigator.MapKryptonPageImage MapImage 'get set' : 
+    ComponentFactory.Krypton.Navigator.MapKryptonPageText MapHeading 'get set' : 
+    ComponentFactory.Krypton.Navigator.MapKryptonPageText MapDescription 'get set' : 
+  Methods:
+    get_IsDefault(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    GetImage(PaletteState): PrivateScope, Public, Virtual, HideBySig
+    GetShortText(): PrivateScope, Public, Virtual, HideBySig
+    GetLongText(): PrivateScope, Public, Virtual, HideBySig
+    get_MapImage(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_MapImage(MapKryptonPageImage): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    ResetMapImage(): PrivateScope, Public, HideBySig
+    get_MapHeading(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_MapHeading(MapKryptonPageText): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    ResetMapHeading(): PrivateScope, Public, HideBySig
+    get_MapDescription(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_MapDescription(MapKryptonPageText): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    ResetMapDescription(): PrivateScope, Public, HideBySig
+Class ComponentFactory.Krypton.Navigator.HeaderGroupMappingPrimary: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Navigator.HeaderGroupMappingBase
+    Void .ctor(ComponentFactory.Krypton.Navigator.KryptonNavigator, ComponentFactory.Krypton.Toolkit.NeedPaintHandler): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    ComponentFactory.Krypton.Navigator.MapKryptonPageImage MapImage 'get set' : 
+    ComponentFactory.Krypton.Navigator.MapKryptonPageText MapHeading 'get set' : 
+    ComponentFactory.Krypton.Navigator.MapKryptonPageText MapDescription 'get set' : 
+  Methods:
+    get_MapImage(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_MapImage(MapKryptonPageImage): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_MapHeading(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_MapHeading(MapKryptonPageText): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_MapDescription(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_MapDescription(MapKryptonPageText): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Class ComponentFactory.Krypton.Navigator.HeaderGroupMappingSecondary: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Navigator.HeaderGroupMappingBase
+    Void .ctor(ComponentFactory.Krypton.Navigator.KryptonNavigator, ComponentFactory.Krypton.Toolkit.NeedPaintHandler): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    ComponentFactory.Krypton.Navigator.MapKryptonPageImage MapImage 'get set' : 
+    ComponentFactory.Krypton.Navigator.MapKryptonPageText MapHeading 'get set' : 
+    ComponentFactory.Krypton.Navigator.MapKryptonPageText MapDescription 'get set' : 
+  Methods:
+    get_MapImage(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_MapImage(MapKryptonPageImage): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_MapHeading(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_MapHeading(MapKryptonPageText): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_MapDescription(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_MapDescription(MapKryptonPageText): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Class ComponentFactory.Krypton.Navigator.PaletteNavigatorRedirect: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.PaletteDoubleMetricRedirect
+    Void .ctor(ComponentFactory.Krypton.Navigator.KryptonNavigator, ComponentFactory.Krypton.Toolkit.PaletteRedirect, ComponentFactory.Krypton.Toolkit.NeedPaintHandler): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(ComponentFactory.Krypton.Navigator.KryptonNavigator, ComponentFactory.Krypton.Toolkit.PaletteRedirect, ComponentFactory.Krypton.Toolkit.PaletteRedirect, ComponentFactory.Krypton.Toolkit.PaletteRedirect, ComponentFactory.Krypton.Toolkit.PaletteRedirect, ComponentFactory.Krypton.Toolkit.PaletteRedirect, ComponentFactory.Krypton.Toolkit.PaletteRedirect, ComponentFactory.Krypton.Toolkit.PaletteRedirect, ComponentFactory.Krypton.Toolkit.PaletteRedirect, ComponentFactory.Krypton.Toolkit.PaletteRedirect, ComponentFactory.Krypton.Toolkit.PaletteRedirect, ComponentFactory.Krypton.Toolkit.PaletteRedirect, ComponentFactory.Krypton.Toolkit.PaletteRedirect, ComponentFactory.Krypton.Toolkit.PaletteRedirect, ComponentFactory.Krypton.Toolkit.PaletteRedirect, ComponentFactory.Krypton.Toolkit.PaletteRedirect, ComponentFactory.Krypton.Toolkit.PaletteRedirect, ComponentFactory.Krypton.Toolkit.NeedPaintHandler): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    ComponentFactory.Krypton.Toolkit.PaletteRedirect RedirectBorderEdge 'set' : 
+    ComponentFactory.Krypton.Toolkit.PaletteRedirect RedirectRibbonGeneral 'set' : 
+    Boolean IsDefault 'get ' : 
+    ComponentFactory.Krypton.Navigator.PaletteBarRedirect Bar 'get ' : 
+    ComponentFactory.Krypton.Toolkit.PaletteBack Back 'get ' : 
+    ComponentFactory.Krypton.Toolkit.IPaletteBack PaletteBack 'get ' : 
+    ComponentFactory.Krypton.Toolkit.PaletteBorder Border 'get ' : 
+    ComponentFactory.Krypton.Toolkit.IPaletteBorder PaletteBorder 'get ' : 
+    ComponentFactory.Krypton.Toolkit.PaletteBack Panel 'get ' : 
+    ComponentFactory.Krypton.Toolkit.PaletteTripleRedirect CheckButton 'get ' : 
+    ComponentFactory.Krypton.Toolkit.PaletteTripleRedirect OverflowButton 'get ' : 
+    ComponentFactory.Krypton.Toolkit.PaletteTripleRedirect MiniButton 'get ' : 
+    ComponentFactory.Krypton.Navigator.PaletteNavigatorHeaderGroupRedirect HeaderGroup 'get ' : 
+    ComponentFactory.Krypton.Toolkit.PaletteBack Page 'get ' : 
+    ComponentFactory.Krypton.Toolkit.PaletteBorderEdgeRedirect BorderEdge 'get ' : 
+    ComponentFactory.Krypton.Navigator.PaletteMetrics Metrics 'get ' : 
+    ComponentFactory.Krypton.Toolkit.PaletteSeparatorPaddingRedirect Separator 'get ' : 
+    ComponentFactory.Krypton.Toolkit.PaletteTabTripleRedirect Tab 'get ' : 
+    ComponentFactory.Krypton.Navigator.PaletteRibbonTabContentRedirect RibbonTab 'get ' : 
+    ComponentFactory.Krypton.Navigator.PaletteRibbonGeneralNavRedirect RibbonGeneral 'get ' : 
+  Methods:
+    set_RedirectBorderEdge(PaletteRedirect): PrivateScope, Public, HideBySig, SpecialName
+    set_RedirectRibbonGeneral(PaletteRedirect): PrivateScope, Public, HideBySig, SpecialName
+    get_IsDefault(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Bar(): PrivateScope, Public, HideBySig, SpecialName
+    get_Back(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_PaletteBack(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Border(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_PaletteBorder(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Panel(): PrivateScope, Public, HideBySig, SpecialName
+    get_CheckButton(): PrivateScope, Public, HideBySig, SpecialName
+    get_OverflowButton(): PrivateScope, Public, HideBySig, SpecialName
+    get_MiniButton(): PrivateScope, Public, HideBySig, SpecialName
+    get_HeaderGroup(): PrivateScope, Public, HideBySig, SpecialName
+    get_Page(): PrivateScope, Public, HideBySig, SpecialName
+    get_BorderEdge(): PrivateScope, Public, HideBySig, SpecialName
+    get_Metrics(): PrivateScope, Public, HideBySig, SpecialName
+    get_Separator(): PrivateScope, Public, HideBySig, SpecialName
+    get_Tab(): PrivateScope, Public, HideBySig, SpecialName
+    get_RibbonTab(): PrivateScope, Public, HideBySig, SpecialName
+    get_RibbonGeneral(): PrivateScope, Public, HideBySig, SpecialName
+    GetMetricInt(PaletteState, PaletteMetricInt): PrivateScope, Public, Virtual, HideBySig
+    GetMetricPadding(PaletteState, PaletteMetricPadding): PrivateScope, Public, Virtual, HideBySig
+Class ComponentFactory.Krypton.Navigator.PageButtonSpecCollection: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.ButtonSpecCollection`1[ComponentFactory.Krypton.Toolkit.ButtonSpecAny]
+    Void .ctor(ComponentFactory.Krypton.Navigator.KryptonPage): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ComponentFactory.Krypton.Navigator.NavigatorButtonSpecCollection: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.ButtonSpecCollection`1[ComponentFactory.Krypton.Navigator.ButtonSpecNavigator]
+    Void .ctor(ComponentFactory.Krypton.Navigator.KryptonNavigator): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ComponentFactory.Krypton.Navigator.NavFixedButtonSpecCollection: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.ButtonSpecCollection`1[ComponentFactory.Krypton.Navigator.ButtonSpecNavFixed]
+    Void .ctor(ComponentFactory.Krypton.Navigator.KryptonNavigator): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Struct ComponentFactory.Krypton.Navigator.KryptonPageFlags: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ComponentFactory.Krypton.Navigator.KryptonPageFlags PageInOverflowBarForOutlookMode = 1 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.KryptonPageFlags AllowConfigSave = 2 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.KryptonPageFlags DockingAllowClose = 4 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.KryptonPageFlags DockingAllowDropDown = 8 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.KryptonPageFlags DockingAllowAutoHidden = 16 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.KryptonPageFlags DockingAllowDocked = 32 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.KryptonPageFlags DockingAllowFloating = 64 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.KryptonPageFlags DockingAllowWorkspace = 128 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.KryptonPageFlags DockingAllowNavigator = 256 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.KryptonPageFlags AllowPageReorder = 512 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.KryptonPageFlags AllowPageDrag = 1024 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.KryptonPageFlags All = 65535 : Public, Static, Literal, HasDefault
+Struct ComponentFactory.Krypton.Navigator.NavigatorMode: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ComponentFactory.Krypton.Navigator.NavigatorMode BarTabGroup = 0 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.NavigatorMode BarTabOnly = 1 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.NavigatorMode BarRibbonTabGroup = 2 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.NavigatorMode BarRibbonTabOnly = 3 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.NavigatorMode BarCheckButtonGroupOutside = 4 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.NavigatorMode BarCheckButtonGroupInside = 5 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.NavigatorMode BarCheckButtonGroupOnly = 6 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.NavigatorMode BarCheckButtonOnly = 7 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.NavigatorMode HeaderBarCheckButtonGroup = 8 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.NavigatorMode HeaderBarCheckButtonHeaderGroup = 9 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.NavigatorMode HeaderBarCheckButtonOnly = 10 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.NavigatorMode StackCheckButtonGroup = 11 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.NavigatorMode StackCheckButtonHeaderGroup = 12 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.NavigatorMode OutlookFull = 13 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.NavigatorMode OutlookMini = 14 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.NavigatorMode HeaderGroup = 15 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.NavigatorMode HeaderGroupTab = 16 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.NavigatorMode Group = 17 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.NavigatorMode Panel = 18 : Public, Static, Literal, HasDefault
+Struct ComponentFactory.Krypton.Navigator.MapKryptonPageText: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ComponentFactory.Krypton.Navigator.MapKryptonPageText None = 0 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.MapKryptonPageText Text = 1 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.MapKryptonPageText TextTitle = 2 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.MapKryptonPageText TextTitleDescription = 3 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.MapKryptonPageText TextDescription = 4 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.MapKryptonPageText Title = 5 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.MapKryptonPageText TitleText = 6 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.MapKryptonPageText TitleDescription = 7 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.MapKryptonPageText Description = 8 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.MapKryptonPageText DescriptionText = 9 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.MapKryptonPageText DescriptionTitle = 10 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.MapKryptonPageText DescriptionTitleText = 11 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.MapKryptonPageText ToolTipTitle = 12 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.MapKryptonPageText ToolTipBody = 13 : Public, Static, Literal, HasDefault
+Struct ComponentFactory.Krypton.Navigator.MapKryptonPageImage: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ComponentFactory.Krypton.Navigator.MapKryptonPageImage None = 0 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.MapKryptonPageImage Small = 1 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.MapKryptonPageImage SmallMedium = 2 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.MapKryptonPageImage SmallMediumLarge = 3 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.MapKryptonPageImage Medium = 4 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.MapKryptonPageImage MediumSmall = 5 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.MapKryptonPageImage MediumLarge = 6 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.MapKryptonPageImage Large = 7 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.MapKryptonPageImage LargeMedium = 8 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.MapKryptonPageImage LargeMediumSmall = 9 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.MapKryptonPageImage ToolTip = 10 : Public, Static, Literal, HasDefault
+Struct ComponentFactory.Krypton.Navigator.ButtonDisplay: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ComponentFactory.Krypton.Navigator.ButtonDisplay Hide = 0 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.ButtonDisplay ShowDisabled = 1 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.ButtonDisplay ShowEnabled = 2 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.ButtonDisplay Logic = 3 : Public, Static, Literal, HasDefault
+Struct ComponentFactory.Krypton.Navigator.ButtonDisplayLogic: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ComponentFactory.Krypton.Navigator.ButtonDisplayLogic None = 0 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.ButtonDisplayLogic NextPrevious = 1 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.ButtonDisplayLogic Context = 2 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.ButtonDisplayLogic ContextNextPrevious = 3 : Public, Static, Literal, HasDefault
+Struct ComponentFactory.Krypton.Navigator.DirectionButtonAction: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ComponentFactory.Krypton.Navigator.DirectionButtonAction None = 0 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.DirectionButtonAction SelectPage = 1 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.DirectionButtonAction MoveBar = 2 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.DirectionButtonAction ModeAppropriateAction = 3 : Public, Static, Literal, HasDefault
+Struct ComponentFactory.Krypton.Navigator.ContextButtonAction: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ComponentFactory.Krypton.Navigator.ContextButtonAction None = 0 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.ContextButtonAction SelectPage = 1 : Public, Static, Literal, HasDefault
+Struct ComponentFactory.Krypton.Navigator.CloseButtonAction: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ComponentFactory.Krypton.Navigator.CloseButtonAction None = 0 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.CloseButtonAction RemovePage = 1 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.CloseButtonAction RemovePageAndDispose = 2 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.CloseButtonAction HidePage = 3 : Public, Static, Literal, HasDefault
+Struct ComponentFactory.Krypton.Navigator.BarItemSizing: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ComponentFactory.Krypton.Navigator.BarItemSizing Individual = 0 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.BarItemSizing SameHeight = 1 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.BarItemSizing SameWidth = 2 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.BarItemSizing SameWidthAndHeight = 3 : Public, Static, Literal, HasDefault
+Struct ComponentFactory.Krypton.Navigator.BarMultiline: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ComponentFactory.Krypton.Navigator.BarMultiline Singleline = 0 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.BarMultiline Multiline = 1 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.BarMultiline Exactline = 2 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.BarMultiline Shrinkline = 3 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.BarMultiline Expandline = 4 : Public, Static, Literal, HasDefault
+Struct ComponentFactory.Krypton.Navigator.PaletteNavButtonSpecStyle: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ComponentFactory.Krypton.Navigator.PaletteNavButtonSpecStyle Generic = 0 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.PaletteNavButtonSpecStyle ArrowLeft = 1 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.PaletteNavButtonSpecStyle ArrowRight = 2 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.PaletteNavButtonSpecStyle ArrowUp = 3 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.PaletteNavButtonSpecStyle ArrowDown = 4 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.PaletteNavButtonSpecStyle DropDown = 5 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.PaletteNavButtonSpecStyle PinVertical = 6 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.PaletteNavButtonSpecStyle PinHorizontal = 7 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.PaletteNavButtonSpecStyle FormClose = 8 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.PaletteNavButtonSpecStyle FormMin = 9 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.PaletteNavButtonSpecStyle FormMax = 10 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.PaletteNavButtonSpecStyle FormRestore = 11 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.PaletteNavButtonSpecStyle PendantClose = 12 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.PaletteNavButtonSpecStyle PendantMin = 13 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.PaletteNavButtonSpecStyle PendantRestore = 14 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.PaletteNavButtonSpecStyle WorkspaceMaximize = 15 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.PaletteNavButtonSpecStyle WorkspaceRestore = 16 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.PaletteNavButtonSpecStyle RibbonMinimize = 17 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.PaletteNavButtonSpecStyle RibbonExpand = 18 : Public, Static, Literal, HasDefault
+Struct ComponentFactory.Krypton.Navigator.PopupPageAllow: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ComponentFactory.Krypton.Navigator.PopupPageAllow Never = 0 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.PopupPageAllow OnlyCompatibleModes = 1 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.PopupPageAllow OnlyOutlookMiniMode = 2 : Public, Static, Literal, HasDefault
+Struct ComponentFactory.Krypton.Navigator.PopupPageElement: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ComponentFactory.Krypton.Navigator.PopupPageElement Item = 0 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.PopupPageElement Navigator = 1 : Public, Static, Literal, HasDefault
+Struct ComponentFactory.Krypton.Navigator.PopupPagePosition: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ComponentFactory.Krypton.Navigator.PopupPagePosition ModeAppropriate = 0 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.PopupPagePosition AboveNear = 1 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.PopupPagePosition AboveFar = 2 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.PopupPagePosition AboveMatch = 3 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.PopupPagePosition BelowNear = 4 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.PopupPagePosition BelowFar = 5 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.PopupPagePosition BelowMatch = 6 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.PopupPagePosition FarTop = 7 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.PopupPagePosition FarBottom = 8 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.PopupPagePosition FarMatch = 9 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.PopupPagePosition NearTop = 10 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.PopupPagePosition NearBottom = 11 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.PopupPagePosition NearMatch = 12 : Public, Static, Literal, HasDefault
+Struct ComponentFactory.Krypton.Navigator.DragTargetHint: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ComponentFactory.Krypton.Navigator.DragTargetHint None = 0 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.DragTargetHint EdgeLeft = 1 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.DragTargetHint EdgeRight = 2 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.DragTargetHint EdgeTop = 3 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.DragTargetHint EdgeBottom = 4 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.DragTargetHint Transfer = 5 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.DragTargetHint ExcludeFlags = 255 : Public, Static, Literal, HasDefault
+    ComponentFactory.Krypton.Navigator.DragTargetHint ExcludeCluster = 256 : Public, Static, Literal, HasDefault
+Interface ComponentFactory.Krypton.Navigator.IDragTargetProvider: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Methods:
+    GenerateDragTargets(PageDragEndData): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface ComponentFactory.Krypton.Navigator.IDropDockingIndicator: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Methods:
+    ShowRelative(Rectangle): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ScreenMouseMove(Point): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    MouseReset(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Hide(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface ComponentFactory.Krypton.Navigator.IDragPageNotify: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Methods:
+    PageDragStart(Object, KryptonNavigator, PageDragCancelEventArgs): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    PageDragMove(Object, PointEventArgs): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    PageDragEnd(Object, PointEventArgs): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    PageDragQuit(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class ComponentFactory.Krypton.Navigator.KryptonPageFlagsEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, KryptonPageFlagsEventArgs): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, KryptonPageFlagsEventArgs, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class ComponentFactory.Krypton.Navigator.KryptonNavigator: AutoLayout, AnsiClass, Class, Public
+  :ComponentFactory.Krypton.Toolkit.VisualSimple
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    ComponentFactory.Krypton.Navigator.IDragTargetProvider
+  Properties:
+    System.String Name 'get set' : 
+    Boolean AutoSize 'get set' : 
+    ComponentFactory.Krypton.Navigator.KryptonPageCollection Pages 'get ' : 
+    ControlCollection Controls 'get ' : 
+    Int32 SelectedIndex 'get set' : 
+    ComponentFactory.Krypton.Navigator.KryptonPage SelectedPage 'get set' : 
+    ComponentFactory.Krypton.Navigator.NavigatorBar Bar 'get ' : 
+    ComponentFactory.Krypton.Navigator.NavigatorStack Stack 'get ' : 
+    ComponentFactory.Krypton.Navigator.NavigatorOutlook Outlook 'get ' : 
+    ComponentFactory.Krypton.Navigator.NavigatorButton Button 'get ' : 
+    ComponentFactory.Krypton.Navigator.NavigatorGroup Group 'get ' : 
+    ComponentFactory.Krypton.Navigator.NavigatorHeader Header 'get ' : 
+    ComponentFactory.Krypton.Navigator.NavigatorPanel Panel 'get ' : 
+    ComponentFactory.Krypton.Navigator.NavigatorPopupPages PopupPages 'get ' : 
+    ComponentFactory.Krypton.Navigator.NavigatorToolTips ToolTips 'get ' : 
+    ComponentFactory.Krypton.Navigator.PaletteNavigatorRedirect StateCommon 'get ' : 
+    ComponentFactory.Krypton.Navigator.PaletteNavigator StateDisabled 'get ' : 
+    ComponentFactory.Krypton.Navigator.PaletteNavigator StateNormal 'get ' : 
+    ComponentFactory.Krypton.Navigator.PaletteNavigatorOtherEx StateTracking 'get ' : 
+    ComponentFactory.Krypton.Navigator.PaletteNavigatorOtherEx StatePressed 'get ' : 
+    ComponentFactory.Krypton.Navigator.PaletteNavigatorOther StateSelected 'get ' : 
+    ComponentFactory.Krypton.Navigator.PaletteNavigatorOtherRedirect OverrideFocus 'get ' : 
+    ComponentFactory.Krypton.Navigator.NavigatorMode NavigatorMode 'get set' : 
+    ComponentFactory.Krypton.Toolkit.PaletteBackStyle PageBackStyle 'get set' : 
+    Boolean AllowPageDrag 'get set' : 
+    Boolean AllowPageReorder 'get set' : 
+    Boolean AllowTabFocus 'get set' : 
+    Boolean AllowTabSelect 'get set' : 
+    Boolean UseMnemonic 'get set' : 
+    ComponentFactory.Krypton.Navigator.IDragPageNotify DragPageNotify 'get set' : 
+    ComponentFactory.Krypton.Toolkit.ToolTipManager ToolTipManager 'get ' : 
+    ComponentFactory.Krypton.Toolkit.KryptonGroupPanel ChildPanel 'get ' : 
+  Events:
+    System.EventHandler SelectedPageChanged: 
+    System.EventHandler`1[ComponentFactory.Krypton.Navigator.KryptonPageCancelEventArgs] Selecting: 
+    System.EventHandler`1[ComponentFactory.Krypton.Navigator.KryptonPageEventArgs] Selected: 
+    System.EventHandler`1[ComponentFactory.Krypton.Navigator.KryptonPageCancelEventArgs] Deselecting: 
+    System.EventHandler`1[ComponentFactory.Krypton.Navigator.KryptonPageEventArgs] Deselected: 
+    System.EventHandler`1[ComponentFactory.Krypton.Navigator.DirectionActionEventArgs] PreviousAction: 
+    System.EventHandler`1[ComponentFactory.Krypton.Navigator.DirectionActionEventArgs] NextAction: 
+    System.EventHandler`1[ComponentFactory.Krypton.Navigator.ContextActionEventArgs] ContextAction: 
+    System.EventHandler`1[ComponentFactory.Krypton.Navigator.CloseActionEventArgs] CloseAction: 
+    System.EventHandler`1[ComponentFactory.Krypton.Navigator.KryptonContextMenuEventArgs] OutlookDropDown: 
+    System.EventHandler`1[ComponentFactory.Krypton.Navigator.PopupPageEventArgs] DisplayPopupPage: 
+    System.EventHandler`1[ComponentFactory.Krypton.Navigator.ShowContextMenuArgs] ShowContextMenu: 
+    System.EventHandler TabCountChanged: 
+    System.EventHandler TabVisibleCountChanged: 
+    System.EventHandler`1[ComponentFactory.Krypton.Navigator.KryptonPageEventArgs] TabClicked: 
+    System.EventHandler`1[ComponentFactory.Krypton.Navigator.KryptonPageEventArgs] TabDoubleClicked: 
+    System.EventHandler PrimaryHeaderLeftClicked: 
+    System.EventHandler PrimaryHeaderRightClicked: 
+    System.EventHandler PrimaryHeaderDoubleClicked: 
+    System.EventHandler`1[ComponentFactory.Krypton.Navigator.PageReorderEventArgs] BeforePageReorder: 
+    System.EventHandler`1[ComponentFactory.Krypton.Navigator.PageDragCancelEventArgs] BeforePageDrag: 
+    System.EventHandler`1[ComponentFactory.Krypton.Navigator.PageDragEndEventArgs] AfterPageDrag: 
+    System.EventHandler`1[ComponentFactory.Krypton.Navigator.PageDropEventArgs] PageDrop: 
+    System.EventHandler`1[ComponentFactory.Krypton.Navigator.CtrlTabCancelEventArgs] CtrlTabStart: 
+    System.EventHandler`1[ComponentFactory.Krypton.Navigator.CtrlTabCancelEventArgs] CtrlTabWrap: 
+    System.EventHandler`1[ComponentFactory.Krypton.Navigator.KryptonPageEventArgs] TabMouseHoverStart: 
+    System.EventHandler TabMouseHoverEnd: 
+    System.EventHandler`1[ComponentFactory.Krypton.Navigator.TabMovedEventArgs] TabMoved: 
+  Methods:
+    SelectPreviousPage(Boolean): PrivateScope, Public, HideBySig
+    SelectPreviousPage(KryptonPage, Boolean): PrivateScope, Public, HideBySig
+    PerformCloseAction(): PrivateScope, Public, HideBySig
+    PerformCloseAction(KryptonPage): PrivateScope, Public, HideBySig
+    PerformContextAction(): PrivateScope, Public, HideBySig
+    PerformPreviousAction(): PrivateScope, Public, HideBySig
+    PerformNextAction(): PrivateScope, Public, HideBySig
+    PerformNeedPagePaint(Boolean): PrivateScope, Public, HideBySig
+    get_ChildPanel(): PrivateScope, Public, HideBySig, SpecialName
+    DesignerGetHitTest(Point): PrivateScope, Public, HideBySig
+    DesignerComponentFromPoint(Point): PrivateScope, Public, HideBySig
+    DesignerMouseLeave(): PrivateScope, Public, HideBySig
+    DebugOutput(): PrivateScope, Public, HideBySig
+    add_SelectedPageChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_SelectedPageChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_Selecting(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_Selecting(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    add_Selected(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_Selected(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    add_Deselecting(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_Deselecting(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    add_Deselected(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_Deselected(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    add_PreviousAction(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_PreviousAction(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    add_NextAction(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_NextAction(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    add_ContextAction(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_ContextAction(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    add_CloseAction(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_CloseAction(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    add_OutlookDropDown(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_OutlookDropDown(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    add_DisplayPopupPage(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_DisplayPopupPage(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    add_ShowContextMenu(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_ShowContextMenu(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    add_TabCountChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_TabCountChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_TabVisibleCountChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_TabVisibleCountChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_TabClicked(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_TabClicked(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    add_TabDoubleClicked(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_TabDoubleClicked(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    add_PrimaryHeaderLeftClicked(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_PrimaryHeaderLeftClicked(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_PrimaryHeaderRightClicked(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_PrimaryHeaderRightClicked(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_PrimaryHeaderDoubleClicked(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_PrimaryHeaderDoubleClicked(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_BeforePageReorder(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_BeforePageReorder(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    add_BeforePageDrag(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_BeforePageDrag(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    add_AfterPageDrag(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_AfterPageDrag(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    add_PageDrop(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_PageDrop(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    add_CtrlTabStart(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_CtrlTabStart(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    add_CtrlTabWrap(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_CtrlTabWrap(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    add_TabMouseHoverStart(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_TabMouseHoverStart(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    add_TabMouseHoverEnd(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_TabMouseHoverEnd(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_TabMoved(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_TabMoved(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    get_Name(): PrivateScope, Public, HideBySig, SpecialName
+    set_Name(String): PrivateScope, Public, HideBySig, SpecialName
+    get_AutoSize(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_AutoSize(Boolean): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Pages(): PrivateScope, Public, HideBySig, SpecialName
+    get_Controls(): PrivateScope, Public, HideBySig, SpecialName
+    get_SelectedIndex(): PrivateScope, Public, HideBySig, SpecialName
+    set_SelectedIndex(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_SelectedPage(): PrivateScope, Public, HideBySig, SpecialName
+    set_SelectedPage(KryptonPage): PrivateScope, Public, HideBySig, SpecialName
+    get_Bar(): PrivateScope, Public, HideBySig, SpecialName
+    get_Stack(): PrivateScope, Public, HideBySig, SpecialName
+    get_Outlook(): PrivateScope, Public, HideBySig, SpecialName
+    get_Button(): PrivateScope, Public, HideBySig, SpecialName
+    get_Group(): PrivateScope, Public, HideBySig, SpecialName
+    get_Header(): PrivateScope, Public, HideBySig, SpecialName
+    get_Panel(): PrivateScope, Public, HideBySig, SpecialName
+    get_PopupPages(): PrivateScope, Public, HideBySig, SpecialName
+    get_ToolTips(): PrivateScope, Public, HideBySig, SpecialName
+    get_StateCommon(): PrivateScope, Public, HideBySig, SpecialName
+    get_StateDisabled(): PrivateScope, Public, HideBySig, SpecialName
+    get_StateNormal(): PrivateScope, Public, HideBySig, SpecialName
+    get_StateTracking(): PrivateScope, Public, HideBySig, SpecialName
+    get_StatePressed(): PrivateScope, Public, HideBySig, SpecialName
+    get_StateSelected(): PrivateScope, Public, HideBySig, SpecialName
+    get_OverrideFocus(): PrivateScope, Public, HideBySig, SpecialName
+    get_NavigatorMode(): PrivateScope, Public, HideBySig, SpecialName
+    set_NavigatorMode(NavigatorMode): PrivateScope, Public, HideBySig, SpecialName
+    ResetNavigatorMode(): PrivateScope, Public, HideBySig
+    get_PageBackStyle(): PrivateScope, Public, HideBySig, SpecialName
+    set_PageBackStyle(PaletteBackStyle): PrivateScope, Public, HideBySig, SpecialName
+    get_AllowPageDrag(): PrivateScope, Public, HideBySig, SpecialName
+    set_AllowPageDrag(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_AllowPageReorder(): PrivateScope, Public, HideBySig, SpecialName
+    set_AllowPageReorder(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_AllowTabFocus(): PrivateScope, Public, HideBySig, SpecialName
+    set_AllowTabFocus(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_AllowTabSelect(): PrivateScope, Public, HideBySig, SpecialName
+    set_AllowTabSelect(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_UseMnemonic(): PrivateScope, Public, HideBySig, SpecialName
+    set_UseMnemonic(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_DragPageNotify(): PrivateScope, Public, HideBySig, SpecialName
+    set_DragPageNotify(IDragPageNotify): PrivateScope, Public, HideBySig, SpecialName
+    get_ToolTipManager(): PrivateScope, Public, HideBySig, SpecialName
+    GenerateDragTargets(PageDragEndData): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GenerateDragTargets(PageDragEndData, KryptonPageFlags): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    DismissPopups(): PrivateScope, Public, HideBySig
+    HideAllPages(): PrivateScope, Public, HideBySig
+    HideAllPages(Type): PrivateScope, Public, HideBySig
+    ShowAllPages(): PrivateScope, Public, HideBySig
+    ShowAllPages(Type): PrivateScope, Public, HideBySig
+    PageFromPoint(Point): PrivateScope, Public, HideBySig
+    SelectNextPage(Boolean): PrivateScope, Public, HideBySig
+    SelectNextPage(KryptonPage, Boolean): PrivateScope, Public, HideBySig
+Class ComponentFactory.Krypton.Navigator.KryptonNavigatorControlCollection: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.KryptonControlCollection
+    Void .ctor(ComponentFactory.Krypton.Navigator.KryptonNavigator): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Add(Control): PrivateScope, Public, Virtual, HideBySig

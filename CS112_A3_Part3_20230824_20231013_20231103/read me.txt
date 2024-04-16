@@ -1,0 +1,43 @@
+Tools used in the code:
+Guna.UI-Framework-Lib-master.v1.9.0.1
+Krypton-master
+
+
+Accessing the Code and Filters:
+Open the Solution File (.sln)
+Once the solution is opened, navigate to the .h file where the code for the filters and modifications is located.
+This .h file contains all the necessary code for implementing the filters mentioned in the instructions.
+
+Using the Available Filters:
+Each filter is associated with a button in the graphical user interface (GUI) of the program.
+To apply a specific filter, simply click on the corresponding button as described in the 
+
+here is an "Add" button to add a new image.
+The "Save" button is used to save the image after applying the filters.
+The "Clear" button removes all filters from the image.
+The "Delete" button deletes all images and applied filters.
+
+
+Available filters and how to activate them:
+
+Grayscale: Click on the "Grayscale" button to apply the filter to the image.
+MergeImages: When clicking on the "Merge" button, a window will prompt you to input first image, then the second image, with the ability to control image merging and specify the color.
+BlackWhite: Click on the "BlackWhite" button to directly apply the filter to the image.
+Flip: Upon clicking the "Flip" button, two buttons "Horizontal" and "Vertical" will appear. Click on either of them to apply the filter to the image.
+Crop: Click on the "Crop" button, a window will ask you to enter the starting point on the x-axis and y-axis
+the width, and the height of the crop. Enter this data and then click "OK" to apply the filter.
+DarkenAndLighten: When clicking on the "DarkenAndLighten" button, two buttons "Darken" and "Lighten" will appear. Click on either of them to apply the filter.
+DetectImageEdges: Click on the "DetectImageEdges" button to apply the filter to the image.
+Resize: Upon clicking the "Resize" button, a window will prompt you to enter the new width and height for the image. Then click "OK" to apply the filter.
+Inverter: Click on the "Invert" button to apply the filter to the image.
+Sunlight: Click on the "Sun Light" button to apply the filter to the image.
+Rotate Image: Click the "Rotate Image" button to rotate the image by 90, 180, or 270 degrees.
+Adding a Frame: Click the "Adding a Frame" button to add a frame to the image.
+Blue: Click the "Blue" button to apply a blue filter to the image.
+Infrared Mode: Click the "Infrared Mode" button to apply an infrared filter to the image.
+Oil Painted: Click the "Oil Painted" button to apply an oil painting effect to the image.
+Color Grading: Click the "Color Grading" button to apply a color grading filter to the image.
+Saturation: Click the "Saturation" button to apply a Saturation filter to the image.
+
+
+
