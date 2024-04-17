@@ -1,8 +1,9 @@
-﻿/*
-assingment 3 GUI version 4.8
-authors:    ahmed mohamed ahmed --> 20231013     performed filters no. 2 , 5 , 8 , 11 , 13 , 16 (filter number 15 in this file) ,17 (filter number 14 in this file)     section 11
-			ali alnazeir ahmed --> 20230824      performed filters no. 1 , 4 , 7 , 10 , make the 2 new filters, did the gui   section 11
-			abdullah alaa --> 20231103           performed filters no. 3 , 6 , 9 , 12      section 11
+/*
+assingment 3 version 7.0
+authors:    Ahmed Mohamed Ahmed --> 20231013     performed filters no. 2 , 5 , 8 , 11 , 13 , 14 , 15 , 18    section 11
+            Ali Alnazeir Ahmed --> 20230824      performed filters no. 1 , 4 , 7 , 10 , did the gui , performed 2 more filters 16 , 17   section 11
+            Abdullah Alaa --> 20231103           performed filters no. 3 , 6 , 9 , 12 , 19 , 20   section 11
+this file is an image filter modification application 
 */
 #include "MyForm.h"
 #include "Image_Class.h"
