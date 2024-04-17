@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "Image_Class.h"
 #include "iostream"
 
@@ -129,6 +129,7 @@ private: ComponentFactory::Krypton::Toolkit::KryptonPanel^ SkewPanel;
 
 private: ComponentFactory::Krypton::Toolkit::KryptonButton^ OkSkew;
 private: ComponentFactory::Krypton::Toolkit::KryptonTextBox^ skewval;
+private: ComponentFactory::Krypton::Toolkit::KryptonButton^ purple;
 
 
 
@@ -323,6 +324,7 @@ private: ComponentFactory::Krypton::Toolkit::KryptonTextBox^ skewval;
             this->SkewPanel = (gcnew ComponentFactory::Krypton::Toolkit::KryptonPanel());
             this->OkSkew = (gcnew ComponentFactory::Krypton::Toolkit::KryptonButton());
             this->skewval = (gcnew ComponentFactory::Krypton::Toolkit::KryptonTextBox());
+            this->purple = (gcnew ComponentFactory::Krypton::Toolkit::KryptonButton());
             (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->image1))->BeginInit();
             (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->panel1))->BeginInit();
             this->panel1->SuspendLayout();
@@ -3359,6 +3361,7 @@ private: ComponentFactory::Krypton::Toolkit::KryptonTextBox^ skewval;
             // 
             // MorePanel
             // 
+            this->MorePanel->Controls->Add(this->purple);
             this->MorePanel->Controls->Add(this->skewed);
             this->MorePanel->Controls->Add(this->tv);
             this->MorePanel->Controls->Add(this->sharp);
@@ -4151,6 +4154,82 @@ private: ComponentFactory::Krypton::Toolkit::KryptonTextBox^ skewval;
             this->skewval->StateCommon->Content->Padding = System::Windows::Forms::Padding(10, 0, 10, 0);
             this->skewval->TabIndex = 2;
             this->skewval->Text = L"Enter the skew value in degrees:";
+            // 
+            // purple
+            // 
+            this->purple->Location = System::Drawing::Point(4, 82);
+            this->purple->Name = L"purple";
+            this->purple->OverrideDefault->Back->Color1 = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(250)),
+                static_cast<System::Int32>(static_cast<System::Byte>(252)), static_cast<System::Int32>(static_cast<System::Byte>(252)));
+            this->purple->OverrideDefault->Back->Color2 = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(250)),
+                static_cast<System::Int32>(static_cast<System::Byte>(252)), static_cast<System::Int32>(static_cast<System::Byte>(252)));
+            this->purple->OverrideDefault->Back->ColorAngle = 45;
+            this->purple->OverrideDefault->Border->Color1 = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(8)),
+                static_cast<System::Int32>(static_cast<System::Byte>(142)), static_cast<System::Int32>(static_cast<System::Byte>(254)));
+            this->purple->OverrideDefault->Border->Color2 = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(8)),
+                static_cast<System::Int32>(static_cast<System::Byte>(142)), static_cast<System::Int32>(static_cast<System::Byte>(254)));
+            this->purple->OverrideDefault->Border->ColorAngle = 45;
+            this->purple->OverrideDefault->Border->DrawBorders = static_cast<ComponentFactory::Krypton::Toolkit::PaletteDrawBorders>((((ComponentFactory::Krypton::Toolkit::PaletteDrawBorders::Top | ComponentFactory::Krypton::Toolkit::PaletteDrawBorders::Bottom)
+                | ComponentFactory::Krypton::Toolkit::PaletteDrawBorders::Left)
+                | ComponentFactory::Krypton::Toolkit::PaletteDrawBorders::Right));
+            this->purple->OverrideDefault->Border->GraphicsHint = ComponentFactory::Krypton::Toolkit::PaletteGraphicsHint::AntiAlias;
+            this->purple->OverrideDefault->Border->Rounding = 20;
+            this->purple->OverrideDefault->Border->Width = 1;
+            this->purple->PaletteMode = ComponentFactory::Krypton::Toolkit::PaletteMode::ProfessionalOffice2003;
+            this->purple->Size = System::Drawing::Size(140, 43);
+            this->purple->StateCommon->Back->Color1 = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(250)),
+                static_cast<System::Int32>(static_cast<System::Byte>(252)), static_cast<System::Int32>(static_cast<System::Byte>(252)));
+            this->purple->StateCommon->Back->Color2 = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(250)),
+                static_cast<System::Int32>(static_cast<System::Byte>(252)), static_cast<System::Int32>(static_cast<System::Byte>(252)));
+            this->purple->StateCommon->Back->ColorAngle = 45;
+            this->purple->StateCommon->Border->Color1 = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(6)),
+                static_cast<System::Int32>(static_cast<System::Byte>(174)), static_cast<System::Int32>(static_cast<System::Byte>(244)));
+            this->purple->StateCommon->Border->Color2 = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(8)),
+                static_cast<System::Int32>(static_cast<System::Byte>(142)), static_cast<System::Int32>(static_cast<System::Byte>(254)));
+            this->purple->StateCommon->Border->ColorAngle = 45;
+            this->purple->StateCommon->Border->DrawBorders = static_cast<ComponentFactory::Krypton::Toolkit::PaletteDrawBorders>((((ComponentFactory::Krypton::Toolkit::PaletteDrawBorders::Top | ComponentFactory::Krypton::Toolkit::PaletteDrawBorders::Bottom)
+                | ComponentFactory::Krypton::Toolkit::PaletteDrawBorders::Left)
+                | ComponentFactory::Krypton::Toolkit::PaletteDrawBorders::Right));
+            this->purple->StateCommon->Border->GraphicsHint = ComponentFactory::Krypton::Toolkit::PaletteGraphicsHint::AntiAlias;
+            this->purple->StateCommon->Border->Rounding = 20;
+            this->purple->StateCommon->Border->Width = 1;
+            this->purple->StateCommon->Content->ShortText->Color1 = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(8)),
+                static_cast<System::Int32>(static_cast<System::Byte>(142)), static_cast<System::Int32>(static_cast<System::Byte>(254)));
+            this->purple->StateCommon->Content->ShortText->Font = (gcnew System::Drawing::Font(L"Poppins", 9.75F, System::Drawing::FontStyle::Bold));
+            this->purple->StatePressed->Back->Color1 = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(20)),
+                static_cast<System::Int32>(static_cast<System::Byte>(145)), static_cast<System::Int32>(static_cast<System::Byte>(198)));
+            this->purple->StatePressed->Back->Color2 = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(20)),
+                static_cast<System::Int32>(static_cast<System::Byte>(121)), static_cast<System::Int32>(static_cast<System::Byte>(228)));
+            this->purple->StatePressed->Back->ColorAngle = 135;
+            this->purple->StatePressed->Border->Color1 = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
+                static_cast<System::Int32>(static_cast<System::Byte>(145)), static_cast<System::Int32>(static_cast<System::Byte>(198)));
+            this->purple->StatePressed->Border->Color2 = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(22)),
+                static_cast<System::Int32>(static_cast<System::Byte>(121)), static_cast<System::Int32>(static_cast<System::Byte>(228)));
+            this->purple->StatePressed->Border->ColorAngle = 135;
+            this->purple->StatePressed->Border->DrawBorders = static_cast<ComponentFactory::Krypton::Toolkit::PaletteDrawBorders>((((ComponentFactory::Krypton::Toolkit::PaletteDrawBorders::Top | ComponentFactory::Krypton::Toolkit::PaletteDrawBorders::Bottom)
+                | ComponentFactory::Krypton::Toolkit::PaletteDrawBorders::Left)
+                | ComponentFactory::Krypton::Toolkit::PaletteDrawBorders::Right));
+            this->purple->StatePressed->Border->Rounding = 20;
+            this->purple->StatePressed->Border->Width = 1;
+            this->purple->StateTracking->Back->Color1 = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(8)),
+                static_cast<System::Int32>(static_cast<System::Byte>(142)), static_cast<System::Int32>(static_cast<System::Byte>(254)));
+            this->purple->StateTracking->Back->Color2 = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(6)),
+                static_cast<System::Int32>(static_cast<System::Byte>(174)), static_cast<System::Int32>(static_cast<System::Byte>(244)));
+            this->purple->StateTracking->Back->ColorAngle = 45;
+            this->purple->StateTracking->Border->Color1 = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(6)),
+                static_cast<System::Int32>(static_cast<System::Byte>(174)), static_cast<System::Int32>(static_cast<System::Byte>(244)));
+            this->purple->StateTracking->Border->Color2 = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(8)),
+                static_cast<System::Int32>(static_cast<System::Byte>(142)), static_cast<System::Int32>(static_cast<System::Byte>(254)));
+            this->purple->StateTracking->Border->ColorAngle = 45;
+            this->purple->StateTracking->Border->DrawBorders = static_cast<ComponentFactory::Krypton::Toolkit::PaletteDrawBorders>((((ComponentFactory::Krypton::Toolkit::PaletteDrawBorders::Top | ComponentFactory::Krypton::Toolkit::PaletteDrawBorders::Bottom)
+                | ComponentFactory::Krypton::Toolkit::PaletteDrawBorders::Left)
+                | ComponentFactory::Krypton::Toolkit::PaletteDrawBorders::Right));
+            this->purple->StateTracking->Border->GraphicsHint = ComponentFactory::Krypton::Toolkit::PaletteGraphicsHint::AntiAlias;
+            this->purple->StateTracking->Border->Rounding = 20;
+            this->purple->StateTracking->Border->Width = 1;
+            this->purple->TabIndex = 69;
+            this->purple->Values->Text = L"Purple";
+            this->purple->Click += gcnew System::EventHandler(this, &MyForm::purple_Click);
             // 
             // MyForm
             // 
@@ -5482,6 +5561,21 @@ private: System::Void OkSkew_Click(System::Object^ sender, System::EventArgs^ e)
 
     image1->Image = rotated_image;
     SkewPanel->Visible = true;
+
+}
+private: System::Void purple_Click(System::Object^ sender, System::EventArgs^ e) {
+    Bitmap^ bmp = gcnew Bitmap(image1->Image);
+    for (int i = 0; i < bmp->Width; i++) {
+        for (int j = 0; j < bmp->Height; j++) {
+            Color pixelColor = bmp->GetPixel(i, j);
+            int r = pixelColor.R;
+            int g = (int)(pixelColor.G * 0.67);
+            int b = pixelColor.B;
+            bmp->SetPixel(i, j, Color::FromArgb(r, g, b));
+        }
+    }
+
+    image1->Image = bmp;
 
 }
 };
