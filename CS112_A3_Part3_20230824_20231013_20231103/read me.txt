@@ -40,6 +40,7 @@ Infrared Mode: Click the "Infrared Mode" button to apply an infrared filter to t
 Oil Painted: Click the "Oil Painted" button to apply an oil painting effect to the image.
 Color Grading: Click the "Color Grading" button to apply a color grading filter to the image.
 Saturation: Click the "Saturation" button to apply a Saturation filter to the image.
-
-
+Sun Light: Click the "Sun Light" button to apply a Sun Light filter to the image.
+TV: Click the "TV" button to apply a TV filter to the image.
+Oil Paint: When you click on the Oil Paint button, a window will appear asking you to enter the intensity and radius. When entering the values, click OK and the filter will be applied.
 
